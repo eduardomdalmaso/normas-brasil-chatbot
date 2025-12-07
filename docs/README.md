@@ -23,7 +23,7 @@ The goal of this project is to:
 ---
 
 ## 🖥️ System Requirements
-Running large models on **CPU** requires many resources.  
+Running large models on **CPU** requires many resources (mistralai/Mistral-7B-Instruct-v0.2).  
 During tests, this project consumed **~40 GB of RAM** on CPU to load and execute a 7B parameter model.
 
 ### CPU vs GPU
