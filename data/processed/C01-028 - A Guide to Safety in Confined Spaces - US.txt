@@ -1,0 +1,1676 @@
+www.cedengineering.com 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Guide to Safety in Confined Spaces  
+ 
+ 
+Course No: C01-028 
+Credit: 1 PDH 
+ 
+ 
+ 
+ 
+Allen Hughes, P.E.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Continuing Education and Development, Inc. 
+ 
+P: (877) 322-5800 
+info@cedengineering.com 
+ 
+ 
+ 
+ 
+ 
+ 
+
+A Guide to Safety in Confined Spaces – C01-028 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This course was adapted from the “North Carolina Department of 
+Labor (NCDOL)”, Publication Titled, “A Guide to Safety in 
+Confined Spaces", which is in the public domain. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+N.C. Department of Labor
+Occupational Safety and Health Program
+Cherie Berry
+Commissioner of Labor
+OSHA State Plan Designee
+Allen McNeely
+Deputy Commissioner for Safety and Health
+Kevin Beauregard
+Assistant Deputy Commissioner for Safety and Health
+Ed Geddie, Ph.D.
+Reviewer
+Acknowledgments
+This edition of A Guide to Safety in Confined Spaces is based largely on an earlier edition and includes
+material from the U.S. Department of Labor, Occupational Safety and Health Administration, the U.S.
+Department of Health and Human Services (NIOSH), and NCDOL personnel. The information in this guide
+was updated in 2014.
+This guide is intended to be consistent with all existing OSHA standards; therefore, if an area is con-
+sidered by the reader to be inconsistent with a standard, then the OSHA standard must be followed.
+To obtain additional copies of this guide, or if you have questions about North Carolina occupational safety and health stan-
+dards or rules, please contact:
+N.C. Department of Labor
+Education, Training and Technical Assistance Bureau
+1101 Mail Service Center
+Raleigh, NC 27699-1101
+Phone: 919-807-2875 or 1-800-NC-LABOR (1-800-625-2267)
+____________________
+Additional sources of information are listed on the inside back cover of this guide.
+____________________
+The projected cost of the NCDOL OSH program for federal fiscal year 2012–2013 is $18,073,694. Federal funding pro vides approximately 30.5 percent ($5,501,500)
+of this total.
+Revised 12/14
+A Guide to Safety in Confined Spaces – C01-028 
+
+Contents
+Part
+Page
+        Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1iiii
+1   Classification of a Confined Space  . . . . . . . . . . . . . . . . . . . . . . . . . . .1ii1
+2   Requirements of the Standard  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .ii18
+3   Checklists  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .ii19
+  References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .ii25
+A Guide to Safety in Confined Spaces – C01-028 
+ i 
+
+Introduction
+Many workplaces contain spaces that are considered to be “confined” because their configurations hinder the activities
+of any employees who must enter into, work in and exit from them. In many instances, employees who work in confined
+spaces also face increased risk of exposure to serious physical injury from hazards such as entrapment, engulfment and
+hazardous atmospheric conditions. Confinement itself may pose entrapment hazards, and work in confined spaces may
+keep employees closer to hazards, such as machinery components, than they would be otherwise. For example, confine-
+ment, limited access and restricted airflow can result in hazardous conditions that would not normally arise in an open
+workplace. The term permit-required confined space refers to those spaces that meet the definition of a confined space
+and also contain health or safety hazards, thereby requiring a permit for entry.
+l A confined space has limited or restricted means of entry or exit, is large enough for an employee to enter and per-
+form assigned work, and is not designed for continuous occupancy by the employee. These spaces may include, but
+are not limited to, underground vaults, tanks, storage bins, pits and diked areas, vessels, and silos.
+l A permit-required confined space is one that meets the definition of a confined space and has one or more of these
+characteristics: 1. contains or has the potential to contain a hazardous atmosphere, 2. contains a material that has the
+potential for engulfing an entrant, 3. has an internal configuration that might cause an entrant to be trapped or
+asphyxiated by inwardly converging walls or by a floor that slopes downward and tapers to a smaller cross section,
+or 4. contains any other recognized serious safety or health hazards.
+Despite efforts to address the hazards of confined spaces and identify related safety/health standards which apply, inci-
+dents of worker deaths continue to occur. The National Institute of Occupational Safety and Health Publication 94-103,
+Worker Death in Confined Spaces, reported the results of a study conducted on 480 worker deaths in 423 incidences that
+occurred between December 1983 through September 1993. Seventy of those investiga tions involved confined spaces
+where a total of 109 people died. In 25 of those incidences, there was more than one person killed. A 1986 NIOSH Alert
+86-110, Request for Assistance in Preventing Occupational Fatalities in Confined Spaces, stated that people acting as res-
+cuers accounted for more than 60 percent of the confined space fatalities.
+OSHA estimates that about 239,000 general industry establishments employing 12 million people have confined
+spaces. Approximately 1.6 million people enter confined spaces annually. Through the combined actions of academia,
+industry and labor organizations applying scientific and analytical methods along with studying the best industry prac-
+tices, the regulation contained in 29 Code of Federal Regulations 1910.146 was developed to reduce your chances of
+being a victim. This standard applies to all of general industry. If employers comply with the standard, OSHA estimates
+53 worker deaths, 5,000 lost-day cases and 5,700 other accidents can be avoided annually. The road to safety starts with
+the evaluation of the workplace to see if there is a confined space.
+A Guide to Safety in Confined Spaces – C01-028 
+ii 
+
+Classification of a Confined Space
+How Can You Identify a Confined Space?
+NIOSH defines a confined space as one that, by design, has limited openings for entry and exit, unfavorable natural ven-
+tilation that could contain or produce dangerous air contaminants, and is not intended for continuous employee occupancy.
+Confined spaces include but are not limited to storage tanks, compartments of ships, process vessels, pits, silos, vats, wells,
+sewers, digesters, degreasers, reaction vessels, boilers, ventilation and exhaust ducts, tunnels, underground utility vaults,
+and pipelines. Confined spaces can be found in many industrial settings, from steel mills to paper mills, from shipyards to
+farms, and from public utilities to the construction industry. The hazards associated with confined spaces can cause serious
+injury and death to workers. Two major factors lead to fatal injuries in confined spaces: (1) failure to recognize and control
+the hazards associated with confined spaces and (2) inadequate or incorrect emergency response. The emergency response
+is usually a spontaneous reaction to an emergency situation and can lead to multiple fatalities.
+Confined spaces may be classified into two categories: (1) open-topped enclosures with depths that restrict the natural
+movement of air (e.g., degreasers, pits, selected types of tanks and excavations), and (2) enclosures with limited openings
+for entry and exit (e.g., sewers, tanks and silo). Figure 1 illustrates examples of common types of confined spaces.
+Figure 1
+Examples of Confined Spaces
+	
+
+
+
+
+A Guide to Safety in Confined Spaces – C01-028 
+ 1 
+
+The hazards found in any confined space are determined by the material being stored or used, by the process taking
+place inside the space, and by the effects of the external environment. Worker entry into confined spaces may occur dur-
+ing construction activities or during frequent necessary functions such as inspection, repair or maintenance. For purpose
+of discussion, hazards in confined spaces are separated into atmospheric hazards and physical hazards.
+A confined space:
+l has limited or restricted means of entry or exit
+l is large enough for an employee to enter and perform assigned work
+l is not designed for continuous occupancy
+Limited Openings for Entry and Exit
+Confined space openings are limited primarily by size or location. Openings are usually small in size, perhaps as small as 18
+inches in diameter. An access door or portal that is too small to allow an employee to walk upright and unimpeded through it is
+considered to be limited access or exit. These small openings may make it very difficult to get needed equipment in or out of
+the spaces.
+Confined spaces can be hazardous, and they can be hazardous in varied ways. Oftentimes the confined space will not
+appear to be hazardous; it may have been entered on prior occasions without incident and may give no apparent sign of
+danger. At other times there may be ready indications of danger: the distinct odor of irritating or toxic atmospheres, the
+presence of arcing electrical equipment, continued mild shocks, or flowing grain or sand. By their nature, confined spaces
+concentrate hazards: atmospheric hazards, in that certain gases will displace breathable air, or that the confined space will
+allow the accumulation of toxic hazards or flammable or explosive atmospheres; and physical hazards, in that confined
+spaces limit the ability to avoid contact with electricity, moving mechanical components or machinery, or unstable sub-
+stances. Recognition of the inherent capacity of these spaces to harbor hazardous agents is a significant element in any
+workplace hazard assessment. When confined spaces are recognized to be hazardous, provisions for minimizing the need
+for entry and for use of appropriate work practices and equipment can be made.
+Access to open-topped spaces may require the use of ladders, hoists or other devices. Escape from such areas may be
+very difficult in emergency situations. Ladders and temporary, movable, spiral or articulated stairs are usually considered
+limited or restricted means of egress. Fixed industrial stairs that meet OSHA standards must be considered limited or
+restricted means of egress when the conditions or physical characteristics of the space, in light of the hazards present in it,
+would interfere with the entrant’s ability to exit or be rescued in a hazardous condition.
+A space has limited or restricted means of entry or exit if an entrant’s ability to escape in an emergency would be hin-
+dered.
+Not Designed for Continuous Worker Occupancy
+Most confined spaces are not designed for workers to enter and work in them on a routine basis. They are designed to
+store a product, to enclose materials and processes, or to transport products or substances. The distance an employee must
+travel in a space such as a tunnel to reach a point of safety can be a determinant for classifying a space as a confined
+space. Therefore, occasional worker entry for inspection, maintenance, repair, cleanup or similar tasks is often difficult
+and dangerous due to chemical, distance or physical hazards within the space.
+A confined space found in the workplace may have a combination of the above characteristics, which can complicate
+working in and around these spaces, as well as hamper rescue operations during emergencies. If a survey of your working
+area identifies one or more work spaces with the characteristics listed above, then please read the following informa-
+tion—someday it may save your life or the life of a co-worker.
+NIOSH developed a classification scheme for atmospheric hazards in confined spaces, which is based on the oxygen
+content of the air, the flammability characteristics of gases or vapors, and the concentration of toxic substances that may
+be present in a confined space (Table 1). Listing a particular confined space as Class A, B or C is determined by the most
+hazardous condition present. The usefulness of this classification is that it provides a framework upon which recommen-
+dations for work practices and rescue procedures can be made. A detailed listing of safe work practices and procedures
+for confined-space work is given in the NIOSH criteria document, NIOSH Publication 80-106.
+A Guide to Safety in Confined Spaces – C01-028 
+ 2 
+
+Table 1
+Confined-Space Classification
+How Can You Identify a Permit-Required Confined Space?
+A permit-required confined space is one that meets the definition of a confined space and has one or more of these
+characteristics:
+l contains or has a potential to contain a hazardous atmosphere
+l contains a material that has the potential for engulfing an entrant
+l has an internal configuration such that an entrant could be trapped or asphyxiated by inwardly converging walls or
+by a floor which slopes downward and tapers to a smaller cross-section
+l contains any other recognized serious safety or health hazard immediately dangerous to life and health that prevents
+self-rescue
+What Are the Hazards Involved in Entering and Working in Confined Spaces?
+Many workplaces contain spaces configured is such a way to be considered “confined.” Confinement itself may pose
+entrapment hazards. Working in a confined space may keep employees closer to hazards. For example, confinement, lim-
+ited access or restricted airflow can result in hazardous conditions that would not arise in an open workplace.
+Hazardous Atmospheres
+Many substances have short-term exposure limits, in addition to 8-hour time weighted average exposure limits. The per-
+mit-required confined space rule is intended to protect against short-term acute hazards. Exposures at or below the permissi-
+ble exposure limits do not fall under the permit-required confined space rule. Other standards (see 29 CFR 1910, Subparts G
+and Z) address a broader range of health and safety concerns. Any sub stance that is not capable of causing death, incapacita-
+tion, impairment of ability to self-rescue, injury or acute illness due to health effects is not covered by the rule.
+The atmosphere in a confined space may be extremely hazardous because of the lack of natural air movement. This char-
+acteristic of confined spaces can result in: (1) oxygen-deficient, (2) flammable or (3) toxic atmospheres.
+Oxygen-Deficient Atmospheres
+An oxygen-deficient atmosphere has less than 19.5 percent available oxygen (O2). When oxygen levels drop below 17
+percent, there is increased breathing volume, accelerated heartbeat and a deterioration of night vision, which is usually not
+noticeable. Oxygen atmospheres with 14 to 16 percent oxygen contribute to poor muscular coordination, rapid fatigue and
+intermittent respiration. At 6 percent oxygen, there is a rapid loss of consciousness and death in minutes. (See Figure 2).
+Immediately dangerous to life
+16 percent or less* (122 mm Hg)
+or greater than 25 percent (190
+mm Hg)
+20 percent or greater of lower
+flammability limit
+IDLH**
+Dangerous, but not immediately
+life threatening
+16.1 percent to 19.4 percent*
+(122–147 mm Hg), or 21.5 per-
+cent to 25 percent (163-190 mm
+Hg)
+10 percent to19 percent of lower
+flammability limit
+Greater than contamination level,
+referenced in 29 CFR Part 1910,
+Subpart Z less than IDLH**
+Potential hazard
+19.5 percent to 21.4 percent*
+(148–163 mm Hg)
+10 percent of lower flammability
+limit or less
+Less than contamination level
+referenced in 29 CFR Part 1910,
+Subpart Z
+                                                   
+Class A 
+                                           
+Class B 
+                                           
+Class C
+Characteristics
+Oxygen
+Flammability
+Characteristics
+Toxicity
+**Based upon a total atmospheric pressure of 760 mm Hg (sea level)
+**Immediately Dangerous to Life or Health
+A Guide to Safety in Confined Spaces – C01-028 
+ 3 
+
+Figure 2
+Oxygen Scale
+Any atmosphere with less than 19.5 percent oxygen should NOT be entered without a NIOSH-approved self-contained
+breathing apparatus or a NIOSH-approved supplied air breathing apparatus.
+The oxygen level in a confined space can decrease because of the type of work being done, such as welding, cutting or
+brazing, or it can be decreased by certain chemical reactions (rusting) or through bacterial action (fermentation).
+The oxygen level is also decreased if oxygen is displaced by another gas, such as carbon dioxide, argon, helium or
+nitrogen. Total displacement of oxygen by another gas, such as carbon dioxide, will result in unconsciousness, followed
+by death.
+Flammable Atmospheres
+Flammable atmospheres generally result from evaporation of flammable liquids, by-products of chemical reactions,
+enriched atmospheres or concentrations of combustible dusts. Two things make an atmosphere flammable: (1) the amount
+of oxygen in air and (2) a flammable gas, vapor or dust in the proper mixture. Different gases and combustible dusts have
+different flammable and explosive ranges. (See National Fire Protection Association publication 497-2012,
+Recommended Practice for the Classification of Flammable Liquids, Gases, or Vapors and of Hazardous (Classified)
+Locations for Electrical Installations in Chemical Process Areas, and National Fire Protection Association publication
+499-2013, Recommended Practice for the Classification of Combustible Dusts and of Hazardous (Classified) Locations
+for Electrical Installations in Chemical Process Areas). When a source of ignition (for example, a sparking or electrical
+tool) is introduced into a space containing a flammable atmosphere, a fire or an explosion can result. (See Figure 3.)
+Difficult Breathing
+Death in Minutes
+Faulty Judgment
+Rapid Fatigue
+Impaired Judgment
+and Breathing
+23.5%
+19.5%
+16%
+14%
+6%
+Minimum for
+Safe Entry
+O2 Enriched
+A Guide to Safety in Confined Spaces – C01-028 
+ 4 
+
+Figure 3
+The Ignition Triangle
+An oxygen-enriched atmosphere (above 23.5 percent) will cause flammable materials, such as clothing and hair, to
+burn violently when ignited and may cause some nonflammable materials to ignite. Therefore, NEVER use pure oxygen
+to ventilate a confined space. Ventilate with normal air.
+Toxic Atmospheres
+Because air cannot freely move in and out of confined spaces due to the design and configuration, the atmosphere
+inside a confined space can be very different from the atmosphere outside. Deadly gases may be trapped inside, particu-
+larly if the space is used to store or process chemicals or organic substances that may decompose. There may not be
+enough oxygen inside the confined space to support life, or the air could be so oxygen-rich that it is likely to increase the
+chance of fire or explosion if a source of ignition is present.
+Toxic atmospheres can be caused by the following:
+l The product stored in the space. The product may contain a toxic component, which could be absorbed into the
+walls and have the potential for release depending on the use of the space.
+l The type of work being performed in a confined space. Examples of such include welding, cutting, brazing, painting,
+scraping, sanding and degreasing. Toxic atmospheres are generated in various processes. For example, cleaning sol-
+vents are used in many industries for cleaning/degreasing. The vapors from these solvents can build up to toxic lev-
+els in a confined space.
+l Areas adjacent to the confined space. Toxicant produced by work near confined spaces can enter and accumulate in
+confined spaces. (Figure 4 illustrates work that may go on in confined spaces.)
+		
+
+
+	
+	
+
+	
+	
+	
+
+A Guide to Safety in Confined Spaces – C01-028 
+ 5 
+
+Figure 4
+Examples of Work in Confined Spaces
+General/Physical Hazards
+In addition to the areas discussed above, evaluation of a confined space should consider the following potential haz-
+ards:
+Temperature Extremes
+Extremely hot or cold temperatures can present problems for workers. For example, when possible, a steam tunnel
+should be allowed to cool before entering.
+Engulfment Hazards
+Loose granular material stored in bins and hoppers, such as grain, sand, coal or similar material, can engulf and suffo-
+cate a worker. The loose material can crust over, or bridge over, in a bin and break loose under the weight of a worker.
+(See Figure 5.)
+Figure 5
+The Hazard of Engulfment in Unstable Material
+
+
+
+A Guide to Safety in Confined Spaces – C01-028 
+ 6 
+
+Noise
+Noise within a confined space can be amplified because of the design and acoustic properties of the space. Excessive
+noise can not only damage hearing and reduce reaction time to hazards but can also affect communication. This can cause
+a shouted warning to go unheard.
+Slick/Wet Surfaces
+Slips and falls can occur on a wet surface, causing injury or death to workers. Spaces that have an internal configura-
+tion, inwardly converging walls, or a floor that slopes downward and tapers to a smaller cross-section, increase the haz-
+ards of slipping and falling. Different material contained in the space may react differently in a wet environment. A wet
+surface will also increase the likelihood for and effect of electric shock in areas where electrical circuits, equipment and
+tools are used.
+Falling Objects
+Workers in confined spaces should be mindful of the possibility of falling objects, particularly in spaces that have top-
+side openings for entry and where work is being done above the worker.
+A Guide to Safety in Confined Spaces – C01-028 
+ 7 
+
+Requirements of the Standard
+Who Is Covered?
+Employers who have employees working in general industry are covered by this standard. All employers in general
+industry are required to evaluate the workplace to determine if any space is a permit-required confined space. An employ-
+er who finds such a space must implement the requirements of Title 29 Code of Federal Regulations Part 1910.146.
+General
+In general, employers must evaluate the workplace to determine if spaces are permit-required confined spaces. (See
+Decision Flowchart.) The survey requirement can be met through reviewing existing records and the employer’s knowl-
+edge of the space, provided that the information is adequate to make the correct classification of the space.
+NO
+YES
+YES
+YES
+NO
+NO
+YES
+Inform employees as required by §1910.146(c)(2).
+Consult other applicable
+OSHA standards.
+Will host employees enter
+to perform entry tasks?
+STOP
+NO
+NO
+YES
+Prevent employee entry as required by §1910.146(c)(3).
+Do task from outside of space.
+Coordinate entry operations as required by §1910.146(c)(8)(iv)
+and (d)(11). Prevent unauthorized entry.
+Task will be done by contractors’ employees. Inform contractor as required 
+by §1910.146(c)(8)(i), (ii), and (iii). Contractor obtains information required by
+§1910.146(c)(9)(i), (ii), and (iii) from host. 
+Does the workplace contain PRCS as defined by §1910.146(b)?
+Will permit space be entered?
+Will contractors enter?
+Prevent unauthorized entry.
+Not a PRCS. 1910.146 does not apply. Consult other
+OSHA standards.
+Employer may choose to reclassify space to non-permit
+required confined space using §1910.146(c)(7).
+Both contractors and host employees will enter the space?
+STOP
+NO
+YES
+YES
+NO
+NO
+CONTINUE
+Can the hazards be eliminated?
+YES
+Prepare for entry via permit procedures.
+Entry tasks completed. Permit returned and canceled.
+NO
+YES
+YES
+1Spaces may have to be evacuated and re-evaluated if hazards arise during entry.
+NO
+Does space have known or potential hazards?
+STOP
+1
+Space may be entered under
+§1910.146(c)(5).
+Permit not valid until conditions
+meet permit specifications.
+STOP
+1
+Can the space be maintained in a condition safe to
+enter by continuous forced air ventilation only?
+Permit issued by authorizing signature. Acceptable
+entry conditions maintained throughout entry.
+Audit permit program and permit based on evaluation of
+entry by entrants, attendants, testers, preparers, etc.
+Verify acceptable entry conditions. (Test results recorded,
+space isolated if needed, rescuers/means to summon
+available, entrants properly equipped, etc.)
+Emergency exists (prohibited condition).
+Entrants evacuated, entry is aborted.
+(Call rescuers if needed.) Permit is void.
+Reevaluate program to correct/prevent 
+prohibited condition. Occurrence of
+emergency (usually) is proof of deficient
+program. No re-entry until program (and
+permit) is amended. (May required new
+program.)
+Permit-Required Confined Space Decision Flowchart
+A Guide to Safety in Confined Spaces – C01-028 
+ 8 
+
+If there are permit spaces in the workplace, the employer must inform exposed employees of the existence, location,
+and danger posed by the spaces. This can be accomplished by posting danger signs or by another equally effective means.
+The following language, or other similar language, would satisfy the requirements for such a sign:
+Alternative methods, such as additional training, may be used where they are truly effective in warning all employees
+who could reasonably be expected to enter the space. This requirement can be met in a number of ways. A space can
+combine permanent closing, placing physical barriers on the space such as bolting and locking the space with supplemen-
+tal training, and posting of the space. It is the employer’s obligation to ensure that alternative methods are at least as
+effective as a sign. In some cases, employers may have to provide training in addition to signs, to protect employees who
+do not speak English or who have difficulty understanding or interpreting signs.
+If a space has a locked entry cover, panel or access door that can only be opened with special tools, signs may be
+unnecessary if the employer ensures that all affected employees are informed about the space and know that it is not to be
+opened without taking proper precautions, including temporary signs, to restrict unexpected or unknowing entry.
+Entry Options
+The employer has the options of having no entrants, using contractor entrants, using the host employer entrants, or a
+combination of host and contractor entrants.
+No Entrant
+If an employer, after identifying a permit-required confined space at the worksite, decides that employees or contractor
+employees will not enter the space, the employer must:
+l take effective measures to prevent its employees from entering the permit spaces and meet other requirements of
+paragraphs (c)(1), (2), (6) and (8).
+Contractor Entrant
+If the employer (host) arranges for employees of another employer (contractor) to perform work that involves permit
+space entry, the host employer must:
+l Develop a permit-required confined space program covering contractor operations.
+l Inform the contractor that the workplace contains permit-required confined spaces.
+l Ensure that the contractor has reviewed the host employer’s permit-required confined space program and has its own
+permit-required confined space program in place prior to entry.
+l Apprise the contractor of any precautions or procedures that the host employer has implemented for the protection
+of employees in or near permit spaces. (At a minimum, this information must include the applicable material safety
+data sheet or hazard information on the contents, coatings or liners; potential hazardous atmo spheres; sampling data
+base; and residue(s) found or anticipated in the permit space. All information generated in the original evaluation of
+the permit space must also be provided.)
+l Coordinate entry operations with the contractor when the employer and contractor(s) will be working in or near the
+permit space. (There should be absolutely no doubt by any permit space entrant, attendant and entry supervisor
+regarding who the controlling employer is and whose policy and permit space practices are to be followed.)
+l Debrief the contractor at the conclusion of the entry operation regarding the permit space program followed and
+regarding any hazards confronted or created in permit space entry operations.
+DANGER
+PERMIT-REQUIRED CONFINED SPACE
+AUTHORIZED ENTRANTS ONLY
+A Guide to Safety in Confined Spaces – C01-028 
+ 9 
+
+Host Employer’s Entrant
+If the host employer’s employees are to enter permit spaces, the employer must develop a written permit space pro-
+gram (see example programs in Appendix C to 29 CFR 1910.146), which must be made available to employees or their
+representatives.
+Within the program the employer has some flexibility in entering the space depending on the conditions identified.
+Sometimes the employer can change a permit-required confined space to a non-permit-required confined space by use of
+alternate entry procedures.
+Alternate Entry Procedures
+Under certain conditions, the employer may use alternate procedures for worker entry into a permit space. For example,
+if employers can demonstrate with monitoring and inspection data that the only hazard is an actual or potential hazardous
+atmosphere, which can be made safe for entry by the use of continuous forced air ventilation alone, they may be exempted
+from some requirements, such as permits, attendants and rescue apparatus. Even in such circumstances, however, the inter-
+nal atmosphere of the space must be tested first for oxygen content, second for flammable gases and vapors, and third for
+potential toxic air contaminants before any employee enters.
+The frequency of testing depends on the nature of the permit space and the results of the initial testing. Periodic testing
+is critical to ensure the space is main
+ 
+tained within the limits of the acceptable entry conditions. All permit space atmos-
+pheres are dynamic due to variables such as temperature, pressure, physical characteristics of the hazardous substances,
+and the variable efficiency of the ventilation equipment and air delivery system.
+Entry under alternative means would not be accept
+ 
+able if atmospheric hazards in the space would quickly increase if
+the ventilation stopped. Sufficient time must be made available for an entrant to safely exit the space if the ventilation
+stops.
+The entrant or the entrant’s authorized representative must be provided the opportunity to observe all testing of the
+space during the operation.
+Testing the Atmosphere
+As previously discussed in Part 1, the atmosphere in a confined space may be hazardous due to: (1) low oxygen levels; (2)
+flammable or explosive concentrations of gases, vapors or dusts; or (3) toxic levels of gases and vapors. Therefore, the air in a
+confined space must be tested first for oxygen, then for flammable or combustible gases and vapors, and then for toxic gases
+and vapors.
+Before the monitoring process begins, the employer must understand when an employee is considered to be exposed to
+a hazardous substance. The results of air sampling and exposure monitoring that show the composition of an atmosphere
+to which an employee is actually exposed (even if the employee is using a respirator) are considered an employee expo-
+sure record under 29 CFR 1910.1020(c)(5). If the employer as a result of sampling does not allow entry into the confined
+space, the sample would not be considered as a exposure record because no employee would have been exposed to the
+atmosphere sampled.
+It is important to understand that some gases and vapors are heavier than air and will settle to the bottom of a confined
+space. Also, some gases are lighter than air and will be found around the top of the confined space. Therefore, it is neces-
+sary to test all areas (top, middle, bottom) of a confined space with testing instruments that are calibrated in accordance
+with the manufacturer’s recommendations to determine what atmospheric conditions are present (see Figure 6). (See
+Appendix B to 29 CFR 1910.146, Procedures for Atmospheric Testing.)
+NOTE: Some multi-atmosphere testers require a supply of oxygen to conduct tests. A test for the percentage of oxygen
+is required to be conducted first.
+A Guide to Safety in Confined Spaces – C01-028 
+10 
+
+Figure 6
+Testing the Atmosphere From the Outside, Top to Bottom
+If testing reveals oxygen-deficiency or the presence of toxic gases or vapors, the space must be ventilated and retested
+before workers enter. If ventilation is not possible and entry is necessary (for emergency rescue, for example), workers
+must have appropriate respiratory protection.
+Never trust your senses to determine if the air in a confined space is safe! You cannot see or smell many toxic gases
+and vapors, nor can you determine the level of oxygen present.
+Ventilation
+Ventilation by a blower or fan may be necessary to remove harmful gases and vapors from a confined space. There are
+several methods for ventilating a confined space. The method and equipment chosen are dependent upon the size and con-
+figuration of the confined space openings, the gases to be exhausted (for example, are they flammable?), and the source
+of makeup air.
+For example, under certain conditions where flammable gases or vapors have displaced the oxygen but are too rich to
+burn, forced air ventilation may create a dangerous condition by diluting them until they are within the explosive range. It
+may be necessary to use inert gases (such as carbon dioxide, nitrogen, argon, etc.) to reduce flammable gases or vapors to
+safe levels within the confined space. However, the space should be well-ventilated and retested before a worker may
+enter.
+A common method of ventilation requires a large hose, one end attached to a fan and the other lowered into a manhole
+or opening. For example, a manhole would have the ventilating hose run to the bottom to blow out all harmful gases and
+vapors (see Figure 7). The air intake should be placed in an area that will draw in fresh air only. An air supply taken next
+to a vehicle or compressor exhaust system could draw in one hazardous gas while exhausting another. Ventilation should
+be continuous where possible, because in many confined spaces the hazardous atmosphere will accumulate again when
+the flow of air is stopped. Periodic testing must be conducted to ensure that the atmosphere inside the confined space is
+safe. Remember that any testing information concerning the space has to be made available to the entrant or the entrant’s
+authorized representative.
+Methane
+(lighter than air)
+Carbon Monoxide
+(same as air)
+Hydrogen Sulfide
+(heavier than air)
+
+
+
+
+
+
+
+
+
+
+
+
+A Guide to Safety in Confined Spaces – C01-028 
+11 
+
+Figure 7
+Ventilating With Fan and Trunk Hose
+Respirators
+Respirators are devices that protect workers from breathing unsafe levels of toxic particles, gases and vapors. Two basic
+types of respirators are air-purifying, which filter dangerous substances from the air, and air-supplying, which deliver a
+supply of safe breathing air from a tank or an uncontaminated area nearby. (See Figure 8.)
+Figure 8
+Two Basic Types of Respirators
+	
+
+
+
+
+
+
+	
+
+	 !"	#
+$
+
+%
+	
+
+
+ 
+ !
+
+A Guide to Safety in Confined Spaces – C01-028 
+12 
+
+Selecting the proper NIOSH-approved respirator for the job, the hazard and the person is very important, as is thor-
+ough training in the use and limitations of respirators. A respirator protection program is required when employees are
+required to use a respirator. (See 29 CFR 1910.134, Respirator Protection Program.) Only NIOSH-approved positive pres-
+sure, pressure-demand SCBAs or positive pressure, pressure-demand airline respirators with escape provisions can be
+used in oxygen-deficient or unknown atmospheres.
+Isolation of Energy Sources
+In a confined space, it may be very hard to separate the employee from the sources of hazardous energy. The close
+quarters in which the employee works increases the likelihood of the injury. The activation of electrical or mechanical
+equipment and the release of material through lines connected to the confined space are major causes of injury. A lock-
+out/tagout program is required. (See 29 CFR 1910.147, The Control of Hazardous Energy, and 29 CFR 1910.333(b),
+Working on or near Exposed Deenergized Parts). Specific procedures to lockout/tagout specific pieces of equipment are
+required before entering the space. It is essential to deenergize and lock out all electrical circuits and physically discon-
+nect mechanical equipment prior to any work in the confined space. All lines must be physically disconnected, blanked
+off, or isolated using a double block and bleed system. Only employees trained in lockout/tagout procedures should con-
+duct lockout/tagout operations. All actions must be verified to ensure the safety of items and that they are safely placed
+out of and returned to service. (See Figures 9 and 10.)
+Figure 9
+Examples of Lockout
+Figure 10
+Method of Blanking Hydraulic/Pneumatic Lines
+A Guide to Safety in Confined Spaces – C01-028 
+13 
+
+Written Program
+The employer who allows employees to enter must develop and implement a written program for permit-required con-
+fined spaces. (See Appendix C to 29 CFR 1910.146, Examples of Permit-Required Confined Space Programs.)
+The OSHA standard requires the employer’s program to include, at a minimum:
+l measures to prevent unauthorized entry
+l procedures to identify and evaluate the hazards of permit spaces before employees enter
+l means, procedures and practices necessary for safe permit entry operations
+l provisions for providing properly maintained protective equipment, including necessary personal protective equip-
+ment, to trained employees at no cost
+l provisions to evaluate permit space conditions
+l provisions for one attendant outside the permit space
+l provisions for multiple space monitoring if one attendant is used
+l procedures for designation of persons who have active roles in entry operations, their duties and how they are to be
+trained
+l procedures for making the rescue service or emergency team decision
+l procedures for emergency rescue operation
+l procedures for implementing a system for the preparation, issuance, use and cancellation of entry permits
+l procedures to coordinate multiple entry operations
+l procedures for permit closing at end of operations
+l procedures for review of entry operation when the employer has reason to believe that measures taken under the per-
+mit space program may not protect employees, and requiring program revision to correct deficiencies found to exist
+before subsequent entries are authorized
+l provisions for reviewing the permit space program using canceled permits within one year after each entry and to
+revise the program as necessary to ensure that employees participating in entry operations are protected from permit
+space hazards
+Permit System
+A permit, signed by the entry supervisor and verifying that pre-entry preparations have been completed and that the
+space is safe to enter, must be posted at entrances or otherwise made available to entrants before they enter a permit
+space. (See Appendix D to 29 CFR 1910.146, Sample Permits.)
+The duration of entry permits must not exceed the time required to complete an assignment. Also, the entry supervisor
+must terminate entry and cancel permits when an assignment has been completed or when conditions that are not allowed
+arise. New conditions must be noted on the canceled permit and used in revising the permit space program. The standard
+also requires the employer to keep all canceled entry permits for at least one year.
+Entry Permits
+Entry permits must include the following information:
+l test results
+l tester’s initials or signature
+l name and signature of supervisor who authorizes entry
+l name of permit space to be entered, authorized entrant(s), eligible attendants and individual(s) authorized to be entry
+supervisor(s)
+A Guide to Safety in Confined Spaces – C01-028 
+14 
+
+l purpose of entry and known space hazards
+l measures to be taken to isolate permit spaces and to eliminate or control space hazards, i.e., locking out or tagging of
+equipment and procedures for purging, making inert, ventilating and flushing permit spaces
+l name and telephone numbers of rescue and emergency services
+l date and authorized duration of entry
+l acceptable entry conditions
+l communication procedures and equipment to maintain contact during entry
+l additional permit(s), such as for hot work, that have been issued to authorize work in the permit space
+l special equipment and procedures, including personal protective equipment, alarm systems and rescue equipment
+l any other information needed to ensure employee safety
+Training and Education
+Before an initial work assignment begins, the employer must provide proper training for all employees who are required
+to work in permit spaces. Upon completing this training, employers must ensure that employees have acquired the under-
+standing, knowledge and skills necessary for the safe performance of their duties. Additional training is required when (1)
+the job duties change, (2) there is a change in the permit space program or the permit space operation presents a new haz-
+ard, and (3) when an employee’s job performance shows deficiencies. Training is also required for rescue team members,
+including cardiopulmonary resuscitation and first-aid training (see Emergencies). Employers must certify that training has
+been accomplished.
+Upon completion of training, employees must receive a certificate of training that includes the employee’s name, sig-
+nature or initials of trainer(s), and dates of training. The certification must be made available for inspection by employees
+and their authorized representatives.
+In addition, the employer also must ensure that employees are trained in their assigned duties.
+Duties
+Authorized Entrant’s Duties
+l know space hazards, including information on the mode of exposure (e.g., inhalation or dermal absorption), signs or
+symptoms, and consequences of the exposure
+l use appropriate personal protective equipment properly (e.g., face and eye protection, and other forms of barrier pro-
+tection such as gloves, aprons and coveralls)
+l as necessary, maintain communication (i.e., telephone, radio, visual observation) with attendants to enable the atten-
+dant to monitor the entrant’s status as well as to alert the entrant to evacuate
+l exit from permit space as soon as possible when ordered by an authorized person, when the entrant recognizes the
+warning signs or symptoms of exposure exist, when a prohibited condition exists, or when an automatic alarm is
+activated
+l alert the attendant when a prohibited condition exists or when warning signs or symptoms of exposure exist
+Attendant’s Duties
+l remain outside permit space during entry operations unless relieved by another authorized attendant
+l perform non-entry rescues when specified by employer’s rescue procedure
+l know existing and potential hazards, including information on the mode of exposure, signs or symptoms, conse-
+quences of the exposure, and their physiological effects
+l maintain communication with and keep an accurate account of those workers entering the permit-required space
+A Guide to Safety in Confined Spaces – C01-028 
+15 
+
+l order evacuation of the permit space when a prohibited condition exists, when a worker shows signs of physiologi-
+cal effects of hazard exposure, when an emergency outside the confined space exists, or when the attendant cannot
+effectively and safely perform required duties
+l summon rescue and other services during an emergency
+l ensure that unauthorized persons stay away from permit spaces or exit immediately if they have entered the permit
+space
+l inform authorized entrants and entry supervisor of entry by unauthorized persons
+l perform no other duties that interfere with the attendant’s primary duties
+Entry Supervisor’s Duties
+l know space hazards including information on the mode of exposure, signs or symptoms, and consequences of expo-
+sure
+l verify emergency plans and specified entry conditions such as permits, tests, procedures and equipment before
+allowing entry
+l ensure that determinations and supporting data from required tests are documented and are made available to each
+employee who enters the permit space or that employee’s authorized representative
+l ensure that the entrant or the entrant’s authorized representative are afforded the opportunity to observe any testing
+of the confined space prior to and during the operation
+l terminate entry and cancel permits when entry operations are completed or if a new condition exists
+l take appropriate measures to remove unauthorized entrants or persons who attempt to enter
+l ensure that entry operations remain consistent with the entry permit and that acceptable entry conditions are main-
+tained
+Rescue
+On-Site Rescue
+Over 50 percent of the workers who die in confined spaces are attempting to rescue other workers. Rescuers must be
+trained in and follow established emergency procedures and use appropriate equipment and techniques (including life-
+lines, respiratory protection and standby persons). Steps for safe rescue should be included in all confined space entry
+procedures. Rescue procedures should be well planned, and drills should be frequently conducted on emergency proce-
+dures. An unplanned rescue, such as when someone instinctively rushes in to help a downed co-worker, can easily result
+in a double fatality or even multiple fatalities if there is more than one would-be rescuer.
+Remember: An unplanned rescue could be your last.
+A standby person should be assigned to remain on the outside of the confined space and be in constant contact (visual
+or speech) with the workers inside. The standby person should not have any other duties but to serve as standby and know
+who should be notified in case of emergency. Standby personnel should not enter a confined space until help arrives, and
+then only with proper protective equipment, lifelines, and respirators (see Figure 11).
+A Guide to Safety in Confined Spaces – C01-028 
+16 
+
+Figure 11
+Entry With Hoist and Standby Personnel
+The employer has overall responsibility for employee safety. If an off-site rescue service is used, the employer must
+verify the availability of the service each time a permit space entry is scheduled or attempted. If the off-site rescue service
+indicates, for any reason, that it would be unable to respond to a rescue summons, entry shall not be authorized unless
+adequate alternative rescue service is arranged.
+Rescue Service Decision
+The standard requires the employer to ensure that rescue service personnel are provided. The employer must decide
+who is going to be the rescue team or emergency service. (See Appendix F to 29 CFR 1910.146, Rescue Team or
+Emergency Service Decision.) The employer can use an outside team or a rescue service such as the fire department. In
+making this rescue service decision, the employer must answer the following questions about the rescue team or service:
+l What hazards will the rescuers encounter?
+l Do they have the capability to recognize those hazards?
+l Are they equipped to cope with those hazards?
+l Do they have the capability to work near or within those hazards safely?
+l Do they have the ability to respond to the different hazards?
+l Can the rescue team reach the victim in time to effect a rescue?
+l Has the service maintained its proficiencies?
+If an outside rescue service is selected, the employer must:
+l Inform the team or service of any hazards they may confront in the rescue operations.
+l The team must be provided access to all permit spaces from which the rescue may be necessary. (This is done so that
+the rescue team or service can develop rescue plans and practice operations.)
+A Guide to Safety in Confined Spaces – C01-028 
+17 
+
+If an employee team is selected the employer must:
+l Provide affected employees with appropriate personal protective equipment.
+l Train the employees so that they are proficient in the use of the PPE.
+l Train the affected employees to perform assigned rescue duties.
+l Ensure that at least one member of the rescue team holds current basic first aid and cardiopulmonary resuscitation
+certifications.
+l Ensure those affected employees practice permit space rescues at least once every 12 months. (This can be done by
+simulated rescue operations in which they remove dummies, mannequins or people from actual permit spaces or
+from representative permit spaces.)
+A new non-mandatory Appendix F, Rescue Team or Rescue Service Evaluation Criteria, was added to 29 CFR
+1910.146 to assist in the selection of a rescue team or emergency service.
+A Guide to Safety in Confined Spaces – C01-028 
+18 
+
+Checklists
+Recommendations for Safe Entry: A Checklist
+Do not enter a confined space until you have considered every question and have determined the space to be safe.
+Use the following checklist to evaluate the confined space.
+Yes  No
+ n    n   Is entry necessary?
+Testing
+Yes  No
+ n    n   Are the instruments used in atmospheric testing properly calibrated?
+ n    n   Was the atmosphere in the confined space tested?
+ n    n   Was oxygen at least 19.5 percent and not more than 23.5 percent?
+ n    n   Were toxic, flammable or oxygen-displacing gases/vapors present?
+—Hydrogen sulfide
+—Carbon monoxide
+—Methane
+—Carbon dioxide
+—Other (list)
+_____________________________________________________________________________________
+ n    n   Has the authorized entrant or the entrant’s authorized representative been provided an opportunity to observe the
+periodic testing of the permit space?
+Monitoring
+Yes  No
+ n    n   Will the atmosphere in the space be monitored while work is going on?
+ n    n   Will the atmosphere in the space be monitored continuously while work is going on?
+ n    n   Will the atmosphere in the space be monitored periodically while work is going on? (if yes, give the interval:
+_____________________________________________________________________________)
+Remember—Atmospheric changes occur due to the work procedure or the product stored. The atmosphere may
+be safe when you enter, but it can change very quickly.
+Cleaning
+Yes  No
+ n    n   Has the space been cleaned before entry is made?
+ n    n   Was the space steamed?
+ n    n   If the space was steamed, was it allowed to cool?
+Ventilation
+Yes  No
+ n    n   Are the appropriate operator’s instructions available?
+ n    n   Has the space been ventilated before entry?
+A Guide to Safety in Confined Spaces – C01-028 
+19 
+
+ 
+n
+ 
+   
+n
+  
+Will ventilation be continued during entry?
+ 
+n
+ 
+   
+n
+  
+Is the air intake for the ventilation system located in an area that is free of combustible dusts and vapors and
+toxic substances?
+ 
+n
+ 
+   
+n
+  
+If the atmosphere was found unacceptable and then ventilated, was it retested before entry?
+Isolation
+Yes 
+ 
+No
+ 
+n
+ 
+   
+n
+  
+Does the company have a lockout/tagout program?
+ 
+n
+ 
+   
+n
+  
+Are the employees trained?
+ 
+n
+ 
+   
+n
+  
+Are the specific lockout/tagout procedures available at the worksite?
+ 
+n
+ 
+   
+n
+  
+Has the space been isolated from other systems?
+ 
+n
+ 
+   
+n
+  
+Has electrical equipment been locked out?
+ 
+n
+ 
+   
+n
+  
+Have disconnects been used where possible?
+ 
+n
+ 
+   
+n
+  
+Has mechanical equipment been blocked, chocked and disengaged where necessary?
+ 
+n
+ 
+   
+n
+  
+Have lines under pressure been blanked and bled?
+Clothing/Equipment
+Yes 
+ 
+No
+ 
+n
+ 
+   
+n
+  
+Has a certified personal protective equipment hazard analysis been conducted per 29 CFR 1910.132(a)?
+ 
+n
+ 
+   
+n
+  
+Have the entrants been trained in the use of personal protective equipment per 29 CFR 1910.132(f)?
+ 
+n
+ 
+   
+n
+  
+Is special clothing required (boots, chemical suits, glasses, etc.)? (If so, specify:_____________
+__________________________________________________________________________________________)
+ 
+n
+ 
+   
+n
+  
+Is special equipment required (for example,
+rescue equipment, communications equipment, etc.)? (If so, specify:__________________________
+__________________________________________________________________________________________)
+ 
+n
+ 
+   
+n
+  
+Are special tools required (for example, sparkproof tools)? (If so, specify:_______________
+__________________________________________________________________________________________
+__________________________________________________________________________________________)
+Respiratory Protection
+Yes 
+ 
+No
+ 
+n
+ 
+   
+n
+  
+Is respiratory protection required (for example, air-purifying, supplied air, self-contained breathing apparatus,
+etc.)? (If so, specify type:
+__________________________________________________________________________________________)
+ 
+n
+ 
+   
+n
+  
+Does the employer have a respiratory protec
+ 
+tion program?
+ 
+n
+ 
+   
+n
+  
+Are the affected employees included in the program?
+ 
+n
+ 
+   
+n
+  
+Are NIOSH-approved respirators of the type required available at the worksite?
+ 
+n
+ 
+   
+n
+  
+Can you get through the opening with a respirator on? (If you do not know, find out before you try to enter.)
+Training
+Yes 
+ 
+No
+ 
+n
+ 
+   
+n
+  
+Have you been trained in the proper use of a respirator?
+ 
+n
+ 
+   
+n
+  
+Have you received first-aid/CPR training?
+ 
+n
+ 
+   
+n
+  
+Have you been in confined space entry and do you know what to look for?
+A Guide to Safety in Confined Spaces – C01-028 
+20 
+
+Standby/Rescue
+Yes 
+ 
+No
+ 
+n 
+   
+n
+  
+Will there be a standby person on the outside in constant visual or auditory communication with the person on
+the inside?
+ 
+n 
+   
+n
+  
+Will the standby person be able to see and/or hear the person inside at all times?
+ 
+n 
+   
+n
+  
+Has the standby person been trained in rescue?
+ 
+n 
+   
+n
+  
+Will safety lines and harnesses be required to remove a person?
+ 
+n 
+   
+n
+  
+Are company rescue procedures available to be followed in the event of an emergency?
+ 
+n 
+   
+n
+  
+Are you familiar with emergency rescue procedures?
+ 
+n 
+   
+n
+  
+Do you know who to notify and how in the event of an emergency?
+Permit
+The permit is an authorization in writing that states that the space has been tested by a qualified person and that the space
+is safe for entry; what precautions, equipment, etc., are required; and what work is to be done.
+Yes 
+ 
+No
+ 
+n 
+   
+n
+  
+Has a confined space entry permit been issued?
+ 
+n 
+   
+n
+  
+Does the permit include a list of emergency telephone numbers?
+A Guide to Safety in Confined Spaces – C01-028 
+21 
+
+Sample Permits
+Confined Space Entry Permit
+Date and Time Issued:______________________________________ Date and Time Expires: _____________________________ Job 
+site/Space 
+I.D.:
+________________________________________
+Job 
+Supervisor:____________________________________
+Equipment to be worked on: _________________________________ Work to be performed: ______________________________
+Stand-by personnel: ______________________________ _______________________________ _____________________________
+1. Atmospheric Checks:
+Time
+_________
+Oxygen
+_________ %
+Explosive _________ % L.F.L.
+Toxic
+_________ PPM
+2. 
+Tester’s signature: __________________________________________________________________________________________
+3. 
+Source isolation (No Entry):
+N/A
+Yes
+No
+Pumps or lines blinded,
+(
+)
+(
+)
+(
+)
+disconnected, or blocked
+( )
+(
+)
+(
+)
+4. 
+Ventilation Modification:
+N/A
+Yes
+No
+Mechanical
+(
+)
+(
+)
+(
+)
+Natural Ventilation only
+( )
+(
+)
+(
+)
+5. 
+Atmospheric check after isolation and ventilation:
+Oxygen
+___________
+%
+>
+19.5
+%
+Explosive __________ % L.F.L < 10 %
+Toxic _____________ PPM
+<
+10
+PPM H(2)S
+Time______________
+Tester’s signature: ____________________________________________________________________________________________
+6. 
+Communication procedures: __________________________________________________________________________________
+___________________________________________________________________________________________________________
+7. 
+Rescue procedures: _________________________________________________________________________________________
+___________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+8. 
+Entry, standby and back up persons:
+Yes
+No
+Successfully completed required training?
+(
+)
+(
+)
+Is it current?
+( )
+(
+)
+9. 
+Equipment:
+N/A
+Yes
+No
+Direct reading gas monitor—tested (
+)
+( )
+(
+)
+Safety harnesses and lifelines
+for entry and standby persons
+(
+)
+(
+)
+(
+)
+Hoisting equipment
+(
+)
+(
+)
+(
+)
+Powered communications
+(
+)
+( )
+(
+)
+SABA or SCBA for entry and
+standby persons
+(
+)
+(
+)
+(
+)
+Protective Clothing
+(
+)
+( )
+(
+)
+All electric equipment listed
+Class I, Division I, Group D
+and non-sparking tools
+(
+)
+(
+)
+(
+)
+10. 
+Periodic atmospheric tests:
+Oxygen ______ % Time ______ Oxygen _______ % Time_____ Oxygen ______ % Time ______ Oxygen _______ % Time_____
+Explosive ______ % Time ______ Explosive _______ % Time_____ Explosive ______ % Time ______ Explosive _______ %
+Time_____ Toxic ______ % Time ______ Toxic _______ % Time_____ Toxic ______ % Time ______ Toxic _______ % Time_____
+We have reviewed the work authorized by this permit and the information contained herein. Written instructions and safety procedures
+have been received and are understood. Entry cannot be approved if any squares are marked in the “No” column. This permit is not
+valid unless all appropriate items are completed.
+Permit Prepared By: (Supervisor) ________________________________________________________________________________
+Approved By: (Unit Supervisor) __________________________________________________________________________________
+Reviewed By (Cs Operations Personnel):
+__________________________________________________
+_______________________________________________________
+(printed name) (signature) This permit to be kept at job site. Return job site 
+copy to Safety Office following job completion.
+Copies:
+White Original (Safety Office)
+Yellow (Unit Supervisor) Hard 
+(Job site)
+A Guide to Safety in Confined Spaces – C01-028 
+22 
+
+ENTRY PERMIT
+PERMIT VALID FOR 8 HOURS ONLY. ALL COPIES OF PERMIT WILL REMAIN AT JOB SITE UNTIL JOB IS COMPLETED
+DATE: ____________ 
+ 
+SITE LOCATION and DESCRIPTION __________________________________________________________
+PURPOSE OF ENTRY_________________________________________________________________________________________
+SUPERVISOR(S) in charge of crews 
+                                                                                    
+Type of Crew Phone #
+___________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+COMMUNICATION PROCEDURES ______________________________________________________________________________
+RESCUE PROCEDURES (PHONE NUMBERS AT BOTTOM) __________________________________________________________
+___________________________________________________________________________________________________________
+*BOLD DENOTES MINIMUM REQUIREMENTS TO BE COMPLETED AND REVIEWED PRIOR TO ENTRY*
+REQUIREMENTS COMPLETED 
+                       
+DATE
+         
+TIME
+Lock Out/De-energize/Try-out
+                             
+_____ 
+        
+_____
+Line(s) Broken-Capped-Blanked 
+                        
+_____ 
+        
+_____
+Purge-Flush and Vent
+                                         
+_____ 
+        
+_____
+Ventilation 
+                                                           
+_____ 
+        
+_____
+Secure Area (Post and Flag)
+                              
+_____ 
+        
+_____
+Breathing Apparatus 
+                                           
+_____ 
+        
+_____
+Resuscitator—Inhalator 
+                                      
+_____ 
+        
+_____
+Standby Safety Personnel
+                                  
+_____ 
+        
+_____
+Full Body Harness w/“D” ring
+                              
+_____ 
+        
+_____
+Emergency Escape Retrieval Equipment
+           
+_____ 
+        
+_____
+Lifelines
+                                                               
+_____ 
+        
+_____
+Fire Extinguishers
+                                               
+_____ 
+        
+_____
+Lighting (Explosive Proof)
+                                   
+_____ 
+        
+_____
+Protective Clothing
+                                              
+_____ 
+        
+_____
+Respirator(s) (Air Purifying)
+                                
+_____ 
+        
+_____
+Burning and Welding Permit
+                               
+_____ 
+        
+_____
+Note: Items that do not apply enter N/A in the blank.
+**RECORD CONTINUOUS MONITORING RESULTS EVERY 2 HOURS
+CONTINUOUS MONITORING** 
+     
+Permissible___________________
+TEST(S) TO BE TAKEN
+                  
+Entry Level
+PERCENT OF OXYGEN
+                 
+19.5% to 23.5%
+LOWER FLAMMABLE LIMIT 
+          
+Under 10%
+CARBON MONOXIDE 
+                    
++50 PPM
+Aromatic Hydrocarbon
+                     
++ 1 PPM * 5PPM
+Hydrogen Cyanide (Skin) 
+                
++10 PPM
+Hydrogen Sulfide
+                             
+*20 PPM (Ceiling)
+Sulfur Dioxide 
+                                  
++ 5 PPM
+Ammonia 
+                                         
+*50 PPM
+*Short-term exposure limit: Employee can work in the area up to 15 minutes.
++8 hr. Time Weighted Avg.: Employee can work in area 8 hrs (longer with appropriate respiratory protection).
+REMARKS:__________________________________________________________________________________________________
+ 
+GAS TESTER NAME & CHECK # 
+                   
+INSTRUMENT(S) USED 
+                    
+MODEL &/OR TYPE 
+         
+SERIAL &/O UNIT #
+_______________________________
+   
+______________________________
+    
+_______________________ 
+   
+________________
+_______________________________
+   
+______________________________
+    
+_______________________ 
+   
+________________
+SAFETY STANDBY PERSON IS REQUIRED FOR ALL CONFINED SPACE WORK
+            
+SAFETY STANDBY
+                                            
+CONFINED SPACE 
+                                  
+CONFINED SPACE
+                 
+                  
+PERSON(S) 
+                        
+CHECK #
+              
+ENTRANT(S)
+              
+CHECK #
+              
+ENTRANT(S)
+              
+CHECK #
+_______________________________
+  
+_______
+   
+_______________________
+   
+_______
+   
+_______________________
+   
+_______
+_______________________________
+  
+_______
+   
+_______________________
+   
+_______
+   
+_______________________
+   
+_______
+SUPERVISOR AUTHORIZING—ALL CONDITIONS SATISFIED ___________________ 
+ 
+DEPARTMENT/PHONE ________________
+AMBULANCE 2800 FIRE 2900 Safety 4901 Gas Coordinator 4529/5387
+A Guide to Safety in Confined Spaces – C01-028 
+23 
+
+Sample Confined Space Entry Training Lesson Plan
+Objectives: The employee should be able to
+• explain what is a confined space
+• tell the difference between a confined space and a permit-required confined space
+• understand the process in deciding if there is a hazard in the confined space
+• be able to tell what precautions to take to protect employees involved in the confined space entry
+• understand the responsibilities of the entrant, attendant and entry supervisor
+• demonstrate how to use the equipment
+What Topics Will Be Covered?
+• definition of types of confined spaces
+• hazards in the confined space
+• responsibilities of the entry supervisor, attendant, and entrant
+• entry permit
+Explanation of OSHA Regulations Related to Confined Spaces
+• personal protective equipment hazard analysis and training certification (1910.132)
+• respiratory protection program (1910.134)
+• permit required confined space program (1910.146)
+• lockout/tag out program (1910.147 and 1910.333)
+• hazard communication program (1910.1200)
+What Is a Confined Space?
+What Is a Permit-Required Confined Space?
+Where Are the Confined Spaces in the Worksite?
+What Are the Potential Hazards?
+What Alternate Methods Are Used by the Employer?
+What Are the Responsibilities of the Entry Supervisor, Entrant and Attendant?
+Confined Space Entry Permits
+Review and Questions
+A Guide to Safety in Confined Spaces – C01-028 
+24 
+
+References
+U.S. Department of Labor, OSHA Federal Register (63:66018-66036), Permit-Required Confined Spaces, 12/01/1998;
+U.S. Department of Labor, OSHA 3138, 1998 (Revised), Permit-Required Confined Spaces
+OSHA Directives, CPL 02-00-100—Application of the Permit-Required Confined Spaces (PRCS) Standards, 29 CFR
+1910.146, 05/05/1995
+NIOSH Publication 87-113, A Guide to Safety in Confined Spaces; U.S. Department of Health and Human Services,
+Public Health Service, Centers for Disease Control and Prevention, National Institute of Occupation Safety and Health
+NIOSH Publication 94-103, Worker Deaths in Confined Spaces; U.S. Department of Health and Human Services,
+Public Health Service, Centers for Disease Control and Prevention, National Institute of Occupation Safety and Health
+A Guide to Safety in Confined Spaces – C01-028 
+25 
+
+OSH Publications
+We provide a variety of OSH publications. These include general industry and construction regula-
+tions, industry guides that cover different OSH topics, quick cards, fact sheets and brochures that
+cover a wide variety of serious safety and health workplace hazards. Workplace labor law posters are
+available free of charge. To obtain publications, call toll free at 1-800-NC-LABOR (1-800-625-2267)
+or direct at 919-807-2875. You may view the list of publications and also download many of them at
+www.nclabor.com/pubs.htm.
+A Guide to Safety in Confined Spaces – C01-028 
+26 
+
+Occupational Safety and Health (OSH)
+Sources of Information
+You may call 1-800-NC-LABOR (1-800-625-2267) to reach any division of the N.C. Department of Labor;
+or visit the NCDOL home page on the Internet: http://www.nclabor.com.
+Occupational Safety and Health Division
+Mailing Address:
+                                                                             
+Physical Location:
+1101 Mail Service Center 
+                                                               
+111 Hillsborough St.
+Raleigh, NC 27699-1101 
+                                                                
+(Old Revenue Building, 3rd Floor)
+Local Telephone: 919-807-2900   Fax: 919-807-2856
+For information concerning education, training, interpretations of occupational safety and health standards, and
+OSH recognition programs contact:
+Education, Training and Technical Assistance Bureau
+Mailing Address:
+                                                                             
+Physical Location:
+1101 Mail Service Center 
+                                                               
+111 Hillsborough St.
+Raleigh, NC 27699-1101 
+                                                                
+(Old Revenue Building, 4th Floor)
+Telephone: 919-807-2875   Fax: 919-807-2876
+For information concerning occupational safety and health consultative services contact:
+Consultative Services Bureau
+Mailing Address:
+                                                                             
+Physical Location:
+1101 Mail Service Center 
+                                                               
+111 Hillsborough St.
+Raleigh, NC 27699-1101 
+                                                                
+(Old Revenue Building, 3rd Floor)
+Telephone: 919-807-2899   Fax: 919-807-2902
+For information concerning migrant housing inspections and other related activities contact:
+Agricultural Safety and Health Bureau
+Mailing Address:
+                                                                             
+Physical Location:
+1101 Mail Service Center 
+                                                               
+111 Hillsborough St.
+Raleigh, NC 27699-1101 
+                                                                
+(Old Revenue Building, 2nd Floor)
+Telephone: 919-807-2923   Fax: 919-807-2924
+For information concerning occupational safety and health compliance contact:
+Safety and Health Compliance District Offices
+Raleigh District Office (3801 Lake Boone Trail, Suite 300, Raleigh, NC 27607)
+Telephone: 919-779-8570 
+                         
+Fax: 919-420-7966
+Asheville District Office (204 Charlotte Highway, Suite B, Asheville, NC 28803-8681)
+Telephone: 828-299-8232 
+                         
+Fax: 828-299-8266
+Charlotte District Office (901 Blairhill Road, Suite 200, Charlotte, NC 28217-1578)
+Telephone: 704-665-4341 
+                         
+Fax: 704-665-4342
+Winston-Salem District Office (4964 University Parkway, Suite 202, Winston-Salem, NC 27106-2800)
+Telephone: 336-776-4420 
+                         
+Fax: 336-767-3989
+Wilmington District Office (1200 N. 23rd St., Suite 205, Wilmington, NC 28405-1824)
+Telephone: 910-251-2678 
+                         
+Fax: 910-251-2654
+***To make an OSH Complaint, OSH Complaint Desk: 919-807-2796***
+For statistical information concerning program activities contact:
+Planning, Statistics and Information Management Bureau
+Mailing Address:
+                                                                             
+Physical Location:
+1101 Mail Service Center 
+                                                               
+111 Hillsborough St.
+Raleigh, NC 27699-1101 
+                                                                
+(Old Revenue Building, 2nd Floor)
+Telephone: 919-807-2950   Fax: 919-807-2951
+For information about safety videos, labor-related books or electronic resources contact:
+N.C. Department of Labor Library
+Mailing Address:
+                                                                             
+Physical Location:
+1101 Mail Service Center 
+                                                               
+111 Hillsborough St.
+Raleigh, NC 27699-1101 
+                                                                
+(Old Revenue Building, 5th Floor)
+Telephone: 919-807-2850   Fax: 919-807-2849
+N.C. Department of Labor (Other than OSH)
+1101 Mail Service Center
+Raleigh, NC 27699-1101
+Telephone: 919-733-7166   Fax: 919-733-6197
+A Guide to Safety in Confined Spaces – C01-028 
+27 

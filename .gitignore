@@ -1,0 +1,21 @@
+# Ignorar a pasta env inteira
+env/
+
+# Ignorar ambientes virtuais comuns
+venv/
+.venv/
+ENV/
+env.bak/
+env.old/
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar configurações locais
+*.env

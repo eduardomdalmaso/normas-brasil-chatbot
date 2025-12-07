@@ -1,0 +1,15 @@
+Pergunta: Quais são as responsabilidades do Supervisor de Entrada em atividades realizadas em espaço confinado, segundo a NR‑33?
+
+Resposta:
+
+Use o contexto abaixo para responder à pergunta de forma clara e objetiva.
+
+Pergunta:
+Quais são as responsabilidades do Supervisor de Entrada em atividades realizadas em espaço confinado, segundo a NR‑33?
+
+Resposta:
+O Supervisor de Entrada, segundo a NR-33, é responsável pelas seguintes atividades em espaços confinados:
+
+1. Verificar a conformidade dos equipamentos e instalações com as exigências de segurança antes de permitir a entrada de pessoas ou materiais.
+2. Supervisionar as atividades de entrada e saída de pessoas e materiais, incluindo a verificação de documentos de identificação e permissões adequadas.
+3. Manter registros detalhados de todas as entradas e saídas

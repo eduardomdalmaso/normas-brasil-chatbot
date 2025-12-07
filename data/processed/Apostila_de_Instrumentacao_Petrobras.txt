@@ -1,0 +1,6546 @@
+MONITORAMENTO
+E CONTROLE
+DE PROCESSOS
+PARA
+VALIDAÇÃO
+
+PETROBRAS ABASTECIMENTO
+EIDER PRUDENTE DE AQUINO
+Diretor – Gerente do Abastecimento
+LUIZ EDUARDO VALENTE MOREIRA
+Gerente Geral de Tecnologia de Refino
+AUGUSTO FARIAS
+Gerente de Recursos Humanos de Abastecimento
+MAURÍCIO LIMA
+Coordenador de Formação, Capacitação e Certificação no Abastecimento
+CONFEDERAÇÃO NACIONAL DA INDÚSTRIA – CNI
+Conselho Nacional do SENAI
+CARLOS EDUARDO MOREIRA FERREIRA
+Presidente
+COMISSÃO DE APOIO TÉCNICO E ADMINISTRATIVO AO
+PRESIDENTE DO CONSELHO NACIONAL DO SENAI
+DAGOBERTO LIMA GODOY
+Vice-Presidente da CNI
+FERNANDO CIRINO GURGEL
+Diretor – 1º Tesoureiro da CNI
+MAX SCHRAPPE
+Vice-Presidente da Federação das Indústrias do Estado de São Paulo
+SENAI – DEPARTAMENTO NACIONAL
+JOSÉ MANUEL DE AGUIAR MARTINS
+Diretor-Geral
+MÁRIO ZANONI ADOLFO CINTRA
+Diretor de Desenvolvimento
+EDUARDO OLIVEIRA SANTOS
+Diretor de Operações
+ALBERTO BORGES DE ARAÚJO
+Coordenador da COTED
+
+MONITORAMENTO
+E CONTROLE
+DE PROCESSOS
+Marcelo Giglio Gonçalves
+BRASÍLIA  2003
+TOMO 2
+
+MONITORAMENTO E CONTROLE DE PROCESSOS
+© 2003  Marcelo Giglio Gonçalves
+FICHA CATALOGRÁFICA
+Gonçalves, Marcelo Giglio.
+Monitoramento e controle de processos, 2 / Marcelo Giglio
+Gonçalves. — Rio de Janeiro: Petrobras ; Brasília : SENAI/
+DN, 2003.
+100 p. : il. — (Série Qualificação Básica de Operadores).
+TÍTULO
+                    CDU 65:504.05
+PETROBRAS
+Petróleo Brasileiro S. A.
+Avenida Chile, 65 – 20º andar
+20035-900 – Rio de Janeiro – RJ
+Tel.: (21) 2534-6013
+PETROBRAS
+DIRETORIA DE ABASTECIMENTO
+Série Qualificação Básica de Operadores
+Todos os direitos reservados
+SENAI
+Serviço Nacional de Aprendizagem Industrial
+Departamento Nacional
+Setor Bancário Norte – Quadra 1 – Bloco C
+Edifício Roberto Simonsen
+70040-903 – Brasília – DF
+Tel.: (61) 317-9001 – Fax: (61) 317-9190
+http://www.dn.senai.br
+A publicação desta série é uma co-edição entre o Senai e a Petrobras
+1. VIDA E AMBIENTE
+2. MONITORAMENTO E CONTROLE DE PROCESSOS
+3. SISTEMAS DE PROCESSOS INDUSTRIAIS
+4. OPERAÇÃO E PROCESSOS
+5. GESTÃO DA QUALIDADE
+6. OPERAÇÃO SEM RISCOS
+SENAI
+DEPARTAMENTO NACIONAL
+UNIDADE DE CONHECIMENTO E
+TECNOLOGIA DA EDUCAÇÃO – COTED
+SENAI-RJ
+DIRETORIA DE EDUCAÇÃO
+GERÊNCIA DE EDUCAÇÃO PROFISSIONAL – GEP
+
+Lista de ilustrações
+Apresentação
+Uma palavra inicial
+UNIDADE 4
+Instrumentação, controle e automação
+dos processos industriais
+Aspectos gerais da área de instrumentação
+Terminologia
+Principais sistemas de medidas
+Telemetria
+Medição de pressão
+Dispositivos para medição de pressão
+Medição de temperatura
+Conceito
+Temperatura e calor
+Escalas de temperatura
+Medidores de temperatura por dilatação/expansão
+Efeitos termoelétricos
+Leis termoelétricas
+Correlação da FEM em função da temperatura
+Tipos e características dos termopares
+Correção da junta de referência
+Medição de temperatura por termorresistência
+Medição de nível
+Métodos de medição de nível de líquido
+Sumário
+9
+15
+7
+13
+19
+33
+27
+39
+39
+61
+51
+52
+48
+17
+31
+57
+41
+27
+40
+43
+49
+59
+61
+
+Medição de vazão
+Tipos de medidores de vazão
+Medidores especiais de vazão
+Elementos finais de controle
+Válvulas de controle
+Válvula de controle: ação
+Posicionador
+Características de vazão de uma válvula
+Controle e automação industrial
+Atrasos de tempo do processo
+Atrasos na malha de controle
+Ações de um controlador
+Ações de uma válvula de controle
+Modos de controle
+Ajustes de um controlador proporcional
+Influência do ajuste da faixa proporcional (ou do ganho)
+Controle proporcional + integral
+Controle proporcional + derivativo
+Controle proporcional + integral + derivativo
+79
+82
+85
+93
+96
+88
+86
+89
+84
+91
+85
+83
+98
+94
+80
+71
+72
+77
+87
+
+Lista de Ilustrações
+FIGURAS
+FIGURA 1 – Malha de controle fechada /18
+FIGURA 2 – Malha de controle aberta /18
+FIGURA 3 – Indicador /22
+FIGURA 4 – Registrador /22
+FIGURA 5 – Transmissor /23
+FIGURA 6 – Transdutor /23
+FIGURA 7 – Controlador /23
+FIGURA 8 – Elemento final de controle /24
+FIGURA 9 – Sinais utilizados nos fluxogramas de processo /25
+FIGURA 10 – Símbolos de instrumentos utilizados
+nos fluxogramas de processo /25
+FIGURA 11 – Sistema fieldbus /30
+FIGURA 12 – Diagrama das escalas /32
+FIGURA 13 – Tipos de tubos Bourdon /33
+FIGURA 14 – Manômetros de Bourdon tipo C /34
+FIGURA 15 – Manômetro de tubo em U /34
+FIGURA 16 – Manômetro de tubo inclinado e de reservatório /35
+FIGURA 17 – Sensor capacitivo /36
+FIGURA 18 – Tira extensiométrica /37
+FIGURA 19– Tira extensiométrica /37
+FIGURA 20 – Efeito piezoelétrico /37
+FIGURA 21 – Termômetros à dilatação de líquido em recipiente de vidro /44
+FIGURA 22– Termômetro à dilatação de líquido em recipiente metálico /45
+UNIDADE 4
+
+FIGURA 23 – Termômetro à pressão de gás /46
+FIGURA 24 – Termômetro bimetálico /47
+FIGURA 25 – Termopar /47
+FIGURA 26 – Efeito termoelétrico de Seebeck /48
+FIGURA 27 – Efeito termoelétrico de Peltier /49
+FIGURA 28 – Lei do circuito homogêneo /49
+FIGURA 29 – Lei dos metais intermediários /50
+FIGURA 30 – Lei das temperaturas intermediárias /51
+FIGURA 31 – Correlação entre temperatura e FEM /52
+FIGURA 32 – Correção da junta de referência /57
+FIGURA 33 – Diferença entre as temperaturas das junções /58
+FIGURA 34 – Bulbos de resistência /59
+FIGURA 35 – Régua /62
+FIGURA 36 – Tanques para medição /62
+FIGURA 37 – Bóia ou flutuador /63
+FIGURA 38 – Medição de nível indireta /63
+FIGURA 39 – Supressão de zero /64
+FIGURA 40 – Medição em tanques pressurizados /65
+FIGURA 41 – Medição de nível com selagem /65
+FIGURA 42 – Sistema de borbulhador /66
+FIGURA 43 – Medição de nível por empuxo /67
+FIGURA 44 – Flutuador de forma cilíndrica /67
+FIGURA 45 – Valores de altura de interface /68
+FIGURA 46 – Medição por capacitância /68
+FIGURA 47 – Sonda de proximidade /68
+FIGURA 48 – Ultra-som /69
+FIGURA 49 – Nível descontínuo por condutividade /70
+FIGURA 50 – Nível descontínuo por bóia /70
+FIGURA 51 – Tipos de medidores de vazão /72
+FIGURA 52 – Medição de vazão por pressão diferencial /73
+FIGURA 53 – Rotâmetro /74
+FIGURA 54 – Placa de orifício /75
+FIGURA 55 – Tipos de orifício /76
+FIGURA 56 – Tubo venturi /77
+
+FIGURA 57 – Medidor magnético de vazão /77
+FIGURA 58 – Medidor tipo turbina /78
+FIGURA 59 – Válvula de controle /79
+FIGURA 60 – Válvula globo /80
+FIGURA 61– Válvula borboleta /80
+FIGURA 62 – Atuador direto /81
+FIGURA 63 – Atuador indireto /81
+FIGURA 64 – Castelo normal /81
+FIGURA 65 – Castelo aletado /81
+FIGURA 66 – Castelo alongado /81
+FIGURA 67 – Castelo com foles de vedação /81
+FIGURA 68 – Sede simples /82
+FIGURA 69 – Sede dupla /82
+FIGURA 70 – Posicionador /83
+FIGURA 71 – Curva de reação /86
+FIGURA 72 – Curva de reação /86
+FIGURA 73 – Diagrama em blocos de uma malha de controle fechada /87
+FIGURA 74 – Controlador de ação direta /87
+FIGURA 75 – Controlador de ação inversa /88
+FIGURA 76 – Ações de uma válvula de controle /88
+FIGURA 77 – Controle on-off /89
+FIGURA 78 – Posição da válvula x variável controlada no controle on-off /90
+FIGURA 79 – Posição da válvula x variável controlada no controle on-off
+com zona diferencial /90
+FIGURA 80 – Faixa proporcional /92
+FIGURA 81 – Resposta de um controlador proporcional /93
+FIGURA 82 – Ajuste instável /93
+FIGURA 83 – Oscilação contínua /94
+FIGURA 84 – Ajuste estável /94
+FIGURA 85 – Controladores proporcional + integral /95
+FIGURA 86 – Controladores proporcional + derivativo /97
+FIGURA 87 – Comparação dos controladores proporcional, proporcional + integral,
+e proporcional + integral + derivativo /98
+FIGURA 88 – Correção dos modos de controle /99
+
+TABELAS
+TABELA 1 – Sistema de unidades geométricas e mecânicas /30
+TABELA 2 – Conversão de unidades /33
+TABELA 3 – Comparação de escalas /42
+TABELA 4 – Ponto de solidificação, de ebulição e faixa de uso /44
+TABELA 5 – Utilização dos líquidos /45
+TABELA 6 – Identificação de termopares /57
+QUADROS
+QUADRO 1 – Identificação de instrumentos de acordo com a Norma ISA-S5 /24
+QUADRO 2 – Identificação funcional dos instrumentos /26
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+R
+A
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+11 ..........
+..........
+Apresentação
+dinâmica social dos tempos de globalização exige atualização
+constante dos profissionais. Mesmo as áreas tecnológicas de ponta
+ficam obsoletas em ciclos cada vez mais curtos, trazendo desafios,
+renovados a cada dia, e tendo como conseqüência para a educação
+a necessidade de encontrar novas e rápidas respostas.
+Nesse cenário, impõe-se a educação continuada, exigindo que
+os profissionais busquem atualização constante durante toda a vida;
+e os operadores das UNIDADES DE NEGÓCIOS DO SISTEMA PETROBRAS
+incluem-se nessas novas demandas sociais.
+É preciso, pois, promover para esses profissionais as condições
+que propiciem o desenvolvimento de novas aprendizagens, favo-
+recendo o trabalho de equipe, a pesquisa e a iniciativa, entre ou-
+tros, ampliando suas possibilidades de atuar com autonomia, de
+forma competente.
+Seguindo essa linha de pensamento, o SENAI e a PETROBRAS
+organizaram o curso QUALIFICAÇÃO BÁSICA DOS OPERADORES DAS UNI-
+DADES DE NEGÓCIOS DO SISTEMA PETROBRAS. Seu objetivo principal é
+propiciar aos operadores em exercício da função condições de re-
+ver conceitos, atualizar e/ou aperfeiçoar conhecimentos, visando
+A
+
+P
+E
+T
+R
+O
+B
+R
+A
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+12 ..........
+..........
+à inclusão do processo de certificação profissional e nacional da
+PETROBRAS, que ocorrerá na formação específica.
+Para realizar o curso, você tem à sua disposição, além dos pro-
+fessores e um ambiente de sala de aula apropriado, este material
+didático, também bastante útil para orientar sua aprendizagem.
+Nele, você vai encontrar os temas a serem trabalhados durante
+a realização do curso. Por essa razão, é importante ler, atentamen-
+te, cada parte que compõe o material, pois, assim, terá mais facili-
+dade de acompanhar as aulas e organizar os conhecimentos adqui-
+ridos. Lembramos, no entanto, que será necessário, ainda, que você
+tenha uma participação efetiva nas atividades de sala de aula, apre-
+sentando suas idéias, fazendo perguntas aos professores e demais
+colegas, assim como ouvindo o que eles têm a dizer, pois também
+é através dessa troca de experiências que vamos aprendendo sem-
+pre e cada vez mais.
+EIDER PRUDENTE DE AQUINO
+Diretor – Gerente do Abastecimento
+PETROBRAS
+JOSÉ MANUEL DE AGUIAR MARTINS
+Diretor-Geral
+SENAI/DN
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+R
+A
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+13 ..........
+..........
+Uma palavra inicial
+Uma palavra inicial
+APRESENTAÇÃ0
+unidade industrial, também chamada de órgão operacional, é uma
+instalação onde se realiza um conjunto de atividades e operações que tem
+como objetivo a transformação de matérias-primas em produtos. As uni-
+dades industriais cujos processos transformam matérias-primas, tais como
+metais, plásticos e outros, em produtos, como máquinas, ferramentas e
+equipamentos para uso final do consumidor (carros, eletrodomésticos etc.),
+são chamadas de fábricas ou unidades fabris. Já aquelas cujos processos
+têm “fluidos”, como matérias-primas e/ou produtos, são chamadas de in-
+dústrias de processo.
+Vista noturna de uma refinaria
+A
+
+P
+E
+T
+R
+O
+B
+R
+A
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+14 ..........
+..........
+Esse tipo de indústria utiliza equipamentos (estáticos, dinâmicos e elé-
+tricos) e seus acessórios, que compõem os sistemas de uma unidade in-
+dustrial. O funcionamento com qualidade dos processos industriais exige
+um controle permanente, sendo necessário manter constantes algumas
+variáveis ( pressão, vazão, temperatura, nível, pH, condutividade, veloci-
+dade, umidade etc.).
+Nesta publicação, apresentamos os principais equipamentos que com-
+põem os sistemas de uma unidade industrial (estáticos, dinâmicos e elé-
+tricos) e seus acessórios. Para isso temos os seguintes objetivos:
+Compreender a função dos equipamentos estáticos e dinâmicos e seus
+acessórios
+Definir e classificar os equipamentos e seus acessórios
+Compreender seus princípios de funcionamento
+Reconhecer e identificar as características gerais dos equipamentos
+Diferenciar os tipos através da identificação de características especí-
+ficas relevantes
+Analisar comparativamente as principais características dos diferen-
+tes tipos
+Reconhecer os termos usuais
+Esperamos assim fornecer o conhecimento teórico básico para a com-
+preensão dos problemas práticos enfrentados no dia-a-dia de uma unida-
+de industrial, além de desenvolver nos participantes desse curso uma vi-
+são crítica e o auto-aprendizado.
+
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+17 ..........
+..........
+Aspectos gerais
+da área de
+instrumentação
+Aspectos gerais
+da área de
+instrumentação
+s processos industriais exigem controle na fabricação de seus produ-
+tos. Estes processos são muito variados e abrangem diversos tipos de pro-
+dutos, como, por exemplo, a fabricação dos derivados do petróleo, produ-
+tos alimentícios, a indústria de papel e celulose etc.
+Em todos estes processos é absolutamente necessário controlar e manter
+constantes algumas variáveis, tais como: pressão, vazão, temperatura,
+nível, pH, condutividade, velocidade, umidade etc. Os instrumentos de
+medição e controle permitem manter constantes as variáveis do proces-
+so, objetivando a melhoria em qualidade, o aumento em quantidade do
+produto e a segurança.
+No princípio da era industrial, o operário atingia os objetivos citados
+através de controle manual destas variáveis, utilizando somente instrumen-
+tos simples (manômetro, termômetro, válvulas manuais etc.), e isto era su-
+ficiente, por serem simples os processos. Com o passar do tempo, estes fo-
+ram se complicando, exigindo um aumento da automação nos processos
+industriais, através dos instrumentos de medição e controle. Enquanto isso,
+os operadores iam se liberando de sua atuação física direta no processo e,
+ao mesmo tempo, ocorria a centralização das variáveis em uma única sala.
+Devido à centralização das variáveis do processo, podemos fabricar
+produtos que seriam impossíveis por meio do controle manual. Mas, para
+atingir o nível em que estamos hoje, os sistemas de controle sofreram gran-
+des transformações tecnológicas, como: controle manual, controle mecâ-
+nico e hidráulico, controle pneumático, controle elétrico, controle eletrô-
+nico e atualmente controle digital.
+Unidade 4
+O
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+18 ..........
+..........
+Os processos industriais podem dividir-se em dois tipos: processos con-
+tínuos e  descontínuos. Em ambos os tipos devem-se manter as variáveis
+próximas aos valores desejados.
+O sistema de controle que permite fazer isto se define como aquele que
+compara o valor da variável do processo com o valor desejado e toma uma
+atitude de correção de acordo com o desvio existente, sem a intervenção
+do operador.
+Para que se possa realizar esta comparação e conseqüentemente a cor-
+reção, é necessário que se tenha uma unidade de medida, uma unidade
+de controle e um elemento final de controle no processo.
+Este conjunto de unidades forma uma malha de controle, que pode ser
+aberta ou fechada. Na Figura 1 vemos uma malha fechada, e na Figura 2,
+uma malha de controle aberta.
+FIGURA 1 MALHA DE CONTROLE FECHADA
+FIGURA 2 MALHA DE CONTROLE ABERTA
+Unidade de
+medida
+Processo
+Elemento final
+de controle
+Unidade de
+controle
+Unidade de
+medida
+Processo
+Indicação
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+19 ..........
+..........
+Terminologia
+Os instrumentos de controle empregados na indústria de processos (quí-
+mica, siderúrgica, papel etc.) têm sua própria terminologia. Os termos
+utilizados definem as características próprias de medida e controle dos
+diversos instrumentos: indicadores, registradores, controladores, transmis-
+sores e válvulas de controle.
+A terminologia empregada é unificada entre os fabricantes, os usuári-
+os e os organismos que intervêm direta ou indiretamente no campo da
+instrumentação industrial.
+FAIXA DE MEDIDA (range)
+Conjunto de valores da variável medida que estão compreendidos dentro
+do limite superior e inferior da capacidade de medida ou de transmissão
+do instrumento. Expressa-se determinando os valores extremos.
+ALCANCE (span)
+É a diferença algébrica entre o valor superior e o inferior da faixa de me-
+dida do instrumento.
+ERRO
+É a diferença entre o valor lido ou transmitido pelo instrumento em rela-
+ção ao valor real da variável medida. Se tivermos o processo em regime
+permanente, chamaremos de erro estático, que poderá ser positivo ou ne-
+gativo, dependendo da indicação do instrumento, o qual poderá estar in-
+dicando a mais ou menos. Quando tivermos a variável alterando seu va-
+lor ao longo do tempo, teremos um atraso na transferência de energia do
+EXEMPLO
+100 a 500m3
+ 0 a 20psi
+EXEMPLO
+Em um instrumento com
+range de 100 a 500m3, seu
+span é de 400m3
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+20 ..........
+..........
+meio para o medidor. O valor medido estará geralmente atrasado em re-
+lação ao valor real da variável. Esta diferença entre o valor real e o valor
+medido é chamada de erro dinâmico.
+EXATIDÃO
+Podemos definir como a aptidão de um instrumento de medição para dar
+respostas próximas a um valor verdadeiro. A exatidão pode ser descrita
+de três maneiras:
+Percentual do Fundo de Escala (% do FE)
+Percentual do Span (% do span)
+Percentual do Valor Lido (% do VL)
+RANGEABILIDADE (largura de faixa)
+É a relação entre o valor máximo e o valor mínimo, lidos com a mesma
+exatidão na escala de um instrumento.
+EXEMPLO
+Para um sensor de temperatura com range de 50 a 250oC
+e valor medindo 100oC, determine o intervalo provável
+do valor real para as seguintes condições :
+Exatidão 1% do Fundo de Escala
+✔
+Valor real = 100ºC ± (0,01 x 250) = 100ºC ± 2,5ºC
+Exatidão 1% do Span
+✔
+Valor real = 100ºC ± (0,01 x 200) = 100ºC ± 2,0ºC
+Exatidão 1% do Valor Lido (Instantâneo)
+✔
+Valor real = 100ºC ± (0,01 x 100) = 100ºC ± 1,0ºC
+EXEMPLO
+Para um sensor de vazão cuja escala é 0 a 300gpm (galões por
+minuto), com exatidão de 1% do span e rangeabilidade 10:1,
+a exatidão será respeitada entre 30 e 300gpm
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+21 ..........
+..........
+ZONA MORTA
+É a máxima variação que a variável pode ter sem que provoque alteração
+na indicação ou sinal de saída de um instrumento.
+SENSIBILIDADE
+É a mínima variação que a variável pode ter, provocando alteração na
+indicação ou sinal de saída de um instrumento.
+HISTERESE
+É o erro máximo apresentado por um instrumento para um mesmo valor
+em qualquer ponto da faixa de trabalho, quando a variável percorre toda
+a escala nos sentidos ascendente e descendente.
+Expressa-se em percentagem do span do instrumento.
+Deve-se destacar que a expressão zona morta está incluída na histerese.
+EXEMPLO
+Um instrumento com range de 0 a 200ºC e uma
+zona morta de:
+100
+0,01% = 0,1 x 200 = ± 0,2ºC
+EXEMPLO
+Um instrumento com range de 0 a 500ºC e com
+uma sensibilidade de 0,05% terá valor de:
+100
+0,05% = 500 = ± 0,25ºC
+EXEMPLO
+Num instrumento com range de –50ºC a
+100ºC, sendo sua histerese de ± 0,3%,
+o erro será 0,3% de 150ºC = ±0,45ºC
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+22 ..........
+..........
+FIGURA 3 INDICADOR
+REPETIBILIDADE
+É a máxima diferença entre diversas medidas de um mesmo valor da va-
+riável, adotando sempre o mesmo sentido de variação. Expressa-se em per-
+centagem do span do instrumento. O termo repetibilidade não inclui a
+histerese.
+FUNÇÕES DE INSTRUMENTOS
+Podemos denominar os instrumentos e dispositivos utilizados em instru-
+mentação de acordo com a função que desempenham no processo.
+Instrumento que dispõe de um
+ponteiro e de uma escala gra-
+duada na qual podemos ler o
+valor da variável. Existem tam-
+bém indicadores digitais que
+mostram a variável em forma
+numérica com dígitos ou bar-
+ras gráficas, como podemos
+observar na Figura 3.
+Instrumento que registra a variável
+através de um traço  contínuo ou
+pontos em um gráfico, como pode-
+mos observar na Figura 4.
+A Figura 5 apresenta um instrumen-
+to que determina o valor de uma va-
+riável no processo através de um ele-
+mento primário, tendo o mesmo sinal
+de saída (pneumático ou eletrônico),
+cujo valor varia apenas em função da
+variável do processo.
+INDICADOR
+REGISTRADOR
+FIGURA 4 REGISTRADOR
+TRANSMISSOR
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+23 ..........
+..........
+Temos na Figura 6 um instrumento que recebe informações na forma de
+uma ou mais quantidades físicas, modifica, caso necessário, estas infor-
+mações e fornece um sinal de saída resultante. Dependendo da aplicação,
+o transdutor pode ser um elemento primário, um transmissor ou outro dis-
+positivo. O conversor é um tipo de transdutor que trabalha apenas com
+sinais de entrada e saída padronizados.
+A Figura 7 mostra um instrumen-
+to que compara a variável contro-
+lada com um valor desejado e
+fornece um sinal de saída a fim
+de manter a variável controlada
+em um valor específico ou entre
+valores determinados. A variável
+pode ser medida diretamente
+pelo controlador ou indiretamen-
+te através do sinal de um trans-
+missor ou transdutor.
+TRANSDUTOR
+FIGURA 5 TRANSMISSOR
+FIGURA 6 TRANSDUTOR
+CONTROLADOR
+FIGURA 7 CONTROLADOR
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+24 ..........
+..........
+Observe na Figura 8 esse instru-
+mento. Ele modifica diretamen-
+te o valor da variável manipula-
+da de uma malha de controle.
+Além dessas denomina-
+ções, os instrumentos podem
+ser classificados em instrumen-
+tos de painel, campo, à prova
+de explosão, poeira, líquido
+etc. Combinações dessas clas-
+sificações são efetuadas for-
+mando instrumentos de acor-
+do com as necessidades.
+Identificação de instrumentos
+As normas de instrumentação estabelecem símbolos, gráficos e codifica-
+ção para identificação alfanumérica de instrumentos ou funções progra-
+madas, que deverão ser utilizadas nos diagramas e malhas de controle de
+projetos de instrumentação. De acordo com a norma ISA-S5, cada instru-
+mento ou função programada será identificado por um conjunto de letras
+que o classifica funcionalmente e um conjunto de algarismos que indica
+a malha à qual o instrumento ou função programada pertence.
+Eventualmente, para completar a identificação, poderá ser acrescido
+um sufixo. O Quadro 1 mostra um exemplo de instrumento identificado
+de acordo com a norma preestabelecida.
+ELEMENTO FINAL DE CONTROLE
+FIGURA 8 ELEMENTO FINAL DE CONTROLE
+QUADRO 1 IDENTIFICAÇÃO DE INSTRUMENTOS
+De acordo com a Norma ISA-S5
+P = Variável medida – Pressão
+R = Função passiva ou de informação – Registrador
+C = Função ativa ou de saída – Controlador
+001 = Área de atividade onde o instrumento atua
+02 = Número seqüencial da malha
+A = Sufixo
+P
+R C
+001
+02
+A
+Variável
+Função
+Área da atividade
+Nº seqüencial da malha
+Sufixo
+Identificação funcional
+Identificação da malha
+Identificação do instrumento
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+25 ..........
+..........
+FIGURA 9 SINAIS UTILIZADOS NOS FLUXOGRAMAS DE PROCESSO
+FIGURA 10 SÍMBOLOS DE INSTRUMENTOS
+Utilizados nos fluxogramas de processo
+As simbologias apresentadas nas Figuras 9 e 10 são utilizadas em flu-
+xogramas de processo e engenharia e seguem a Norma ANSI/ISA-S5.1.
+Suprimento ou
+impulso
+Sinal pneumático
+Sinal hidráulico
+Sinal eletromagnético
+ou sônico guiado
+Ligação por software
+Sinal binário
+pneumático
+Sinal não-definido
+Sinal elétrico
+Tubo capilar
+Sinal eletromagnético
+ou sônico não-guiado
+Ligação mecânica
+Sinal binário elétrico
+Instrumentos
+discretos
+Instrumentos
+compartilhados
+Computador de
+processo
+Controlador
+lógico programável
+Instrumentos
+Painel principal
+acessível ao
+operador
+Montado no
+campo
+Painel auxiliar
+acessível ao
+operador
+Painel auxiliar
+não-acessível
+ao operador
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+26 ..........
+..........
+QUADRO 2 IDENTIFICAÇÃO FUNCIONAL DOS INSTRUMENTOS
+EXEMPLO
+T = Temperatura
+F = Vazão
+Como se nota no Quadro 2, pode-se obter combinações possíveis de
+acordo com o funcionamento dos dispositivos automáticos.
+R = Registrador
+V = Válvula
+P = Pressão
+L = Nível
+I = Indicador
+G = Visor
+PRIMEIRA LETRA
+LETRAS SUCESSIVAS
+Variável
+medida
+Letra de
+modificação
+Função de
+leitura passiva
+Função
+de saída
+Letra de
+modificação
+Analisador
+Alarme
+Alarme
+A
+Queimador (chama) Botão de pressão
+B
+Controlador
+C
+Condutibilidade
+elétrica
+Diferencial
+D
+Densidade ou
+peso específico
+Elemento primário
+E
+Tensão (Fem)
+Relação
+F
+Vazão
+Visor
+G
+Medida dimensional
+Entrada manual
+H
+Comando manual
+Indicação ou
+Indicador
+I
+Corrente elétrica
+Varredura
+J
+Potência
+Cálculos em
+sistema digital
+K
+Tempo ou
+programa
+Lâmpada piloto
+Baixo
+L
+Nível
+Média
+Médio ou
+intermediário
+M
+Umidade
+N
+Vazão molar
+O
+Orifício ou restrição
+Percentual
+Tomada de impulso
+P
+Pressão
+Integração
+Q
+Quantidade
+Registrador
+R
+Remoto
+Velocidade/
+Chave de segurança
+Interruptor ou
+chave
+S
+Velocidade ou
+freqüência
+Transmissão
+Transmissor
+T
+Temperatura
+Cálculo feito por
+computador
+Multifunção
+Multifunção
+U
+Multivariável
+Válvula
+V
+Vibração
+Poço
+W
+Peso ou força
+Solenóide /
+Conversor de sinal
+Relé ou
+computador
+X ou Y
+Escolha do usuário
+El. final de
+controle
+Z
+Posição /
+Deslocamento
+Alto
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+27 ..........
+..........
+Principais sistemas de medidas
+Os sistemas podem ser classificados quanto à natureza de suas unidades
+fundamentais, quanto ao valor dessas unidades e também quanto às re-
+lações escolhidas na determinação dos derivados.
+Os principais sistemas são:
+SISTEMA MÉTRICO DECIMAL
+Tem como unidades
+fundamentais o metro,
+o quilograma e o segundo (MKS)
+SISTEMA FÍSICO OU CEGESIMAL
+Tem como unidades
+fundamentais o centímetro,
+o grama e o segundo (CGS)
+SISTEMA INDUSTRIAL FRANCÊS
+Tem como unidades fundamentais
+o metro, a tonelada e o segundo
+(MTS), definidas em função
+do sistema métrico decimal
+SISTEMA INGLÊS
+Tem como unidades
+fundamentais o pé (foot),
+a libra (pound) e
+o segundo (second)
+Telemetria
+Chamamos de telemetria a técnica de transportar medições obtidas no
+processo a distância, em função de um instrumento transmissor.
+A transmissão a distância dos valores medidos está tão intimamente re-
+lacionada com os processos
+contínuos, que a necessidade e
+as vantagens da aplicação da
+telemetria e do processamen-
+to contínuo se entrelaçam.
+Um dos fatores que se des-
+tacam na utilização da teleme-
+tria é a possibilidade de cen-
+tralizar instrumentos e contro-
+les de um determinado proces-
+so em painéis de controle ou
+em uma sala de controle.
+VANTAGENS DA TELEMETRIA
+Os instrumentos agrupados podem ser
+consultados mais fácil e rapidamente,
+possibilitando à operação uma visão
+conjunta do desempenho da unidade
+Podemos reduzir o número de operadores com
+simultâneo aumento da eficiência do trabalho
+Cresce, consideravelmente, a utilidade e a
+eficiência dos instrumentos em face das
+possibilidades de pronta consulta, manutenção
+e inspeção, em situação mais acessível,
+mais protegida e mais confortável
+✔
+✔
+✔
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+28 ..........
+..........
+Transmissores
+Os transmissores são instrumentos que medem uma variável do processo
+e a transmitem, a distância, a um instrumento receptor, indicador, regis-
+trador, controlador ou a uma combinação destes. Existem vários tipos de
+sinais de transmissão: pneumáticos, elétricos, hidráulicos e eletrônicos.
+TRANSMISSÃO PNEUMÁTICA
+Em geral, os transmissores pneumáticos geram um sinal pneumático va-
+riável, linear, de 3 a 15psi (libras força por polegada ao quadrado) para uma
+faixa de medidas de 0 a 100% da variável. Esta faixa de transmissão foi
+adotada pela SAMA (Scientific Apparatur Makers Association), Associa-
+ção de Fabricantes de Instrumentos, e pela maioria dos fabricantes de
+transmissores e controladores dos Estados Unidos. Podemos, entretanto,
+encontrar transmissores com outras faixas de sinais de transmissão. Por
+exemplo: de 20 a 100kPa.
+Nos países que utilizam o sistema métrico decimal, adotam-se as fai-
+xas de 0,2 a 1kgf/cm2 que equivalem, aproximadamente, de 3 a 15psi.
+O alcance do sinal no sistema métrico é cerca de 5% menor que o si-
+nal de 3 a 15psi. Este é um dos motivos pelos quais devemos calibrar os
+instrumentos de uma malha (transmissor, controlador, elemento final de
+controle etc.), sempre utilizando uma mesma norma.
+Note-se que o valor mínimo do sinal pneumático também não é zero, e
+sim 3psi ou 0,2kgf/cm2. Deste modo, conseguimos calibrar corretamente
+o instrumento, comprovando sua correta calibração e detectando vazamen-
+tos de ar nas linhas de transmissão.
+Percebe-se que, se tivéssemos um transmissor pneumático de tempe-
+ratura de range de 0 a 2000C e o mesmo mantivesse  o bulbo a 00C e um
+sinal de saída de 1psi, este estaria descalibrado.
+Se o valor mínimo de saída fosse 0psi, não seria possível fazermos esta
+comparação rapidamente. Para que pudéssemos detectá-lo, teríamos de
+esperar um aumento de temperatura para que tivéssemos um sinal de saída
+maior que 0 (o qual seria incorreto).
+TRANSMISSÃO ELETRÔNICA
+Os transmissores eletrônicos geram vários tipos de sinais em painéis, sendo
+os mais utilizados: 4 a 20 mA, 10 a 50 mA e 1 a 5 V. Temos estas discre-
+pâncias nos sinais de saída entre diferentes fabricantes, porque tais ins-
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+29 ..........
+..........
+trumentos estão preparados para uma fácil mudança do seu sinal de saí-
+da. A relação de 4 a 20 mA, 1 a 5 V está na mesma relação de um sinal de
+3 a 15psi de um sinal pneumático.
+O “zero vivo” utilizado, quando adotamos o valor mínimo de 4 mA,
+oferece a vantagem também de podermos detectar uma avaria (rompi-
+mento dos fios), que provoca a queda do sinal, quando ele  está em seu
+valor mínimo.
+PROTOCOLO HART (Highway Adress Remote Transducer)
+Consiste num sistema
+que combina o padrão
+4 a 20 mA com a comu-
+nicação digital. É um
+sistema a dois fios com
+taxa de comunicação de
+1.200 bits/s (BPS) e mo-
+dulação FSK (Frequency
+Shift Keying). O Hart é
+baseado no sistema mestre/escravo, permitindo a existência de dois mes-
+tres na rede simultaneamente.
+As desvantagens são que existe uma limitação quanto à velocidade de
+transmissão das informações e a falta de economia de cabeamento (pre-
+cisa-se de um par de fios para cada instrumento).
+FIELDBUS
+É um sistema de comunicação digital bidirecional, que interliga equipa-
+mentos inteligentes de campo com o sistema de controle ou com equipa-
+mentos localizados na sala de controle, como mostra a Figura 11.
+Este padrão permite comunicação entre uma variedade de equipamen-
+tos, tais como: transmissores, válvulas, controladores, CLP etc. Eles podem
+ser de fabricantes diferentes (interoperabilidade) e ter controle distribuí-
+do (cada instrumento tem a capacidade de processar um sinal recebido e
+enviar informações a outros instrumentos para correção de uma variável
+– pressão, vazão, temperatura etc.).
+Uma grande vantagem é a redução do número de cabos do controla-
+dor aos instrumentos de campo. Apenas um par de fios é o suficiente para
+a interligação de uma rede fieldbus, como se  pode observar na Figura 11.
+✔
+✔
+✔
+VANTAGENS DO PROTOCOLO HART
+Usa o mesmo par de cabos para o 4 a 20 mA e
+para a comunicação digital
+Usa o mesmo tipo de cabo empregado na
+instrumentação analógica
+Dispõe de equipamentos de vários fabricantes
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+30 ..........
+..........
+TABELA 1 SISTEMA DE UNIDADES GEOMÉTRICAS E MECÂNICAS
+Comprimento
+FIGURA 11 SISTEMA FIELDBUS
+Na Tabela 1, você encontrará alguns sistemas de unidades geométri-
+cas e mecânicas que o ajudarão na aplicação de alguns conceitos básicos.
+L
+L
+centímetro (cm)
+metro (m)
+mícron (µ) = 10–6m
+angstrom(A) = 10–10m
+metro (m)
+foot (ft) =
+1/3 Yd = 12 in =
+30,48 cm
+GRANDEZAS
+DEFINIÇÃO
+DIMENSÃO
+FÍSICO (CGS)
+DECIMAL (MKS)
+GRAVITATÓRIO (MKFS) PRÁTICO INGLÊS
+Massa
+M
+M
+grama (g)
+quilograma (kg)
+(9,81 kg)
+(32,174 pd)
+Tempo
+t
+t
+segundo (seg)
+segundo (seg)
+segundo (seg)
+second (sec)
+Superfície
+S2
+S2
+cm2
+m2
+m2
+square-foot = 929cm2
+square-inch = 6,45cm2
+Volume
+V3
+V3
+cm3
+m3
+m3
+cubic-foot = 28.317cm3
+cubic-inch = 16,39cm3
+Velocidade
+v =
+LT–1
+cm/seg
+m/seg
+m/seg
+1m/seg = 197 ft/min
+foot per second (ft/sec)
+ft/min = 0,5076 cm/s
+Aceleração
+LT–2
+cm/seg2
+m/seg3
+m/seg2
+ft/sec2
+y =
+Força
+M L T–2
+dina (d)
+(m = 1g:y = 1cm/ss)
+Megadina (M)
+= 10g dinas
+Giorgi
+Newton (n)
+(m = 1kg; y = 1m/seg2)
+= 105 d
+quilograma-força(kgf)
+(m = 1kg; y = 9,81m/ seg2)
+x 103 x 981 = dinas
+x 10-3 x 9,81 = sth
+pound (pd)
+(m = 1pd; y = 32,174 ft/sec2)
+= 0,4536kgf = 444981d
+= 7000 grains
+F = m y
+Trabalho
+M S2 T–3
+erg
+(F = 1 d; e = 1cm)
+Joule (j)
+(F = 1n; e = 1m)
+= 102 ergs
+quilogrâmetro (kgm)
+(F = 1kgf; e = 1m)
+= 9,81 joules
+foot-pound (ft.pd)
+(f = 1 pd; e = 1 ft)
+= 0,1383kgm = 1,3563 j
+ = F x e
+Potência
+M S2 T–3
+erg/seg
+( = 1 erg; t = 1seg)
+Watt (w)
+( = 1j; 1 = 1seg)
+= 102 ergs/seg
+= 44,8 ft. pd/min
+kgm/seg
+Cavalo-vapor (C.V.)
+= 75 kgm/seg
+= 736 watts
+foot pound per second
+Horse Power (HP)
+= 76kgm/seg (75)
+= 33000 ft.pd/min
+w =
+t
+t
+e
+t
+v
+Pressão
+M L–1 T–2
+bária
+(F = 1 d; S2 = 1 cm2)
+Bar = 109 bárias
+(F = 1M; s2 = 1cm2)
+Pascal
+F = 1n; S2 = 1m2)
+= 10 bárias
+kgf/cm2 = 1000 gf/cm2
+kgf/m2
+atm = 1033 gf/cm2
+(em Hg = 76cm)
+pd/in2 = 70.308 gf/cm2
+pd/ft2
+atm = 11.692 pd/in2
+P =
+A
+F
+ESTAÇÃO DE MANUTENÇÃO
+ESTAÇÃO DE OPERAÇÃO
+FEEDBACK
+ALARME
+FEEDBACK
+SAÍDA
+DADOS DE
+DIAGNÓSTICO
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+31 ..........
+..........
+Medição de pressão
+Medição de pressão
+Unidade 4
+PRESSÃO ATMOSFÉRICA
+É a pressão exercida
+pela atmosfera
+terrestre medida
+em um  barômetro.
+No nível do mar
+esta pressão é
+aproximadamente
+de 760mmHg
+PRESSÃO RELATIVA
+PRESSÃO ABSOLUTA
+É a pressão medida
+em relação à
+pressão atmosférica,
+tomada como
+unidade de referência
+É a soma da pressão
+relativa e atmosférica.
+Também se diz que é
+medida a partir do
+vácuo absoluto
+EXEMPLO
+3kgf/cm2 ABS
+4kgf/cm2
+Pressão Absoluta
+Pressão Relativa
+IMPORTANTE
+Ao se exprimir um valor de pressão,
+deve-se determinar se a pressão é
+relativa ou absoluta. O fato de se
+omitir esta informação na indústria
+significa que a maior  parte dos
+instrumentos mede pressão relativa
+edição de pressão é o mais importante padrão de medida, pois as me-
+didas de vazão, nível etc. podem ser feitas utilizando-se esse processo.
+Pressão é definida como uma força atuando em uma unidade de área.
+M
+A
+P =
+F
+P = Pressão
+F = Força
+A = Área
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+32 ..........
+..........
+PRESSÃO NEGATIVA OU VÁCUO
+É quando um
+sistema tem pressão
+relativa menor que a
+pressão atmosférica
+PRESSÃO DIFERENCIAL
+É a diferença entre
+duas pressões,
+representada pelo
+símbolo P (delta P).
+Essa diferença
+de pressão
+normalmente
+é utilizada para
+medir vazão, nível,
+pressão etc.
+PRESSÃO ESTÁTICA
+É o peso exercido por
+um líquido em repouso
+ou que esteja fluindo
+perpendicularmente
+à tomada de impulso,
+por unidade
+de área exercida
+FIGURA 12 DIAGRAMA DAS ESCALAS
+UNIDADES DE PRESSÃO
+Como existem muitas unidades de pressão,
+é necessário saber a correspondência
+entre elas, pois nem sempre na indústria temos
+instrumentos padrões com todas as unidades.
+Para isso é necessário saber fazer a conversão,
+de acordo com a Tabela 2 da página ao lado
+EXEMPLO
+Como fazer a conversão de psi para kgf/cm2
+10 psi = ? kgf/cm2
+1 psi = 0,0703kgf/cm2
+10 x 0,0703 = 0,703kgf/cm2
+PRESSÃO ABSOLUTA
+PRESSÃO RELATIVA
+PRESSÃO ATMOSFÉRICA
+VÁCUO ABSOLUTO
+VÁCUO
+PRESSÃO DINÂMICA OU CINÉTICA
+É a pressão exercida
+por um fluido em
+movimento. É medida
+fazendo-se a tomada
+de impulso de tal
+forma que receba o
+impacto do fluxo
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+33 ..........
+..........
+Dispositivos para medição de pressão
+O instrumento mais simples para se medir pressão é o manômetro, que pode
+ter vários elementos sensíveis, utilizados também por transmissores e con-
+troladores. Vamos então ao estudo de alguns tipos de elementos sensíveis.
+Tubo de Bourdon
+Consiste geralmente em um tubo com seção oval, disposto na forma de arco
+de circunferência, tendo uma extremidade fechada e a outra aberta à pres-
+são a ser medida. Com a pressão agindo em seu interior, o tubo tende a
+tomar uma seção circu-
+lar, resultando num mo-
+vimento em sua extre-
+midade fechada. Esse
+movimento através da
+engrenagem é transmi-
+tido a um ponteiro que
+vai indicar uma medida
+de pressão.
+Quanto ao formato, o
+tubo de Bourdon pode
+se apresentar nas se-
+guintes formas: tipo C,
+espiral e helicoidal, con-
+forme a Figura 13.
+TABELA 2 CONVERSÃO DE UNIDADES
+PSI
+KPA
+PSI
+KPA
+POL H2O mm H2O
+POL Hg
+mm HG
+BARS
+mBARS
+kgf/cm2
+gf/cm2
+1,0000
+0,1450
+6,8947
+1,0000
+27,7020
+4,0266
+705,1500
+102,2742
+2,0360
+0,2953
+51,7150
+7,5007
+0,0689
+0,0100
+68,9470
+10,0000
+0,07030
+0,01020
+70,3070
+10,1972
+POL H2O
+0,0361
+0,2483
+1,0000
+25,4210
+0,0734
+1,8650
+0,0025
+2,4864
+0,00250
+2,5355
+mm H2O
+0,0014
+0,0098
+0,0394
+1,0000
+0,0028
+0,0734
+0,0001
+0,0979
+0,00001
+0,0982
+POL Hg
+0,4912
+3,3867
+13,6200
+345,9400
+1,0000
+25,4000
+0,0339
+33,8640
+0,03450
+34,5320
+mm HG
+0,0193
+0,1331
+0,5362
+13,6200
+0,0394
+1,0000
+0,0013
+1,3332
+0,00140
+1,3595
+BARS
+14,5040 100,0000
+402,1800 10215,0000 29,5300
+750,0600
+1,0000
+1000,0000
+1,01970
+1019,7000
+mBARS
+0,0145
+0,1000
+0,4022
+10,2150
+0,0295
+0,7501
+0,0010
+1,0000
+0,00100
+1,0197
+kgf/cm2
+14,2230
+97,9047
+394,4100 10018,0000 28,9590
+735,5600
+0,9000
+980,7000
+1,00000
+1000,0000
+gf/cm2
+0,0142
+0,0979
+0,3944
+10,0180
+0,0290
+0,7356
+0,0009
+0,9807
+0,00100
+1,0000
+FIGURA 13 TIPOS DE TUBOS BOURDON
+Tipo Helicoidal
+Tipo Espiral
+Tipo C
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+34 ..........
+..........
+Com o avanço da tecnologia, os
+manômetros de Bourdon helicoidal
+e espiral caíram em desuso.
+Devido ao baixo custo e à boa
+precisão, os manômetros de Bour-
+don tipo C, apresentados na Figu-
+ra 14, são os mais utilizados até
+hoje nas indústrias. Ao se  aplicar
+uma pressão superior à atmosféri-
+ca, o tubo muda seu formato para
+uma seção transversal mais circu-
+lar. Nos manômetros que utilizam
+o Bourdon tipo C, devido ao pe-
+queno movimento realizado por
+sua extremidade livre quando submetida à pressão em medição, é neces-
+sária a utilização de um mecanismo para amplificação deste movimento.
+Este mecanismo de amplificação empregado nos manômetros é chamado
+de máquina. Os materiais mais usados nos Bourdons são o aço-liga, aço ino-
+xidável ou bronze fosforoso, que variam de acordo com o tipo de produto a
+ser medido e são recomendados pelo fabricante. A faixa de aplicação varia
+de 1kgf/cm2 de vácuo até 2.000kgf/cm2 de sobrepressão. Por recomendação
+do fabricante, a faixa da escala que possui maior precisão de medição é a faixa
+compreendida entre 1/3 e 2/3 da escala.
+Coluna de líquido
+Consiste, basicamente, num tubo de vi-
+dro, contendo certa quantidade de líqui-
+do, fixado a uma base com uma escala
+graduada. As colunas podem ser de três
+tipos: coluna reta vertical, reta inclinada
+e em forma de U. Os líquidos mais utili-
+zados nas colunas são: água (normalmen-
+te com um corante) e mercúrio. Quando
+se aplica uma pressão na coluna, o líqui-
+do é deslocado (observe as Figuras 15 e
+16), sendo este deslocamento proporcio-
+nal à pressão aplicada.
+FIGURA 14 MANÔMETROS DE BOURDON
+Tipo C
+FIGURA 15 MANÔMETRO
+De tubo em U
+VEJA A FÓRMULA
+P1 – P2 = h . dr
+h = altura da coluna deslocada = valor da pressão medida
+P1
+P2
+h
+0
+1
+2
+ESCALA
+PONTEIRO
+TUBO DE
+BOURDON
+COROA/
+PINHÃO
+PRESSÃO MEDIDA
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+35 ..........
+..........
+Tipo capacitivo
+A principal característica dos sensores capacitivos é a completa elimina-
+ção dos sistemas de alavancas na transferência da força/deslocamento
+entre o processo e o sensor.
+Este tipo de sensor resume-se na deformação, diretamente pelo proces-
+so de uma das armaduras do capacitor. Tal deformação altera o valor da
+capacitância total, que é medida por um circuito eletrônico.
+Esta montagem, se, de um lado, elimina os problemas mecânicos das partes
+móveis, de outro, expõe a célula capacitiva às rudes condições do processo,
+principalmente à temperatura do processo. Este inconveniente pode ser su-
+perado através de circuitos compensatórios de temperatura, montados junto
+ao sensor. Observe um sensor capacitivo na Figura 17, a seguir.
+FIGURA 16 MANÔMETRO DE TUBO INCLINADO E DE RESERVATÓRIO
+✔
+✔
+✔
+CARACTERÍSTICAS DE UM SENSOR CAPACITIVO
+ALTA PRECISÃO
+Quartzo ± 0,05% do fim de escala
+Aço inoxidável ± 0,11% do fim de escala
+Limitada devido à expansão térmica do aço
+P2
+P1
+ÁREA A1
+ÁREA A2
+h
+X
+LINHA
+DE ZERO
+L
+P1
+P2
+h
+LINHA
+DE ZERO
+ÁREA A1
+ÁREA A2
+0ºC
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+36 ..........
+..........
+O sensor é formado pelos seguintes componentes:
+Armaduras fixas metalizadas sobre um isolante de vidro fundido
+Dielétrico formado pelo óleo de enchimento (silicone ou fluorube)
+Armadura móvel (diafragma sensor)
+A diferença de pressão entre as câmaras de alta (high) e de baixa pres-
+são (low) produz uma força no diafragma isolador que é transmitida pelo
+líquido de enchimento.
+A força atinge a armadura flexível (diafragma sensor), provocando sua
+deformação e alterando, portanto, o valor das capacitâncias formadas pelas
+armaduras fixas e a armadura móvel. Esta alteração é medida pelo circui-
+to eletrônico, que gera um sinal proporcional à variação de pressão apli-
+cada à câmara da cápsula de pressão diferencial capacitiva.
+Tipo STRAIN GAUGE
+Baseia-se no princípio de variação da resistência de um fio, mudando-se
+as suas dimensões.
+O sensor consiste em um fio firmemente colado sobre uma lâmina de
+base, dobrando-se tão compacto quanto possível. Esta montagem deno-
+mina-se tira extensiométrica, como se pode ver nas Figuras 18 e 19.
+Uma das extremidades da lâmina é fixada em um ponto de apoio rígido,
+enquanto a outra extremidade será o ponto de aplicação da força. Da física
+FIGURA 17 SENSOR CAPACITIVO
+DIAFRAGMA SENSOR
+DIAFRAGMA ISOLADOR
+FLUIDO DE ENCHIMENTO
+CERÂMICA
+SUPERFÍCIE METALIZADA
+VIDRO
+AÇO
+PROCESSO
+PROCESSO
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+37 ..........
+..........
+tradicional sabemos que Pressão = Força/
+área. Portanto, ao inserirmos uma pressão na
+câmara de um sensor strain gauge, sua lâ-
+mina sofre uma deformação proveniente
+desta força aplicada. Esta deformação alte-
+ra o comprimento do fio fixado na lâmina,
+provocando mudança em sua resistência.
+A faixa de aplicação deste sensor varia de 2”
+de H2O a 200.000psi, e sua precisão gira em
+torno de  0,1% a 2% do fim de escala.
+Tipo piezoelétrico
+Os elementos piezoelétricos são cristais,
+como o quartzo, a turmalina e o titanato, que
+acumulam cargas elétricas em certas áreas
+da estrutura cristalina, quando sofrem uma
+deformação física, por ação de uma pressão.
+São elementos pequenos e de construção
+robusta, e seu sinal de resposta é linear com
+a variação de pressão, sendo capazes de for-
+necer sinais de altíssimas freqüências.
+O efeito piezoelétrico é um fenômeno
+reversível. Se for conectado a um potenci-
+al elétrico, resultará em uma corresponden-
+te alteração da forma cristalina. Este efeito
+é altamente estável e exato, sendo por isso
+utilizado em relógios de precisão.
+A carga devida à alteração da forma é
+gerada sem energia auxiliar, uma vez que
+o quartzo é um elemento transmissor ativo.
+Esta carga é conectada à entrada de um
+amplificador e indicada ou convertida em um sinal de saída, para trata-
+mento posterior. Observe a Figura 20. Como vantagem, esse efeito apre-
+senta uma relação linear Pressão x Voltagem produzida e é ideal para lo-
+cais de freqüentes variações de pressão. Sua principal desvantagem é o
+fato de, em condições estáticas, apresentar redução gradativa de poten-
+cial, além de ser sensível à variação de temperatura.
+FIGURA 18 TIRA EXTENSIOMÉTRICA
+FIGURA 19 TIRA EXTENSIOMÉTRICA
+FIGURA 20 EFEITO PIEZOELÉTRICO
+FIO
+SOLIDARIO
+À BASE
+L X NÚMERO
+DE VOLTAS
+LÂMINA DE BASE
+FIO SOLIDÁRIO
+À BASE
+PONTO DE
+APLICAÇÃO DA FORÇA
+LÂMINA DE
+BASE
+(FLÉXÍVEL)
+F
+PRESSÃO
+CRISTAL
+LÍQUIDO DE
+ENCHIMENTO
+DIAFRAGMA
+AMPLIFICADOR
+
+Tome Nota
+Tome Nota
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+39 ..........
+..........
+objetivo de se medirem e controlarem as diversas variáveis físicas em
+processos industriais é obter produtos de alta qualidade, com melhores
+condições de rendimento e segurança, a custos compatíveis com as neces-
+sidades do mercado consumidor.
+Nos diversos segmentos de mercado, seja químico, petroquímico, side-
+rúrgico, cerâmico, farmacêutico, vidreiro, alimentício, papel e celulose,
+hidrelétrico, nuclear entre outros, a monitoração da variável temperatura
+é fundamental para a obtenção do produto final específico.
+Conceito
+Termometria significa medição de temperatura. Eventualmente, alguns
+termos são utilizados com o mesmo significado, porém, baseando-se na
+etimologia das palavras, podemos definir:
+Unidade 4
+Medição
+de temperatura
+Medição
+de temperatura
+O
+Medição de
+altas temperaturas,
+na faixa onde os
+efeitos de radiação
+térmica passam
+a se manifestar
+CRIOMETRIA
+TERMOMETRIA
+Medição de
+baixas temperaturas,
+ou seja, aquelas
+próximas ao
+zero absoluto
+de temperatura
+Termo mais
+abrangente que
+incluiria tanto a
+pirometria como
+a criometria,
+que seriam casos
+particulares de
+medição
+PIROMETRIA
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+40 ..........
+..........
+Temperatura e calor
+Todas as substâncias são constituídas de pequenas partículas, moléculas
+que se encontram em contínuo movimento. Quanto mais rápido o movi-
+mento das moléculas, mais quente se apresenta o corpo, e quanto mais
+lento, mais frio. Então define-se temperatura como o grau de agitação tér-
+mica das moléculas. Na prática a temperatura é representada em uma es-
+cala numérica, onde quanto maior o seu valor, maior é a energia cinética
+média dos átomos do corpo em questão. Outros conceitos que se confun-
+dem às vezes com o de temperatura são o de energia térmica e o de calor.
+A energia térmica de um corpo é o
+somatório das energias cinéticas dos
+seus átomos e, além de depender
+da temperatura, depende também
+da massa e do tipo de substância
+ENERGIA TÉRMICA
+Calor é energia em trânsito
+ou a forma de energia que é
+transferida através da fronteira
+de um sistema em virtude
+da diferença de temperatura
+CALOR
+RADIAÇÃO
+CONVECÇÃO
+CONDUÇÃO
+A condução é um
+processo pelo qual
+o calor flui de uma
+região de alta
+temperatura para outra
+de temperatura mais
+baixa, dentro de um
+meio sólido, líquido
+ou gasoso ou entre
+meios diferentes em
+contato físico direto
+A radiação é um
+processo pelo qual
+o calor flui de
+um corpo de alta
+temperatura para
+um de baixa,
+quando os mesmos
+estão separados
+no espaço, ainda
+que exista um
+vácuo entre eles
+A convecção é um
+processo de transporte
+de energia pela ação
+combinada da condução
+de calor, armazenamento
+de energia e
+movimento da mistura
+Até o final do século XVI, quando foi desenvolvido o primeiro disposi-
+tivo para avaliar temperatura, os sentidos do nosso corpo foram os únicos
+elementos de que dispunham os homens para dizer se um certo corpo es-
+tava mais quente ou frio do que outro, apesar da inadequação destes sen-
+tidos do ponto de vista científico.
+A literatura geralmente reconhece três meios distintos de transmissão
+de calor: condução, radiação e convecção.
+ATENÇÃ0
+ATENÇÃ0
+A convecção é mais
+importante como
+mecanismo de
+transferência de energia
+(calor) entre uma
+superfície sólida e
+um líquido
+ou gás
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+41 ..........
+..........
+Escalas de temperatura
+Desde o início da termometria, os cientistas, pesquisadores e fabricantes
+de termômetro sentiam a dificuldade para atribuir valores de forma pa-
+dronizada à temperatura por meio de escalas reproduzíveis, como existia
+na época, para peso, distância e tempo.
+As escalas que ficaram consagradas pelo uso foram a Fahrenheit e a Cel-
+sius. A escala Fahrenheit é definida atualmente com o valor 32 no ponto de
+fusão do gelo e 212 no ponto de ebulição da água. O intervalo entre estes dois
+pontos é dividido em 180 partes iguais, e cada parte é um grau Fahrenheit.
+A escala Celsius é definida atualmente como o valor zero no ponto de
+fusão do gelo e 100 no ponto de ebulição da água. O intervalo entre os dois
+pontos está dividido em 100 partes iguais, e cada parte é um grau Celsius.
+A denominação “grau centígrado” utilizada anteriormente no lugar de
+“grau Celsius” não é mais recomendada, devendo ser evitado o seu uso.
+Tanto a escala Celsius como a Fahrenheit são relativas, ou seja, os seus
+valores numéricos de referência são totalmente arbitrários.
+Se abaixarmos a temperatura continuamente de uma substância, atin-
+gimos um ponto limite além do qual é impossível ultrapassar, pela própria
+definição de temperatura. Este ponto, onde cessa praticamente todo mo-
+vimento atômico, é o zero absoluto de temperatura.
+Através da extrapolação das leituras do termômetro a gás, pois os ga-
+ses se liqüefazem antes de atingir o zero absoluto, calculou-se a tempe-
+ratura deste ponto na escala Celsius em -273,15°C.
+Existem escalas absolutas de temperatura, assim chamadas porque o
+zero delas é fixado no zero absoluto de temperatura.
+Existem duas escalas absolutas atualmente em uso: a escala Kelvin e
+a Rankine.
+A escala Kelvin possui a mesma divisão da Celsius, isto é, um grau
+Kelvin é igual a um grau Celsius, porém o seu zero se inicia no ponto
+de temperatura mais baixa possível, 273,15 graus abaixo do zero da
+escala Celsius.
+A escala Rankine possui obviamente o mesmo zero da escala Kelvin,
+porém sua divisão é idêntica à da escala Fahrenheit. A representação das
+escalas absolutas é análoga à das escalas relativas:
+Kelvin       400K (sem o símbolo de grau “°”). Rankine       785R
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+42 ..........
+..........
+FAHRENHEIT      PARA KELVIN
+KELVIN      PARA FAHRENHEIT
+K – 273 = F – 32
+9
+5
+Conversão de escalas
+A Tabela 3 compara as escalas de temperaturas existentes.
+TABELA 3 COMPARAÇÃO DE ESCALAS
+Desta comparação podemos retirar algumas relações básicas entre as escalas:
+ESCALAS DE
+TEMPERATURA
+PONTO DE
+EBULIÇÃO DA ÁGUA
+PONTO DE
+FUSÃO DA ÁGUA
+ZERO
+ABSOLUTO
+ESCALAS ABOLUTAS
+Rankine
+Kelvin
+R
+K
+671,67R
+373,15K
+491,67R
+273,15K
+0
+0
+ESCALAS RELATIVAS
+Celsius
+Fahrenheit
+C
+F
+100ºC
+212ºF
+0ºC
+32ºF
+-273,15ºC
+-456,67ºF
+RELAÇÃO ENTRE AS ESCALAS
+FAHRENHEIT      PARA CELSIUS
+CELSIUS      PARA FAHRENHEIT
+F
+C
+C
+F
+EXEMPLO
+O ponto de ebulição do oxigênio é –182,86°C.
+Exprimir esta temperatura em graus Kelvin e graus Fahrenheit:
+Graus Celsius para graus Kelvin
+✔
+Graus Celsius para graus Fahrenheit
+✔
+C = F – 32
+5
+9
+F
+K
+K
+F
+CELSIUS      PARA KELVIN
+F
+K
+C = F – 32 = K – 273
+5
+9
+C = K – 273
+5
+– 182,86 = F – 32 = 297,14F
+5
+9
+K = 273 +  (–182,86)  =  90,14K
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+43 ..........
+..........
+Normas
+Com o desenvolvimento tecnológico diferente em diversos países, criou-
+se uma série de normas e padronizações, cada uma atendendo uma dada
+região. As mais importantes são:
+NORMAS E PADRONIZAÇÃO
+Medidores de temperatura por
+dilatação/expansão
+Termômetro à dilatação de líquido
+Os termômetros à dilatação de líquidos baseiam-se na lei de expansão
+volumétrica de um líquido com a temperatura, dentro de um recipien-
+te fechado.
+Os tipos podem ser de vidro transparente ou de recipiente metálico. Va-
+riar conforme sua construção:
+TERMÔMETROS À DILATAÇÃO DE LÍQUIDO EM RECIPIENTE DE VIDRO
+É constituído de um reservatório, cujo tamanho depende da sensibilida-
+de desejada, soldada a um tubo capilar de seção, mais uniforme possível,
+fechado na parte superior.
+O reservatório e parte do capilar são preenchidos por um líquido. Na
+parte superior do capilar existe um alargamento que protege o termôme-
+tro no caso de a temperatura ultrapassar seu limite máximo.
+Após a calibração, a parede do tubo capilar é graduada em graus ou
+frações deste. A medição de temperatura se faz pela leitura da escala no
+ponto em que se tem o topo da coluna líquida.
+Os líquidos mais usados são: mercúrio, tolueno, álcool e acetona.
+Nos termômetros industriais, o bulbo de vidro é protegido por um poço
+metálico, e o tubo capilar, por um invólucro metálico. A Tabela 4 apresenta
+o ponto de solidificação e de ebulição desses líquidos, assim como as suas
+faixas de uso.
+AMERICANA
+ANSI
+ALEMÃ
+DIN
+JAPONESA
+JIS
+INGLESA
+BS
+ITALIANA
+UNI
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+44 ..........
+..........
+Mercúrio
+LÍQUIDO
+No termômetro de mercúrio, pode-se elevar o limite máximo até 550ºC,
+injetando-se gás inerte sob pressão, para evitar a vaporização do mercúrio.
+Por ser frágil, é impossível registrar sua indicação ou transmiti-la a dis-
+tância. O uso deste termômetro é mais comum em laboratórios ou em in-
+dústrias, com a utilização de uma proteção metálica. A Figura 21 mostra
+alguns desses termômetros.
+TABELA 4 PONTO DE SOLIDIFICAÇÃO, DE EBULIÇÃO E FAIXA DE USO
+PONTO DE
+SOLIDIFICAÇÃO (OC)
+PONTO DE
+EBULIÇÃO (OC)
+FAIXA
+DE USO (OC)
+-39
++357
+-38 a 550
+Álcool etílico
+-115
++78
+-100 a 70
+Tolueno
+-92
++110
+-80 a 100
+FIGURA 21 TERMÔMETROS À DILATAÇÃO
+De líquido em recipiente de vidro
+TERMÔMETRO À DILATAÇÃO DE LÍQUIDO EM RECIPIENTE METÁLICO
+Neste termômetro, o líquido preenche todo o recipiente e, sob o efeito de
+um aumento de temperatura, se dilata, deformando um elemento exten-
+sível (sensor volumétrico), como se observa na Figura 22.
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+240
+0
+-30
+-20
+-10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+45 ..........
+..........
+FIGURA 22 TERMÔMETRO À DILATAÇÃO
+De líquido
+em recipiente
+metálico
+Características dos elementos básicos deste termômetro:
+Suas dimensões variam de acor-
+do com o tipo de líquido e prin-
+cipalmente com a sensibilidade
+desejada. A Tabela 5 mostra os
+líquidos mais usados e sua faixa
+de utilização.
+Suas dimensões são variáveis, devendo o diâmetro interno ser o menor
+possível, a fim de evitar a influência da temperatura ambiente, e não ofe-
+recer resistência à passagem do líquido em expansão.
+O elemento usado é o tubo de Bourdon. Normalmente são aplicados nas
+indústrias em geral, para indicação e registro, pois permitem leituras re-
+BULBO
+Mercúrio
+LÍQUIDO
+TABELA 5 UTILIZAÇÃO DOS LÍQUIDOS
+FAIXA DE UTILIZAÇÃO (OC)
+–35 a +550
+Xileno
+–40 a +400
+Tolueno
+–80 a +100
+Álcool
+50 a +150
+CAPILAR
+CAPILAR
+CAPILAR
+CAPILAR
+CAPILAR
+ELEMENTO DE MEDIÇÃO
+PONTEIRO
+SENSOR VOLUMÉTRICO
+BRAÇO DE LIGAÇÃO
+SETOR DENTADO
+LÍQUIDO (MERCÚRIO, ÁLCOOL ETÍLICO)
+CAPILAR
+BULBO
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+46 ..........
+..........
+motas e são os mais precisos dos sistemas mecânicos de medição de tem-
+peratura. Porém, não são recomendáveis para controle devido ao fato de
+seu tempo de resposta ser relativamente grande (mesmo usando fluido tro-
+cador de calor entre bulbo e poço de proteção para diminuir este atraso,
+conforme Figura 23). O poço de proteção permite manutenção do termô-
+metro com o processo em operação.
+Recomenda-se não dobrar o capilar com curvatura acentuada para que
+não se formem restrições que prejudicariam o movimento do líquido em
+seu interior, causando problemas de medição.
+Termômetros à pressão de gás
+Princípio de funcionamento
+Fisicamente idêntico ao termôme-
+tro de dilatação de líquido, consta
+de um bulbo, elemento de medi-
+ção e capilar de ligação entre es-
+tes dois elementos.
+O volume do conjunto é cons-
+tante e preenchido com um gás a
+alta pressão. Com a variação da
+temperatura, o gás varia sua pres-
+são, conforme aproximadamente a
+lei dos gases perfeitos, com o ele-
+mento de medição operando como
+medidor de pressão. Observa-se que as variações de pressão são linear-
+mente dependentes da temperatura, sendo o volume constante.
+Termômetros à dilatação de sólidos (termômetros bimetálicos)
+Princípio de funcionamento
+Baseia-se no fenômeno da dilatação linear dos metais com  a  temperatura.
+Características de construção
+O termômetro bimetálico consiste em duas lâminas de metais com coefici-
+entes de dilatação diferentes sobrepostas, formando uma só peça. Varian-
+do-se a temperatura do conjunto, observa-se um encurvamento que é pro-
+FIGURA 23 TERMÔMETRO À PRESSÃO DE GÁS
+CAPILAR
+BOURDON
+GÁS
+BULBO
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+47 ..........
+..........
+FIGURA 25 TERMOPAR
+porcional à temperatura. Na prática a lâ-
+mina bimetálica é enrolada em forma de
+espiral ou hélice, como mostra a Figura 24,
+o que aumenta bastante a sensibilidade.
+O termômetro mais usado é o de lâmi-
+na helicoidal, que consiste em um tubo
+bom condutor de calor, no interior do qual
+é fixado um eixo. Este eixo, por sua vez,
+recebe um ponteiro que se desloca sobre
+uma escala.
+A faixa de trabalho dos termômetros
+bimetálicos vai aproximadamente de -50oC
+a 800oC, sendo sua escala bastante linear.
+Possui precisão na ordem de ± 1%.
+Medição de temperatura com termopar
+Um termopar consiste em dois condutores  metálicos, de natureza distin-
+ta, na forma de metais puros ou de ligas homogêneas, conforme mostra a
+Figura 25. Os fios são soldados em um extremo, ao qual se dá o nome de
+junta quente ou junta de medição. A outra extremidade dos fios é levada
+ao instrumento de medição de FEM (força eletromotriz), fechando um cir-
+cuito elétrico por onde flui a corrente. O ponto onde os fios que formam o
+termopar se conectam ao instrumento de medição é chamado de junta fria
+ou de referência.
+O aquecimento da jun-
+ção de dois metais gera
+o aparecimento de uma
+FEM. Este princípio, co-
+nhecido por efeito See-
+beck, propiciou a utiliza-
+ção de termopares para
+a medição de tempera-
+tura. Nas aplicações  prá-
+ticas o termopar apresen-
+ta-se normalmente con-
+forme a Figura 25.
+FIGURA 24 TERMÔMETRO BIMETÁLICO
+PONTEIRO INDICADOR
+CAIXA
+CONEXÃO
+EIXO
+ELEMENTO
+BIMETÁLICO
+HASTE
+ESCALA
+JUNTA DE
+MEDIDA
+TERMOPAR
+BLOCO DE LIGAÇÃO
+CABO DE
+EXTENSÃO
+JUNTA DE
+REFERÊNCIA
+GRADIENTE DE TEMPERATURA
+INSTRUMENTO
+INDICADOR OU
+CONTROLADOR
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+48 ..........
+..........
+Efeitos termoelétricos
+Efeito termoelétrico de Seebeck
+O fenômeno da termoeletricidade foi descoberto em 1821 por T. J. Seebeck,
+quando ele notou que em um circuito fechado, formado por dois conduto-
+res diferentes A e B, ocorre uma circulação de corrente enquanto existir
+uma diferença de temperatura T entre as suas junções. Denominamos a
+junta de medição de Tm, e a outra, junta de referência de Tr.
+A existência de uma FEM térmica AB no circuito é conhecida como efei-
+to Seebeck. Quando a temperatura da junta de referência é mantida cons-
+tante, verifica-se que a FEM térmica é uma função da temperatura Tm da
+junção de teste.
+Este fato permite utilizar um par termoelétrico como um termômetro,
+conforme se observa na Figura 26.
+O efeito Seebeck se produz pelo fato de os elétrons livres de um metal
+diferirem de um condutor para outro, dependendo da temperatura. Quan-
+do dois condutores
+diferentes são co-
+nectados para for-
+mar duas junções e
+estas se mantêm a
+diferentes tempera-
+turas, a difusão dos
+elétrons nas jun-
+ções se produz a rit-
+mos diferentes.
+Efeito termoelétrico de Peltier
+Em 1834, Peltier descobriu que, dado um par termoelétrico com ambas as
+junções à mesma temperatura, se, mediante uma bateria exterior, produz-
+se uma corrente no termopar, as temperaturas das junções variam em uma
+quantidade não inteiramente devida ao efeito Joule. Esta variação adicio-
+nal de temperatura é o efeito Peltier, que se produz tanto pela corrente pro-
+porcionada por uma bateria exterior como pelo próprio par termoelétrico,
+como está demonstrado na Figura 27. O coeficiente Peltier depende da
+temperatura e dos metais que formam uma junção, sendo independente
+FIGURA 26 EFEITO TERMOELÉTRICO DE SEEBECK
+A (+)
+Tm
+Tr
+B (–)
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+49 ..........
+..........
+da temperatura da
+outra junção. O ca-
+lor Peltier é reversí-
+vel. Quando se inver-
+te o sentido da cor-
+rente, permanecen-
+do constante o seu
+valor, o calor Peltier
+é o mesmo, porém
+em sentido oposto.
+Leis termoelétricas
+Fundamentados nos efeitos descritos anteriormente e nas  leis termoelé-
+tricas, podemos compreender todos os fenômenos que ocorrem na medi-
+da de temperatura com estes sensores.
+Lei do circuito homogêneo
+A FEM termal, desenvolvida em um circuito termoelétrico de dois metais
+diferentes, com suas junções às temperaturas T1 e T2, é independente do
+gradiente de temperatura e de sua distribuição ao longo dos fios. Em ou-
+tras palavras, a FEM medida depende única e exclusivamente da compo-
+sição química dos dois metais e das temperaturas existentes nas junções.
+Observe a Figura 28.
+FIGURA 27 EFEITO TERMOELÉTRICO DE PELTIER
+FIGURA 28 LEI DO CIRCUITO HOMOGÊNEO
+A (+)
+T – T
+T + T
+B (–)
+A (+)
+T1
+B (–)
+T2
+FEM = E
+A (+)
+T3
+B (–)
+T2
+FEM = E
+T4
+T1
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+50 ..........
+..........
+Um exemplo de aplicação prática desta lei é que podemos ter uma gran-
+de variação de temperatura em um ponto qualquer, ao longo dos fios dos
+termopares, que esta não influirá na FEM produzida pela diferença de
+temperatura entre as juntas. Portanto, pode-se fazer medidas de tempe-
+raturas em pontos bem definidos com os termopares, pois o importante é
+a diferença de temperatura entre as juntas.
+Lei dos metais intermediários
+A soma algébrica das FEM termais em um circuito composto de um nú-
+mero qualquer de metais diferentes é zero, se todo o circuito tiver a mes-
+ma temperatura. Deduz-se daí que num circuito termoelétrico, composto
+de dois metais diferentes, a FEM produzida não será alterada ao inserir-
+mos, em qualquer ponto do circuito, um metal genérico, desde que as
+novas junções sejam mantidas a temperaturas iguais. Veja a Figura 29.
+FIGURA 29 LEI DOS METAIS INTERMEDIÁRIOS
+Onde conclui-se que:
+Um exemplo de aplicação prática desta lei é a utilização de contatos de latão
+ou cobre, para interligação do termopar ao cabo de extensão no cabeçote.
+T3 = T4        E1 = E2
+T3 = T4        E1 = E2
+A (+)
+T1
+B (–)
+T2
+FEM = E
+A (+)
+T3
+B (–)
+T2
+FEM = E
+T4
+T1
+A (+)
+C
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+51 ..........
+..........
+Lei das temperaturas
+intermediárias
+A FEM produzida em
+um circuito termoelétri-
+co de dois metais ho-
+mogêneos e diferentes
+entre si, com as suas
+junções às temperatu-
+ras T1 e T3 respecti-
+vamente, é a soma al-
+gébrica da FEM deste
+circuito, com as junções
+às temperaturas T1 e
+T2 e a FEM deste mes-
+mo circuito com as jun-
+ções às temperaturas
+T2 e T3. Um exemplo
+prático da aplicação
+desta lei é a compensação ou correção da temperatura ambiente pelo ins-
+trumento receptor de milivoltagem.
+Correlação da FEM em função da temperatura
+Visto que a FEM gerada em um termopar depende da composição quími-
+ca dos condutores e da diferença de temperatura entre as juntas, isto é, a
+cada grau de variação de temperatura podemos observar uma variação da
+FEM gerada pelo termopar, podemos, portanto, construir um gráfico, de
+correlação entre a temperatura e a FEM (Figura 31). Por uma questão prá-
+tica, padronizou- se o levantamento destas curvas com a junta de referên-
+cia à  temperatura de 0ºC.
+Esses gráficos foram padronizados por diversas normas internacionais
+e levantados de acordo com a Escala Prática Internacional de Temperatu-
+ra de 1968 (IPTS-68), recentemente atualizada pela ITS-90, para os termo-
+pares mais utilizados.
+A partir deles podemos construir outros gráficos, relacionando a mili-
+voltagem gerada em função da temperatura, para os termopares, segun-
+do a norma ANSI, com a junta de referência a 0°C.
+FIGURA 30 LEI DAS TEMPERATURAS INTERMEDIÁRIAS
+538ºC
+38ºC
+24ºC
+A
+B
+E1
+A
+B
+E2
+A
+B
+E3
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+52 ..........
+..........
+Tipos e características dos termopares
+Existem várias combinações de dois metais condutores operando como ter-
+mopares. As combinações de fios devem possuir uma relação razoavel-
+mente linear entre temperatura e FEM, assim como desenvolver uma FEM
+por grau de mudança de temperatura que seja detectável pelos equipa-
+mentos normais de medição. Foram desenvolvidas diversas combinações
+de pares de ligas metálicas, desde os mais corriqueiros, de uso industrial,
+até os mais sofisticados, para uso especial ou restritos a laboratórios. Po-
+demos dividir os termopares em grupos básicos e nobres.
+Termopares básicos
+São assim chamados os termopares de maior uso industrial, em que os fios
+são de custo relativamente baixo e sua aplicação admite  um  limite  de
+erro maior.
+Nomenclaturas
+T – Adotado pela Norma ANSI
+CC – Adotado pela Norma JIS
+Cu-Co – Cobre-Constantan
+FIGURA 31 CORRELAÇÃO ENTRE TEMPERATURA E FEM
+TIPO T
+mV
+70
+60
+50
+40
+30
+20
+10
+600
+800
+1.000
+1.200
+1.400
+1.600
+1.800
+400
+200
+T(ºC)
+E
+J
+T
+K
+N
+R
+S
+B
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+53 ..........
+..........
+Liga
+(+) Cobre 99,9%
+(–) Constantan
+São as ligas de Cu-Ni compreendidas no intervalo entre Cu 50% e Cu 65%
+Ni 35%. A composição mais utilizada para este tipo de termopar é de Cu
+58% e Ni 42%.
+Características
+Faixa de utilização: –200°C a 370°C
+FEM produzida: –5,603mV a 19,027mV
+Aplicações
+Criometria (baixas temperaturas)
+Indústrias de refrigeração
+Pesquisas agronômicas e ambientais
+Química
+Petroquímica
+Nomenclaturas
+J – Adotada pela Norma ANSI
+IC – Adotada pela Norma JIS
+Fe-Co – Ferro-Constantan
+Liga
+(+) Ferro 99,5%
+(–) Constantan – Cu 58% e Ni 42%
+Normalmente se produz o ferro a partir de  sua  característica, casando-se
+o constantan adequado.
+Características
+Faixa de utilização: –40°C a 760°C
+FEM produzida: –1,960mV a 42,922mV
+Aplicações
+Centrais de energia
+TIPO J
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+54 ..........
+..........
+TIPO E
+Metalúrgica
+Química
+Petroquímica
+Indústrias em geral
+Nomenclatura
+E – Adotada pela Norma ANSI
+CE – Adotada pela Norma JIS
+NiCr-Co
+Liga
+(+) Chromel – Ni 90% e Cr 10%
+(–) Constantan – Cu 58% e Ni 42%
+Características
+Faixa de utilização: –200°C a 870°C
+FEM produzida: –8,824mV a 66,473mV
+Aplicações
+Química
+Petroquímica
+Nomenclaturas
+K – Adotada pela Norma ANSI
+CA – Adotada pela Norma JIS
+Liga
+(+) Chromel – Ni 90% e Cr 10%
+(–) Alumel – Ni 95,4%, Mn 1,8%, Si 1,6%, Al 1,2%
+Características
+Faixa de utilização: –200°C a 1.260°C
+FEM produzida: –5,891mV a 50,99mV
+TIPO K
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+55 ..........
+..........
+Aplicações
+Metalúrgicas
+Siderúrgicas
+Fundição
+Usina de cimento e cal
+Vidros
+Cerâmica
+Indústrias em geral
+Termopares nobres
+Aqueles cujos pares são constituídos de platina. Embora possuam custo
+elevado e exijam instrumentos receptores de alta sensibilidade, devido à
+baixa potência termoelétrica, apresentam uma altíssima precisão, dada a
+homogeneidade e pureza dos fios dos termopares.
+Nomenclaturas
+S – Adotada pela Norma ANSI
+Pt Rh 10% – Pt
+Liga
+(+) Platina 90%, Rhodio 10%
+(–) Platina 100%
+Características
+Faixa de utilização: 0°C a 1.600°C
+FEM produzida: 0mV a 16,771mV
+Aplicações
+Siderúrgica
+Fundição
+Metalúrgica
+Usina de cimento
+Cerâmica
+Vidro
+Pesquisa científica
+TIPO S
+ATENÇÃO
+É utilizado em sensores descartáveis
+na faixa de 1.200 a 1.768°C,
+para medição de metais líquidos
+em siderúrgicas e fundições
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+56 ..........
+..........
+Nomenclaturas
+R – Adotada pela Norma ANSI
+PtRh 13% – Pt
+Liga
+(+) Platina 87%, Rhodio 13%
+(–) Platina 100%
+Características
+Faixa de utilização: 0°C a 1.600°C
+FEM produzida: 0mV a 18,842mV
+Aplicações
+As mesmas do tipo S
+Siderúrgica, Fundição, Metalúrgica,
+Usina de cimento, Cerâmica,
+Vidro e Pesquisa científica
+Nomenclaturas
+B – Adotada pela Norma ANSI
+PtRh 30% – PtRh 6%
+Liga
+(+) Platina 70%, Rhodio 30%
+(–) Platina 94%, Rhodio 6%
+Características
+Faixa de utilização: 600 a 1.700°C
+FEM produzida: 1,791mV a 12,426mV
+Aplicações
+Vidro
+Siderúrgica
+Alta temperatura em geral
+TIPO R
+TIPO B
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+57 ..........
+..........
+Correção da junta de referência
+Os gráficos existentes da FEM gerada em função da temperatura para os
+termopares têm fixado a junta de referência a 0°C (ponto de solidificação
+da água). Porém, nas aplicações práticas dos termopares a junta de referên-
+cia é considerada nos terminais do instrumento receptor, encontrando-se
+temperatura ambiente, que é normalmente diferente de 0°C e variável com
+o tempo. Isso torna necessário que se faça uma correção da junta de refe-
+rência, podendo ela ser automática ou manual. Os instrumentos utilizados
+para medição de temperatura com termopares costumam fazer a correção
+da junta de referência automaticamente, sendo um dos métodos adotados
+a medição da temperatura nos terminais do instrumento, através de cir-
+cuito eletrônico. Este circuito adiciona a milivoltagem que chega aos ter-
+minais, uma milivoltagem correspondente à diferença de temperatura de
+0°C à temperatura ambiente, conforme apresentado na Figura 32.
+TABELA 6 IDENTIFICAÇÃO DE TERMOPARES
+TERMOPAR
+TIPO
+EXTENSÃO
+OU
+COMPENSA-
+ÇÃO TIPO
+MATERIAL DOS
+CONDUTORES
+COLORAÇÃO DA ISOLAÇÃO
+FIGURA 32 CORREÇÃO DA JUNTA DE REFERÊNCIA
+A (+)
+T2
+B (–)
+E1 = 19,68
+TIPO K
+B (–)
+0ºC
+E2 = 0,96
+24ºC
+A (+)
+TX
+JX
+EX
+KX
+WX
+SX
+BX
+NX
+Cobre
+Ferro
+Chromel
+Chromel
+Ferro
+Cobre
+Cobre
+Nicrosil
+Constantan
+Constantan
+Constantan
+Alumel
+Cupronel
+Cu/Ni
+Cobre
+Nisil
+Azul
+Preta
+Roxa
+Amarela
+Branca
+Verde
+Cinza
+Laranja
+Azul
+Branca
+Roxa
+Amarela
+Verde
+Preta
+Cinza
+Laranja
+Vermelha
+Vermelha
+Vermelha
+Vermelha
+Vermelha
+Vermelha
+Vermelha
+Vermelha
+Marrom
+Azul
+–
+Verde
+Verde
+Branca
+–
+–
+Vermelha
+Vermelha
+–
+Vermelha
+Vermelha
+Vermelha
+–
+–
+Marrom
+Azul
+–
+Verde
+Verde
+Branca
+–
+–
+Marrom
+Preto
+Violeta
+Verde
+–
+Laranja
+–
+Rosa
+Marrom
+Preto
+Violeta
+Verde
+–
+Laranja
+–
+Rosa
+Branca
+Branca
+Branca
+Branca
+–
+Branca
+–
+Branca
+NORMA AMERICANA ANSI
+MC – 96.1 – 1982
+NORMA ALEMÃ DIN
+43710-4
+IEC 584-3
+POSITIVO
+NEGATIVO
+CAPA EXTERNA
+POSITIVO
+NEGATIVO
+CAPA EXTERNA
+POSITIVO
+NEGATIVO
+CAPA EXTERNA
+POSITIVO
+NEGATIVO
+T
+J
+E
+K
+K
+S,R
+B
+N
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+58 ..........
+..........
+É importante não esquecer que o termopar mede realmente a diferen-
+ça entre as temperaturas das junções. Então para medirmos a temperatu-
+ra do ponto desejado, precisamos manter a temperatura da junção de re-
+ferência invariável. Observe a Figura 33.
+FEM = JM – JR
+FEM = 2,25 – 1,22
+FEM = 1,03mV       25°C
+Esta temperatura obtida pelo cálculo está errada, pois o valor correto
+que o meu termômetro tem que medir é de 50°C.
+FEM = JM – JR
+FEM = 2,25 – 1,22
+FEM = 1,03mV + mV correspondente à temperatura ambiente para fazer
+a compensação automática, portanto:
+FEM= mV JM – mV JR + mV CA (Compensação Automática)
+FEM = 2,25 – 1,22 + 1,22
+FEM = 2,25mV       50°C
+A leitura agora está correta, pois 2,25mV correspondem a 50°C, que é
+a temperatura do processo.
+Hoje em dia a maioria dos instrumentos faz a compensação da junta
+de referência automaticamente.
+FIGURA 33 DIFERENÇA ENTRE AS TEMPERATURAS DAS JUNÇÕES
+TI
++
+–
+25ºC
+50ºC
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+59 ..........
+..........
+Medição de temperatura
+por termorresistência
+Os métodos de utilização de resistências para medição de temperatura
+iniciaram-se por volta de 1835, com Faraday, porém só houve condições
+de se elaborarem as mesmas para utilização em processos industriais a
+partir de 1925.
+ Esses sensores adquiriram espaço nos processos industriais por suas
+condições de alta estabilidade mecânica e térmica, resistência à contami-
+nação, baixo índice de desvio pelo envelhecimento e tempo de uso.
+Devido a estas características, tal sensor é padrão internacional para a
+medição de temperaturas na faixa de –270°C a 660°C em seu modelo de
+laboratório.
+Princípio de funcionamento
+Os bulbos de resistência (veja a Figura 34) são sensores que se baseiam
+no princípio de variação da resistência em função da temperatura. Os  ma-
+teriais mais utilizados para a fabricação destes tipos de sensores são a pla-
+tina, o cobre ou o níquel, metais com características de:
+Alta resistividade, permitindo assim uma  melhor sensibilidade do sensor
+Alto coeficiente de variação de resistência com a temperatura
+Rigidez e ductilidade para ser transformado em fios finos
+FIGURA 34 BULBOS DE RESISTÊNCIA
+ISOLADOR
+CONDUTORES
+ISOLAÇÃO
+MINERAL
+BAINHA
+BULBO DE RESISTÊNCIA
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+60 ..........
+..........
+Vantagens e desvantagens dessa medição
+Vantagens
+Possui maior precisão dentro da faixa de utilização do que outros tipos
+de sensores
+Com ligação adequada, não existe limitação para distância de operação
+Dispensa utilização de fiação especial para ligação
+Se adequadamente protegido, permite utilização em qualquer ambiente
+Tem boas características de reprodutibilidade
+Em alguns casos, substitui o termopar com grande vantagem
+Desvantagens
+É mais caro do que os sensores utilizados nessa mesma faixa
+Deteriora-se com mais facilidade, caso haja excesso na sua tempera-
+tura máxima de utilização
+Temperatura máxima de utilização de 630°C
+É necessário que todo o corpo do bulbo esteja com a temperatura equi-
+librada para fazer a indicação corretamente
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+61 ..........
+..........
+Medição de nível
+Medição de nível
+ível é a altura do conteúdo, que  pode ser sólido ou líquido, de um re-
+servatório. Trata-se de uma das principais variáveis utilizadas em controle
+de processos contínuos, pois através da medição de nível torna-se possível:
+Unidade 4
+Avaliar o volume estocado de
+materiais em tanques de armazenamento
+Realizar o balanço de materiais de
+processos contínuos onde existam
+volumes líquidos ou sólidos de acumulação
+temporária, reações, mistura etc.
+Manter segurança e controle de alguns
+processos onde o nível do produto não
+pode ultrapassar determinados limites
+Métodos de medição de nível de líquido
+Os três tipos básicos de medição de nível são o direto, o indireto e o des-
+contínuo.
+Medição de nível direta
+É a medição para a qual tomamos como referência a posição do plano
+superior da substância medida. Neste tipo de medição podemos utilizar
+réguas ou gabaritos, visores de nível, bóia ou flutuador.
+N
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+62 ..........
+..........
+RÉGUA OU GABARITO
+Consiste em uma régua graduada que
+tem um comprimento conveniente para
+ser introduzida no reservatório a ser me-
+dido. Observe a Figura 35.
+A determinação do nível se efetuará
+através da leitura direta do comprimen-
+to molhado na régua pelo líquido.
+VISORES DE NÍVEL
+Este medidor usa o princípio dos vasos
+comunicantes. O nível é observado por um
+visor de vidro especial, podendo haver uma escala graduada acompanhan-
+do o visor. São simples, baratos, precisos e de indicação direta. Esta medição
+é feita em tanques abertos e tanques fechados, como os da Figura 36.
+Nessa medição pode-se usar  vidro reflex, para produtos escuros sem
+interfaces, ou vidro transparente, para produtos claros e sua interface.
+FIGURA 35 RÉGUA
+FIGURA 36 TANQUES PARA MEDIÇÃO
+600
+20
+400
+10
+300
+0
+VISOR
+TRANSPARENTE
+VISOR REFLEX
+PARAFUSO TIPO U
+CORPO
+JUNTA DE VEDAÇÃO
+VIDRO
+JUNTA ALMOFADA
+ESPELHO
+ESPELHO
+VIDRO
+CORPO
+JUNTA DE VEDAÇÃO
+PORCA
+Corte dos visores de vidro
+plano tipo reflex e transparente
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+63 ..........
+..........
+BÓIA OU FLUTUADOR
+Consiste numa bóia presa a
+um cabo que tem sua extre-
+midade ligada a um contra-
+peso. No contrapeso está
+fixo um ponteiro que indi-
+cará diretamente o nível
+em uma escala. Esta medi-
+ção é normalmente encon-
+trada em tanques abertos
+(Figura 37).
+Medição de nível indireta
+Neste tipo de medição o nível é medido indiretamente em função de gran-
+dezas físicas como: pressão, empuxo, radiação e propriedades elétricas.
+MEDIÇÃO DE NÍVEL POR PRESSÃO HIDROSTÁTICA (PRESSÃO DIFERENCIAL)
+Neste tipo de medição usamos a pressão exercida pela altura da coluna
+líquida, para medirmos indiretamente o nível, como mostra a seguir o
+Teorema de Stevin:
+Essa técnica permite que a
+medição seja feita indepen-
+dente do formato do tanque,
+seja ele aberto, seja pressu-
+rizado.
+Neste tipo de medição,
+utilizamos um transmissor
+de pressão diferencial cuja
+cápsula sensora é dividida
+em duas câmaras: a de alta
+(H) e a de baixa pressão (L).
+FIGURA 38 MEDIÇÃO DE NÍVEL INDIRETA
+FIGURA 37 BÓIA OU FLUTUADOR
+P = h. 
+P = Pressão em mm ou polegadas de coluna líquida
+h = Nível em mm ou em polegadas
+ = densidade relativa do líquido na temperatura ambiente
+CORRENTE,
+CABO OU
+TRENA
+BÓIA
+ESCALA
+CONTRAPESO
+INDICADOR DE
+PRESSÃO (P)
+DENSIDADE RELATIVA DO LÍQUIDO
+NA TEMPERATURA AMBIENTE ()
+NÍVEL (h)
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+64 ..........
+..........
+ Este transmissor de nível mede a pressão diferencial, subtraindo-se a
+pressão da câmara alta (H) da câmara baixa (L).
+MEDIÇÃO DE NÍVEL POR PRESSÃO DIFERENCIAL EM TANQUES ABERTOS
+Supressão de zero
+Para maior facilidade de ma-
+nutenção e acesso ao instru-
+mento, muitas vezes o trans-
+missor é instalado abaixo do
+tanque. Outras vezes a fal-
+ta de uma plataforma de fi-
+xação em torno de um tan-
+que elevado resulta na ins-
+talação de um instrumento
+em um plano situado em ní-
+vel inferior à tomada de alta
+pressão. Em ambos os casos, uma coluna líquida se formará com a altura
+do líquido dentro da tomada de impulso. Se o problema não for contorna-
+do, o transmissor indicará um nível superior ao real. Observe a Figura 39.
+MEDIÇÃO DE NÍVEL POR PRESSÃO DIFERENCIAL
+EM TANQUES PRESSURIZADOS
+Para medição em tanques pressurizados, a tubulação de impulso da par-
+te de baixo do tanque é conectada à câmara de alta pressão do transmis-
+sor de nível. A pressão atuante na câmara de alta é a soma da pressão
+exercida sob a superfície do líquido e a pressão exercida pela coluna de
+líquido no fundo do reservatório.  A câmara de baixa pressão do transmis-
+sor de nível é conectada na tubulação de impulso da parte superior do
+tanque, onde mede somente a pressão exercida sob a superfície do líqui-
+do. Veja a Figura 40, na página ao lado.
+FIGURA 39 SUPRESSÃO DE ZERO
+P = PH – PL
+P = Diferencial de pressão
+PH = Pressão na câmara de alta
+PL = Pressão na câmara de baixa
+H
+L
+NÍVEL (h)
+ALTURA DO TANQUE
+SUPRESSÃO DE ZERO
+Atm
+H
+L
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+65 ..........
+..........
+Selagem das
+tomadas de impulso
+Quando o fluido do proces-
+so possuir alta viscosidade,
+ou quando o fluido se con-
+densar nas tubulações de
+impulso, ou ainda no caso de
+o fluído ser corrosivo, deve-
+mos utilizar um sistema de
+selagem nas tubulações de
+impulso, das câmaras de bai-
+xa e alta pressão do transmis-
+sor de nível. Selam-se então ambas as tubulações de impulso, bem como
+as câmaras do instrumento. O líquido normalmente utilizado para selagem
+das tomadas de impulso é a glicerina ou o silicone líquido, devido à sua
+alta densidade.
+Elevação de zero
+Na Figura 41, apresenta-se
+um sistema de medição de
+nível com selagem, no qual
+deve ser feita a elevação, que
+consiste em se anular a pres-
+são da coluna líquida na tu-
+bulação de impulso da câ-
+mara de baixa pressão do
+transmissor de nível.
+MEDIÇÃO DE NÍVEL COM BORBULHADOR
+Com o sistema de borbulhador (Figura 42) podemos detectar o nível de
+líquidos viscosos, corrosivos, bem como de quaisquer líquidos a distância.
+Neste sistema necessitamos de um suprimento de ar ou gás e uma pres-
+são ligeiramente superior à máxima pressão hidrostática exercida pelo lí-
+quido. Este valor em geral é ajustado para aproximadamente 20% a mais
+que a máxima pressão hidrostática exercida pelo líquido. O sistema bor-
+bulhador engloba uma válvula agulha, um recipiente com líquido, no qual
+FIGURA 40 MEDIÇÃO EM TANQUES PRESSURIZADOS
+FIGURA 41 MEDIÇÃO DE NÍVEL COM SELAGEM
+H
+L
+ALTURA MÁXIMA
+d
+H
+L
+ALTURA MÁXIMA
+d
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+66 ..........
+..........
+o ar ou gás passará, e um indicador de pressão. Com o nível no máximo,
+ajustamos a vazão de ar ou gás até que se observe a formação de bolhas
+em pequenas quantidades. Um tubo levará esta vazão de ar ou gás até o
+fundo do vaso que queremos medir o nível. Teremos então um borbulha-
+mento bem sensível de ar ou gás no líquido que terá seu nível medido. Na
+tubulação pela qual fluirá o ar ou gás, instalamos um indicador de pressão
+que indicará um valor equivalente à pressão, devido ao peso da coluna lí-
+quida. Nota-se que teremos condições de instalar o medidor a distância.
+FIGURA 42 SISTEMA DE BORBULHADOR
+MEDIÇÃO DE NÍVEL POR EMPUXO
+Fundamenta-se no princípio de Arquimedes. A força exercida pelo fluido,
+no corpo nele submerso ou flutuante, chamamos de empuxo (Figura 43).
+Baseando-se no prin-
+cípio de Arquimedes,
+usa-se um deslocador
+(displacer), que sofre
+o empuxo do nível de
+um líquido, transmi-
+tindo para um indicador este movimento, por meio de um
+tubo de torque. O medidor deve ter um dispositivo de ajuste para densidade
+do líquido cujo nível estamos medindo, pois o empuxo varia com a densidade.
+E = V . 
+PRINCÍPIO DE ARQUIMEDES
+Todo corpo
+mergulhado em um
+fluido sofre a ação
+de uma força vertical
+dirigida de baixo
+para cima, igual ao
+peso do volume do
+fluido deslocado”
+“
+E  = Empuxo
+V  = Volume deslocado
+ = Densidade ou
+peso específico do líquido
+H
+L
+SUPRIMENTO DE AR
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+67 ..........
+..........
+FIGURA 43 MEDIÇÃO DE NÍVEL POR EMPUXO
+Através dessa técnica podemos
+medir nível de interface entre dois lí-
+quidos não-miscíveis.
+Na indústria muitas vezes temos que
+medir o nível da interface em um tan-
+que com dois líquidos diferentes. Este
+fato ocorre em torres de destilação, tor-
+res de lavagem, decantadores etc.
+Um dos métodos mais utilizados
+para a medição da interface é por meio
+da variação do empuxo, conforme de-
+monstraremos a seguir.
+Consideremos um flutuador de forma cilíndrica mergulhado em dois
+líquidos com pesos específicos diferentes 1 e 2 (Figura 44).
+Desta forma, podemos considerar que o empuxo aplicado no flutuador
+será a soma dos empuxos E1  e E2 aplicados no cilindro, pelos líquidos de
+pesos específicos 1 e  2, respectivamente. O empuxo será dado por:
+FIGURA 44 FLUTUADOR
+De forma cilíndrica
+Et = E1 + E2
+E1 = V1 . 1
+E2 = V2 . 2
+NÍVEL D’ÁGUA
+NÍVEL D’ÁGUA
+7
+0
+VÁLVULA DE BLOQUEIO
+VÁLVULA DE BY-PASS
+NÍVEL NORMAL
+DO LÍQUIDO
+INDICADOR
+DE SAÍDA
+INDICADOR
+DE SUPRIMENTO
+VÁLVULA
+DE CONTROLE
+SUPRIMENTO DE
+AR  7 kgf/cm2
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+68 ..........
+..........
+Assim, para diferentes valores de
+altura de interface, teremos diferentes
+variações de empuxo, como observa-
+mos na Figura 45.
+MEDIÇÃO DE NÍVEL POR CAPACITÂNCIA
+A capacitância é uma grandeza elétri-
+ca que existe entre duas superfícies
+condutoras isoladas entre si.
+O medidor de nível capacitivo mede
+as possibilidades do capacitor formado
+pelo eletrodo submergido no líquido
+em relação às paredes do tanque. A
+capacidade do conjunto depende do
+nível do líquido. O elemento sensor,
+geralmente, é uma haste ou cabo fle-
+xível de metal. Em líquidos não con-
+dutores, se emprega um eletrodo nor-
+mal. Em fluidos condutores, o eletro-
+do é isolado normalmente com teflon.
+À medida que o nível do tanque for
+aumentando, o valor da capacitância
+aumenta progressivamente devido ao
+dielétrico ar ser substituído pelo die-
+létrico líquido. Veja a Figura 46.
+A capacitância é convertida por
+um circuito eletrônico numa corrente
+elétrica, sendo este sinal indicado em
+um medidor. A medição de nível por
+capacitância também pode ser feita
+sem contato, através de sonda de pro-
+ximidade. Esta sonda consiste em um
+disco que compõe uma das placas do
+capacitor. A outra placa é a própria su-
+perfície do produto ou a base do tan-
+que (Figura 47).
+FIGURA 45 VALORES DE ALTURA
+De interface
+FIGURA 46 MEDIÇÃO
+Por capacitância
+FIGURA 47 SONDA
+De proximidade
+LÍQUIDO 1
+H2
+H1
+LÍQUIDO 2
+INTERFACE
+INDICADOR
+AMPLIFICADOR
+SONDA CAPACITIVA
+INDICADOR
+AMPLIFICADOR
+SONDA CAPACITIVA
+d
+A
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+69 ..........
+..........
+MEDIÇÃO DE NÍVEL POR ULTRA-SOM
+O ultra-som consiste em uma onda sonora cuja freqüência de oscilação é
+maior que aquela sensível pelo ouvido humano, ou seja, acima de 20 Khz.
+A geração ocorre quando uma força externa excita as moléculas de um
+meio elástico. Esta excitação é transferida de molécula a molécula, com uma
+velocidade que depende da elasticidade e inércia das mesmas. A propaga-
+ção do ultra-som depende, portanto, do meio (sólido, líquido ou gasoso).
+Assim, a velocidade do som é a base para a medição através da técni-
+ca de eco, usada nos dispositivos ultra-sônicos.
+As ondas de ultra-som são geradas e captadas pela excitação elétrica
+de materiais piezoelétricos.  A característica marcante dos materiais pie-
+zoelétricos é a produção de uma fre-
+qüência quando aplicamos uma ten-
+são elétrica. Assim, eles podem ser
+usados como gerador de ultra-som,
+compondo, portanto, os transmissores.
+Inversamente, quando se aplica
+uma força em uma material piezoelé-
+trico, ou seja, quando ele recebe um
+sinal de freqüência, resulta o apareci-
+mento de uma tensão elétrica no seu
+terminal. Nesta modalidade, o mate-
+rial piezoelétrico é usado como recep-
+tor do ultra-som.
+Os dispositivos do tipo ultra-sôni-
+co podem ser usados tanto na detecção contínua de nível como na des-
+contínua. Os dispositivos destinados à detecção contínua de nível carac-
+terizam-se, principalmente, pelo tipo de instalação, ou seja, os transduto-
+res podem encontrar-se totalmente submersos no produto, ou instalados
+no topo do equipamento sem contato com o produto.
+MEDIÇÃO DE NÍVEL POR RADAR
+O radar possui uma antena cônica que emite pulsos eletromagnéticos de
+alta freqüência à superfície a ser detectada. A distância entre a antena e
+a superfície a ser medida será então calculada em função do tempo de atra-
+so entre a emissão e a recepção do sinal.
+FIGURA 48 ULTRA-SOM
+INDICADOR /
+TRANSMISSOR
+SONDA DE
+ULTRA-SOM
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+70 ..........
+..........
+Essa técnica pode ser aplicada com sucesso na medição de nível de lí-
+quidos e sólidos em geral. A grande vantagem deste tipo de medidor em
+relação ao ultra-sônico  é a imunidade a efeitos provocados por gases, pó
+e espuma entre a superfície e o detector, possuindo, porém, um custo re-
+lativamente alto.
+Medição de nível descontínua
+Estes medidores são empregados para fornecer indicação apenas quando
+o nível atinge certos pontos desejados, como, por exemplo, em sistemas
+de alarme e segurança de nível alto ou baixo.
+MEDIÇÃO DE NÍVEL DESCONTÍNUA
+POR CONDUTIVIDADE
+Nos líquidos que conduzem eletri-
+cidade, podemos mergulhar ele-
+trodos metálicos de comprimento
+diferente. Quando houver condu-
+ção entre os eletrodos, teremos a
+indicação de que o nível atingiu a
+altura do último eletrodo alcança-
+do pelo líquido (Figura 49).
+ME DIÇÃO
+IÇÃO
+IÇÃO
+IÇÃO
+IÇÃO DE NÍVE
+NÍVE
+NÍVE
+NÍVE
+NÍVE L
+DE S CONTÍN
+NTÍN
+NTÍN
+NTÍN
+NTÍN UA
+UA
+UA
+UA
+UA POR BÓIA
+BÓIA
+BÓIA
+BÓIA
+BÓIA
+Diversas técnicas podem ser uti-
+lizadas para medição descontí-
+nua,  desde uma simples bóia
+acoplada a contatos elétricos, até
+sensores eletrônicos do tipo ca-
+pacitivo ou ultra-sônico, que se
+diferenciam pela sensibilidade,
+tipo de fluido, características ope-
+racionais de instalação e custo
+(Figura 50).
+FIGURA 49 NÍVEL DESCONTÍNUO
+Por condutividade
+FIGURA 50 NÍVEL DESCONTÍNUO
+Por bóia
+H
+L
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+71 ..........
+..........
+Medição de vazão
+Medição de vazão
+medição de vazão inclui, no seu sentido mais amplo, a determinação
+da quantidade de líquidos, gases e sólidos que passa por um local especí-
+fico  na unidade de tempo; podem também ser incluídos os instrumentos
+que indicam a quantidade  total movimentada, num intervalo de tempo.
+A quantidade total movimentada pode ser medida em unidades de
+volume (litros, mm3, cm3, m3, galões, pés cúbicos) ou em unidades de massa
+(g, kg, toneladas, libras). A vazão instantânea é dada por uma dessas uni-
+dades, dividida por uma unidade de tempo (litros/min, m3/hora, galões/
+min). No caso de gases e vapores, a vazão instantânea pode ser expressa
+em kg/h ou em m3/h.
+Quando se mede a vazão em unidades de volume, devem ser especifi-
+cadas as “condições base” consideradas. Assim, no caso de líquidos, é im-
+portante indicar que a vazão se considera “nas condições de operação”, ou
+a 0°C, 20°C, ou a outra temperatura qualquer. Na medição de gases, é co-
+mum indicar a vazão em Nm3/h (metros cúbicos normais por hora, à tem-
+peratura de 0°C e à pressão atmosférica) ou em SCFM (pés cúbicos stan-
+dard por minuto: temperatura 60°F e 14,696 PSIA de pressão atmosférica).
+Unidade 4
+ATENÇÃO PARA ESTAS CONVERSÕES
+1 m3 = 1.000 litros
+1 galão (americano) = 3,785 litros
+1 pé cúbico = 0,0283168m3
+1 libra = 0,4536kg
+A
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+72 ..........
+..........
+Tipos de medidores de vazão
+Existem dois tipos de medidores de vazão: os de quantidade e os volumétricos.
+Medidores de quantidade
+São aqueles que, a qualquer instante, permitem saber a quantidade de flu-
+xo que passou, mas não a vazão do fluxo que está passando, como por exem-
+plo as bombas de gasolina, os hidrômetros, as balanças industriais etc.
+Medidores de quantidade por pesagem
+São as balanças industriais, utilizadas para medição de sólidos.
+Medidores de quantidade volumétrica
+São aqueles que o fluido, ao passar em quantidades sucessivas pelo me-
+canismo de medição, aciona o mecanismo de indicação.
+Estes medidores são utilizados como elementos primários das bombas
+de gasolina e dos hidrômetros, como por exemplo os da Figura 51: disco
+nutante, tipo pistão rotativo, tipo pás giratórias, tipo engrenagem etc.
+FIGURA 51 TIPOS DE MEDIDORES DE VAZÃO
+Tipo Pás Giratórias
+Disco Nutante
+Tipo de Engrenagem
+Tipo Pistão Rotativo
+PARA CONTAGIRO
+ENTRADA
+SAÍDA
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+73 ..........
+..........
+Medidores volumétricos
+São aqueles que exprimem a vazão por unidade de tempo.
+Medição de vazão por pressão diferencial
+A pressão diferencial é produzida por vários tipos de elementos primários,
+colocados nas tubulações de forma tal que o fluido passe através deles. A
+sua função é aumentar a veloci-
+dade do fluido, diminuindo a área
+da seção em um pequeno compri-
+mento para haver uma queda de
+pressão. A vazão pode então ser
+medida a partir desta queda. Esse
+tipo de medição pode ser obser-
+vado na Figura 52.
+Uma vantagem primordial dos
+medidores de vazão por pressão
+diferencial é que eles podem ser
+aplicados a uma grande variedade
+de medições, envolvendo a maio-
+ria dos gases e líquidos, inclusive
+fluidos com sólidos em suspensão, bem como fluidos viscosos, em uma faixa
+de temperatura e pressão bastante ampla. Um inconveniente deste tipo de
+medidor é a perda de carga que ele causa ao processo, sendo a placa de ori-
+fício o dispositivo que provoca a maior perda de carga irrecuperável.
+Rotâmetros
+São medidores de vazão por área variável, nos quais um flutuador varia
+sua posição dentro de um tubo cônico, proporcionalmente à vazão do flui-
+do. Na Figura 53, na página a seguir, pode-se observar um rotâmetro.
+FIGURA 52 MEDIÇÃO DE VAZÃO
+Por pressão diferencial
+Um tubo de vidro de formato cônico, o qual é colocado
+verticalmente na tubulação em que passará o fluido a ser medido.
+A extremidade maior do tubo cônico fica voltada para cima
+No interior do tubo cônico, um flutuador que se moverá verticalmente
+em função da vazão medida
+O ROTÂMETRO É FORMADO POR DUAS PARTES
+PLACA DE ORIFÍCIO
+TRANSMISSOR
+FLANGE DE ORIFÍCIO
+✔
+✔
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+74 ..........
+..........
+PRINCÍPIO BÁSICO DE FUNCIONAMENTO DOS ROTÂMETROS
+O fluido passa através do tubo da base para o topo. Quando não há va-
+zão, o flutuador permanece na base do tubo, e seu diâmetro maior é em
+geral selecionado de tal maneira que bloqueie a pequena extremidade do
+tubo, quase que completamente.  Quando a vazão começa e o fluido atin-
+ge o flutuador,  o empuxo torna o flutuador mais leve; porém, como o flu-
+tuador tem uma densidade maior que a do fluido, o empuxo não é sufici-
+ente para levantar o flutuador.
+A área de passagem oferece resistência à vazão, e a queda de pressão
+do fluido começa a aumentar. Quando a pressão diferencial, somada ao
+efeito de empuxo do líquido, excede a pressão devido ao peso do flutua-
+dor, então ele sobe e flutua na corrente. Com o movimento ascendente do
+flutuador em direção à parte mais larga do tubo, a área anular entre a
+parede do tubo de vidro e a periferia do flutuador aumenta. Como a área
+aumenta, o diferencial de pressão devido ao flutuador decresce.
+ O flutuador ficará em equilíbrio dinâmico quando a pressão diferen-
+cial através do flutuador, somada ao efeito do empuxo, contrabalançar o
+seu peso. Qualquer aumento na vazão movimenta o flutuador para a par-
+te superior do tubo de vidro, e a diminuição causa uma queda a um nível
+UNIÃO DE SAÍDA
+CONEXÃO DE SAÍDA
+LIMITADOR DO FLUTUADOR
+CAIXA DE VEDAÇÃO SELA O TUBO DE
+VIDRO COM A UNIÃO DE METAL
+FLUTUADOR DE MEDIDA
+TUBO AFUNILADO DE VIDRO
+MÍNIMO FLUXO É OBTIDO NA
+PARTE INFERIOR DO TUBO
+CONEXÃO DE ENTRADA
+LIMITADOR DO FLUTUADOR
+UNIÃO DE ENTRADA
+MÁXIMO FLUXO É OBTIDO
+NA PARTE SUPERIOR DO TUBO
+FIGURA 53 ROTÂMETRO
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+75 ..........
+..........
+mais baixo. Cada posição do flutuador corresponde a um valor determi-
+nado de vazão, e somente um.  É necessário colocar uma escala calibrada
+na parte externa do tubo, e a vazão poderá ser determinada pela obser-
+vação direta da posição do flutuador.
+Dispositivos dos medidores volumétricos
+Placa de orifício
+Dos muitos dispositivos inseridos
+numa tubulação para se criar uma
+pressão diferencial, o mais simples
+e mais comumente empregado é o
+da placa de orifício, conforme mos-
+tra a Figura 54.
+Consiste em uma placa precisa-
+mente perfurada, a qual é instala-
+da perpendicularmente ao eixo da
+tubulação.
+É essencial que as bordas do
+orifício estejam sempre perfeitas,
+porque se ficarem imprecisas ou corroídas pelo fluido, a precisão da me-
+dição será comprometida. Costumeiramente, essas bordas são fabricadas
+com aço inox, monel, latão etc., dependendo do fluido.
+PLACAS DE ORIFÍCIO
+VANTAGENS
+DESVANTAGENS
+Instalação fácil
+Alta perda de carga
+Na Figura 55, na página a seguir, pode-se ver alguns tipos de orifícios
+que serão descritos.
+Economia
+Baixa rangeabilidade
+Construção simples
+Manutenção e troca simples
+MAIS VANTAGENS QUE DESVANTAGENS
+FIGURA 54 PLACA DE ORIFÍCIO
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+76 ..........
+..........
+Tubo venturi
+A Figura 56 apresenta o tubo venturi,  que combina, dentro de uma uni-
+dade simples, uma curta garganta estreitada entre duas seções cônicas.
+É usualmente instalado entre dois flanges, numa tubulação, sendo seu pro-
+pósito acelerar o fluido e temporariamente baixar sua pressão estática.
+A recuperação de pressão em um tubo venturi é bastante eficiente,
+como podemos ver na Figura 56. Seu uso é recomendado quando se de-
+seja um maior restabelecimento de pressão e quando o fluido medido
+carrega sólidos em suspensão. O venturi produz um diferencial menor
+que uma placa de orifício para uma mesma vazão e diâmetro igual à
+sua garganta.
+FIGURA 55 TIPOS DE ORIFÍCIO
+ORIFÍCIO CONCÊNTRICO
+Este tipo de placa
+é utilizado para
+líquidos, gases e
+vapor que não
+contenham sólidos
+em suspensão
+ORIFÍCIO EXCÊNTRICO
+ORIFÍCIO SEGMENTADO
+Utilizada quando
+tivermos fluido com
+sólidos em suspensão,
+os quais possam ser
+retidos e acumulados
+na base da placa,
+sendo o orifício
+posicionado na parte
+de baixo do tubo
+Esta placa tem a
+abertura para
+passagem de fluido,
+disposta em forma de
+segmento de círculo.
+É destinada a uso em
+fluidos laminados e
+com alta percentagem
+de sólidos em suspensão
+Concêntrico
+Excêntrico
+Segmentado
+DRENO
+RESPIRO
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+77 ..........
+..........
+FIGURA 56 TUBO VENTURI
+Medidores especiais de vazão
+Medidor eletromagnético de vazão
+O medidor magnético de vazão é seguramente um dos mais flexíveis e
+universais dentre os métodos de medição de vazão (Figura 57). Sua per-
+da de carga é equivalente à de um trecho reto de tubulação, já que não
+possui qualquer obstrução.  É virtualmente insensível à densidade e à vis-
+cosidade do fluido de medição. Os medidores magnéticos são ideais para
+FIGURA 57 MEDIDOR MAGNÉTICO DE VAZÃO
+TRANSMISSOR
+GARGANTA
+RETA
+CÔNICA
+TRANSMISSOR
+SAÍDA
+SINAL
+NÚCLEO
+TUBO
+ELETRODOS
+ALIMENTAÇÃO
+BOMBA
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+78 ..........
+..........
+medições de produtos químicos altamente corrosivos, fluidos com sólidos
+em suspensão, lama, água e polpa de papel. Sua aplicação estende-se des-
+de saneamento até indústrias químicas, papel e celulose, mineração e in-
+dústrias alimentícias. A única restrição, em princípio, é que o fluido tem que
+ser eletricamente condutivo. Apresenta ainda como limitação o fato de flui-
+dos com propriedades magnéticas adicionarem um certo erro de medição.
+Medidor tipo turbina
+Na Figura 58 apresentamos esse medidor, que  é constituído por um rotor
+montado axialmente na tubulação. O rotor é provido de aletas que o fa-
+zem girar quando passa um fluido na tubulação do processo. Uma bobina
+captadora com um ímã permanente é montada externamente à trajetória
+do fluido. Quando este se movimenta através do tubo, o rotor gira a uma
+velocidade determinada pela velocidade do fluido e pelo ângulo das lâ-
+minas do rotor. À medida que cada lâmina passa diante da bobina e do
+ímã, ocorre uma variação da relutância do circuito magnético e no fluxo
+magnético total a que está submetida a bobina. Verifica-se então a indu-
+ção de um ciclo de tensão alternada.
+A freqüência dos pulsos gerados desta maneira é proporcional à velo-
+cidade do fluido, podendo a vazão ser determinada pela medição/totali-
+zação de pulsos.
+FIGURA 58 MEDIDOR TIPO TURBINA
+PARA TRANSMISSOR
+ROTOR
+CONDICIONADOR DE FLUXO
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+79 ..........
+..........
+Elementos
+finais de controle
+Elementos
+finais de controle
+lementos finais de controle são aqueles, dentro de uma malha de con-
+trole, responsáveis pela atuação direta sobre os processos, recebendo si-
+nal de comando do controlador para corrigir o desvio do valor desejado
+(set point). Na maioria dos casos este elemento final é uma válvula, po-
+dendo ser também uma bomba, uma solenóide, um pistão,  um motor elé-
+trico etc. Na Figura 59 apresenta-se uma válvula de controle.
+Unidade 4
+E
+FIGURA 59 VÁLVULA DE CONTROLE
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+80 ..........
+..........
+Válvulas de controle
+São dispositivos manuais ou automáticos que consistem em uma restri-
+ção variável à passagem do fluxo e se classificam conforme o tipo de des-
+locamento.
+Tipos de deslocamento
+Essas peças podem possuir  deslocamento linear e rotativo.
+Partes das válvulas de controle
+As válvulas de controle se compõem de três partes básicas: atuador, cas-
+telo e corpo.
+Atuador
+Dá a força necessária para movimentar o obturador em relação à sede
+da válvula. O atuador de uma válvula de controle é classificado de acor-
+do com seu deslocamento em relação à entrada de ar de sinal. Pode ser
+direto ou indireto.
+FIGURA 60 VÁLVULA GLOBO
+A peça móvel
+(haste e plug)
+descreve um movimento
+retilíneo, como por
+exemplo a válvula globo
+e o diafragma
+LINEAR
+FIGURA 61 VÁLVULA BORBOLETA
+A peça móvel
+(haste e plug)
+descreve um movimento
+de rotação, como nas
+válvulas esfera
+e borboleta
+ROTATIVA
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+81 ..........
+..........
+Castelo
+Permite a conexão do atuador ao corpo e serve de guia da haste do obtu-
+rador, acomodando a caixa de engaxetamento.
+O castelo de uma válvula de controle pode ser do tipo: normal, aleta-
+do, alongado ou com foles de vedação, como mostram as Figuras 64 a 67.
+FIGURA 64 CASTELO NORMAL
+FIGURA 65 CASTELO ALETADO
+Uso geral
+para produtos
+abaixo de 180ºC
+Utilizado para
+produtos acima
+de 180ºC
+FIGURA 66 CASTELO ALONGADO
+FIGURA 67 CASTELO COM FOLES
+Utilizado para
+produtos
+abaixo de 5ºC
+Utilizado para
+produtos tóxicos
+e radioativos
+De vedação
+FIGURA 62 ATUADOR DIRETO
+FIGURA 63 ATUADOR INDIRETO
+No atuador
+direto, a entrada
+de ar é pela
+parte superior
+No atuador indireto
+ou reverso,
+a entrada de ar é
+pela parte inferior
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+82 ..........
+..........
+Corpo
+É a parte da válvula que entra em contato com o fluido, acomoda as sedes
+e permite o acoplamento da válvula à linha de processo. O corpo de uma
+válvula pode ser classificado como de sede simples ou sede dupla, como
+mostram as Figuras 68 e 69.
+FIGURA 68 SEDE SIMPLES
+FIGURA 69 SEDE DUPLA
+O corpo é dotado de dois
+orifícios de passagem e
+um elemento vedante duplo
+Baixo custo
+Fácil manutenção e operação
+Boa vedação
+Mais força de atuação devido à
+pressão que o produto na linha
+impõe sobre o atuador
+Instalação de forma que a pressão
+do produto na linha tende a abri-la
+PRINCIPAIS CARACTERÍSTICAS
+Maior custo, porém mais utilizada
+Menor esforço do atuador
+Escoamento do fluido por duas
+passagens distintas
+Guias de haste no topo e na base
+Vedação não perfeita
+(+0,2% a +0,5% de vazamento
+máximo tolerável)
+PRINCIPAIS CARACTERÍSTICAS
+✔
+✔
+✔
+✔
+✔
+Válvula de controle: ação
+Após ter sido verificado em quantas partes se divide uma válvula de con-
+trole, suas funções e como se classifica cada uma delas, estudaremos a
+partir de agora a válvula de controle como um equipamento (instrumen-
+to) e a sua ação dentro de uma malha  de controle, considerando-se inici-
+almente qual será o seu posicionamento (aberta ou fechada) em caso de
+pane em seu sistema de alimentação pneumática ou eletrônica.
+De acordo com o posicionamento que deverá assumir em relação ao
+processo, no caso de pane do sistema de alimentação, a válvula poderá ser
+de ação direta (Ar p/ Fechar ou Falha Abre), ou de ação reversa (Ar p/ Abrir
+ou Falha Fecha).
+O corpo é dotado de um
+orifício de passagem e um
+elemento vedante simples
+✔
+✔
+✔
+✔
+✔
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+83 ..........
+..........
+Posicionador
+O posicionador (veja Figura
+70) é considerado o principal
+acessório de uma válvula de
+controle.
+Consiste em um dispositi-
+vo que transmite a pressão de
+carga ao atuador, permitindo
+posicionar a haste da válvu-
+la no local exato determina-
+do pelo sinal de controle.
+VÁLVULA DE AÇÃO DIRETA
+Como
+funciona a
+válvula de
+ação direta
+AR PARA FECHAR (A.F.) OU FALHA ABRE (F.A.)
+?
+Com o aumento da pressão de ar na
+cabeça da válvula, a haste do atuador
+desloca-se de cima para baixo até
+provocar o assentamento do obturador na
+sede, fechando a válvula
+Com a diminuição da pressão do ar,
+a haste se deslocará de baixo para cima,
+abrindo a válvula
+1
+2
+VÁLVULA DE AÇÃO REVERSA
+Como
+funciona a
+válvula de
+ação reversa
+AR PARA ABRIR (A.A.) OU FALHA FECHA (F.F.)
+?
+Com o aumento da pressão de ar na
+cabeça da válvula, a haste do atuador
+desloca-se de baixo para cima,
+provocando a abertura da válvula
+Com a diminuição da pressão do ar,
+a haste se deslocará de cima para baixo até
+provocar o assentamento do obturador na
+sede, fechando a válvula
+1
+2
+FIGURA 70 POSICIONADOR
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+84 ..........
+..........
+Características de vazão de uma válvula
+O desempenho de uma válvula depende da forma e do tipo de obturador
+utilizado e como o mesmo reduz a área do orifício (sede) através do qual
+passa o fluido. A característica de vazão de uma válvula demonstra a pro-
+porcionalidade da variação da vazão do fluido  em relação à variação do
+deslocamento da haste. Existem três características de vazão: a linear, a
+de abertura rápida e a de igual percentagem.
+ATENÇÃO
+Aumentar força de assentamento em
+válvulas de sede simples
+Compensar força gerada pelo atrito do
+conjunto atuador
+Aumentar velocidade de resposta
+Permitir operação em faixa dividida
+Inverter ação da válvula
+Modificar as características de
+ vazão da válvula
+Como usar o
+posicionador
+?
+1
+2
+3
+4
+5
+6
+IGUAL PERCENTAGEM
+Uma válvula de característica de vazão
+de abertura rápida, ou seja, com
+obturador de abertura rápida, produz
+uma grande variação na taxa de
+vazão, para uma pequena variação na
+posição da haste. Este tipo de válvula
+é freqüentemente utilizado em
+controles on-off (liga-desliga)
+Uma válvula de característica de vazão
+linear, ou seja, com obturador linear,
+produz uma variação de vazão
+proporcional à variação de sua abertura
+LINEAR
+Para um deslocamento unitário da
+haste da válvula, a vazão varia à
+mesma percentagem. Assim, por
+exemplo, se a haste da válvula
+mover-se 5mm de sua posição inicial,
+a vazão variará 20% do seu valor
+inicial. Quando a haste da válvula
+mover outros 5mm, a vazão variará
+mais 20% em cima do valor de vazão
+deixado pela primeira variação
+de 5mm da haste. Podemos concluir,
+portanto, que esta característica
+resultará em uma exponencial
+ABERTURA RÁPIDA
+
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+85 ..........
+..........
+Controle e
+automação industrial
+Controle e
+automação industrial
+s funções básicas do controle são a medição, a comparação e a correção.
+Unidade 4
+Atrasos de tempo do processo
+Os processos têm características que atrasam as mudanças nos valores das
+variáveis, o que, conseqüentemente, dificulta a ação de controle.
+A
+O transmissor, cujo
+elemento primário
+está em contato com
+a variável, transforma
+o valor lido em sinal
+padrão e envia-o
+para o controlador
+COMPARAÇÃO
+CORREÇÃO
+O controlador,
+ao receber o sinal,
+compara-o com
+o valor desejado
+(set-point)
+Caso exista desvio,
+o controlador emite
+um sinal de
+correção para o
+elemento final
+de controle
+MEDIÇÃO
+É a capacidade
+que partes do
+processo têm de
+armazenar energia
+ou material
+RESISTÊNCIA
+TEMPO MORTO
+São as partes do
+processo que
+resistem a uma
+transferência de
+energia ou material,
+entre capacitâncias
+É o tempo verificado
+entre a ocorrência
+de uma alteração no
+processo e a sua
+percepção pelo
+elemento sensor
+(transmissor)
+CAPACITÂNCIA
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+86 ..........
+..........
+Atrasos na malha de controle
+São os atrasos inerentes à associação de instrumentos, como por exemplo
+atrasos na medição, na transmissão, dos controladores e do elemento fi-
+nal de controle.
+Processo monocapacitivo (processo de 1ª  ordem)
+A Figura 71 mostra um processo de 1ª ordem.
+Processo bicapacitivo (processo de 2ª ordem)
+A Figura 72 mostra um processo de 2ª ordem.
+FIGURA 72 CURVA DE REAÇÃO
+FIGURA 71 CURVA DE REAÇÃO
+Temperatura
+T
+To
+Tempo
+T0
+CAPACITÂNCIA MAIOR
+T1
+T2
+T3
+Capacitância menor
+PROCESSO 1
+PROCESSO 2
+OBSERVAÇÃO
+Capacitância maior
+Ambas as curvas indicam
+que a  variável começa a
+aumentar exatamente ao
+mesmo tempo em que o
+distúrbio é provocado
+CAPACITÂNCIA MENOR
+Atraso menor
+PROCESSO 1
+PROCESSO 2
+OBSERVAÇÃO
+Atraso maior
+Note que a variável, em vez
+de mudar imediatamente,
+começa a subir de forma
+lenta. Por este motivo, as
+correções só são aplicadas
+após um determinado
+tempo. A resposta deste
+processo apresenta sempre
+um atraso em relação à
+resposta do monocapacitivo
+Tempo
+T0
+T1
+T2
+T3
+Temperatura
+(produto saída)
+T
+To
+ATRASO MAIOR
+ATRASO MENOR
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+87 ..........
+..........
+Processo multicapacitivo
+Possui mais de duas capacitâncias, porém seu comportamento é similar
+ao processo bicapacitivo, como podemos notar na Figura 73.
+Ações de um controlador
+Controlador de ação direta
+Sabe-se que o erro é:
+Supondo set point cons-
+tante, se a variável controla-
+da tende a subir, o sinal de
+entrada da caixa “Modo de Controle” tenderá também a subir, e a cor-
+reção idem, como mostra a Figura 74.
+Um controlador é dito de ação direta (AD) quando um aumento de si-
+nal da variável medida (variável controlada) provoca um aumento do seu
+sinal de saída.
+FIGURA 73 DIAGRAMA EM BLOCOS
+De uma malha de controle fechada
+FIGURA 74 CONTROLADOR DE AÇÃO DIRETA
+E = VC – SP
+Quando VC = SP, o erro é zero
+(situação de regime ideal)
+SET POINT
+ELEMENTO
+FINAL DE
+CONTROLE
+SISTEMA DE
+MEDIÇÃO
+MODOS DE
+CONTROLE
++–
+PROCESSO
+CONTROLADOR
+VARIÁVEL
+MANIPULADA
+ERRO
+DISTÚRBIOS
+CORREÇÃO
+VARIÁVEL
+CONTROLADA
+VARIÁVEL MEDIDA
+MODOS DE
+CONTROLE
++
+–
+CONTROLADOR
+SET POINT
+CORREÇÃO
+VARIÁVEL CONTROLADA
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+88 ..........
+..........
+Controlador de
+ação inversa (reversa)
+Sabe-se que o erro é:
+Supondo set point cons-
+tante, se a variável controlada
+tende a subir, o sinal de entrada da caixa “ Modo de Controle” tenderá a
+descer, e a correção idem, como mostra a Figura 75. Um controlador é dito
+de ação inversa (AI) quando um aumento de sinal da variável medida (va-
+riável controlada) provoca uma diminuição do seu sinal de saída.
+Ações de uma válvula de controle
+Observe a Figura 76. Devemos pesquisar o melhor conjunto de associa-
+ção para que se consiga alcançar o controle pretendido. Deve ser consi-
+derada a situação de segurança para a qual o sistema tem de evoluir no
+caso de falta de energia. Por exemplo: na ausência de ar, a válvula AA  fe-
+chará, enquanto a válvula AF, na mesma situação, abrirá.
+FIGURA 75 CONTROLADOR DE AÇÃO INVERSA
+E = SP – VC
+Quando VC = SP, o erro é zero
+(situação de regime ideal)
+FIGURA 76 AÇÕES DE UMA VÁLVULA DE CONTROLE
+CONTROLADOR
+SET POINT
+CORREÇÃO
+VARIÁVEL CONTROLADA
+MODOS DE
+CONTROLE
++–
+VÁLVULA
+AA
+VÁLVULA
+AF
+VAZÃO
+PRESSÃO
+AA ou FF
+VAZÃO
+PRESSÃO
+AF ou FA
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+89 ..........
+..........
+Modos de controle
+É a maneira pela qual um controlador faz a correção em resposta a um
+desvio da variável controlada.
+Os modos de controle são quatro:
+Duas posições (on-off)
+Proporcional
+Integral (reset)
+Derivativo (rate ou pre-act)
+Industrialmente os controladores convencionais são construídos com os
+seguintes modos:
+Duas posições (on-off)
+Proporcional
+Proporcional + Integral (P + I)
+Proporcional + Derivativo (P + D)
+Proporcional + Integral + Derivativo (P + I + D)
+Controle on-off
+É o mais simples e mais barato. Este modo de controle só permite duas
+posições do elemento final: aberto/fechado ou ligado/desligado.
+FIGURA 77 CONTROLE ON-OFF
+PROCESSO
+SAÍDA
+BOURDON
+VAPOR
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+90 ..........
+..........
+Seu uso fica restrito a processos que apresentam grande capacitância
+ou a processo em que a oscilação não seja prejudicial. É um controle mui-
+to utilizado em sistemas de segurança.
+FIGURA 78 POSIÇÃO DA VÁLVULA X VARIÁVEL CONTROLADA
+Controle on-off com zona diferencial
+Um refrigerador, por exemplo, com set em 5°C pode ligar quando a tem-
+peratura chegar a 7°C , e desligar quando cai a 3°C. Existe aí um diferen-
+cial ou zona morta de 4°C. Esta zona diferencial pode ser ajustada de acor-
+do com a necessidade.
+No controle on-off
+FIGURA 79 POSIÇÃO DA VÁLVULA X VARIÁVEL CONTROLADA
+No controle on-off com zona diferencial
+PROCESSO
+RELÉ
+VAPOR
+SAÍDA
+BOURDON
+CONTATO DE ALTA
+CONTATO DE BAIXA
+ZONA
+DIFERENCIAL
+PONTO DE
+AJUSTE
+PONTO DE AJUSTE
+Abertura válvula
+0%
+100%
+t
+t
+Temperatura
+Abertura válvula
+0%
+100%
+t
+t
+Temperatura
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+91 ..........
+..........
+Controle proporcional
+Neste controle, a amplitude de correção é proporcional à amplitude do
+desvio. O elemento final se move para uma determinada posição, para
+cada valor de desvio.
+A informação de variação do processo chega ao controlador, onde é
+constatado o desvio do valor desejado. Neste momento o controlador co-
+meça a dar uma correção proporcional a este erro, mandando abrir ou fe-
+char a válvula, para que a variável possa retornar ao valor desejado. Como
+neste modo de controle a correção é proporcional ao tamanho do erro, a
+válvula  reagirá para determinada posição, que causará uma nova situa-
+ção de equilíbrio ao processo, diferente da anterior.
+ Após este equilíbrio, verifica-se a presença de um erro final chamado
+de off-set ou erro de regime. Este erro torna-se limitante para o uso do
+controlador puramente proporcional. Vale ressaltar que este erro pode ser
+minimizado e não eliminado automaticamente, o que pode ser feito atra-
+vés de um ajuste do controlador proporcional.
+Ajustes de um controlador proporcional
+Faixa proporcional (ou banda proporcional)
+Faixa proporcional pode ser definida como a percentagem do range do ins-
+trumento que corresponde ao curso completo do elemento final de controle.
+A faixa proporcional é normalmente expressa em percentagem. Por
+exemplo: se a banda proporcional (BP) é 20%, significa que uma variação
+de 20% no erro produzirá uma variação de 100% na saída, ou seja, a vál-
+vula se moverá de totalmente aberta para totalmente fechada ou vice-
+versa. Se a BP for maior que 100%, não promoverá o curso completo da
+válvula.Veja a Figura 80.
+LEMBRE-SE
+DISSO
+LEMBRE-SE
+DISSO
+A redução do off-set  se faz possível através  da alteração
+dos ajustes do controlador proporcional, que são ganho
+ou faixa proporcional. Cabe ressaltar que, através deste
+ajuste, poderemos minimizar o off-set e não eliminá-lo
+A eliminação do off-set só é possível, em um controlador
+puramente proporcional, através de um ajuste manual da
+saída do controlador. Para isso se faz necessário que
+passemos a malha de controle de automático para manual
+e alteremos os valores de saída do controlador de forma a
+eliminar o desvio deixado pela correção proporcional
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+92 ..........
+..........
+Ganho ou sensibilidade
+É um outro conceito para expressar a proporcionalidade. Ganho é a rela-
+ção entre a variação de saída do controlador para válvula e a variação da
+entrada do controlador (variável).
+FIGURA 80 FAIXA PROPORCIONAL
+Quanto maior for o ganho, maior será a variação da
+saída do instrumento, para uma mesma variação da
+variável. O instrumento reagirá mais fortemente quanto
+maior for o seu ganho. Matematicamente, temos:
+Kc =  1
+BP
+Kc = 100%
+BP
+ou
+Quanto maior for a BP ajustada, menor será o ganho do
+instrumento e vice-versa. Ver Figura 81, na página ao lado
+ NOTA
+Kc = s
+e
+Quando a BP for em percentual
+Percentagem
+da faixa total
+da escala de
+medição
+da variável
+controlada
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+300%
+200%
+100%
+30
+20
+Percentagem do curso total
+do elemento final de controle
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+93 ..........
+..........
+Influência do ajuste da
+faixa proporcional (ou do ganho)
+Um ajuste indevido no controlador pode provocar oscilações violentas ou
+respostas lentas demais.
+Características do ajuste
+Quanto maior for o ajuste do ganho, menor será o off-set deixado pela
+correção, porém maior será a instabilidade (oscilação).
+Quanto menor for o ajuste do
+ganho, menor será a instabilida-
+de (oscilação), porém maior será
+o off-set deixado pela correção.
+Nota-se que o erro aumenta,
+apesar de o controlador agir cor-
+retamente. Significa que o con-
+trolador está agindo em demasia,
+levando o processo a uma “insta-
+bilidade” (Figura 82).
+FIGURA 81 RESPOSTA DE UM CONTROLADOR PROPORCIONAL
+FIGURA 82 AJUSTE INSTÁVEL
+PONTO DE AJUSTE
+Kc GRANDE
+Kc MÉDIO
+Kc PEQUENO
+Variável controlada
+Tempo (minutos)
+Vc
+t
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+94 ..........
+..........
+Isto representa um ajuste
+inadequado da BP, ou seja, uma
+BP muito pequena (ou ganho,
+muito alto). Nota-se que o siste-
+ma está “criticamente estável”.
+Esta resposta representa que
+houve um aumento da BP (dimi-
+nuição do ganho) em relação à
+resposta (instável) (Figura 83).
+Nota-se que o controlador le-
+vará o processo a uma estabili-
+dade. Quando o sistema parar
+de oscilar, restará o off-set carac-
+terístico do controlador propor-
+cional. Esta resposta representa
+que houve um aumento da BP
+(diminuição do ganho) em rela-
+ção à resposta de oscilação con-
+tínua (Figura 84).
+Controle proporcional  +  integral
+Tem-se aí o melhor dos dois modos de controle. O modo proporcional, que
+corrige os erros instantaneamente, e o integral, que se encarrega de eli-
+minar, ao longo do tempo, o off-set característico do modo proporcional.
+Neste controlador, o modo integral executa automaticamente o reajuste
+manual que o operador faria para eliminar o off-set.
+A ação integral ocasiona uma correção tal que  a velocidade de corre-
+ção é proporcional à amplitude do desvio. O modo de  correção integral
+não é utilizado sozinho, pois corrige muito lentamente (Figura 85).
+FIGURA 83 OSCILAÇÃO CONTÍNUA
+FIGURA 84 AJUSTE ESTÁVEL
+CONCLUSÃO
+O controlador puramente proporcional pode ser
+empregado em quase todo tipo de processo,
+bastando que este processo seja tolerante ao off-set
+Vc
+t
+Vc
+t
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+95 ..........
+..........
+FIGURA 85 CONTROLADORES PROPORCIONAL + INTEGRAL
+Ajuste de um controlador integral
+Taxa de reset  ou tempo integral
+O ajuste do controlador integral é descrito pelo tempo integral (reset time
+ou TI) em minutos, podendo ser ajustado através do botão existente no con-
+trolador. Define-se como sendo o tempo necessário para que a ação inte-
+gral repita uma vez o efeito da ação proporcional. A taxa de reset (reset
+rate ou R) é uma outra maneira de definir o tempo integral e expressa-se
+como sendo o número de vezes que a ação integral repete o efeito da ação
+proporcional no tempo de 1 minuto. Matematicamente, temos:
+Onde:
+R = Taxa de reset: em repetições
+por minuto (rpm)
+Ti = Tempo integral:
+em minuto por repetições (mpr)
+E = SP – VC
+R =  1
+Ti
+PONTO DE AJUSTE
+Variável controlada
+Ti PEQUENO
+Tempo (minutos)
+Ti GRANDE
+Ti MÉDIO
+Kc CONSTANTE
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+96 ..........
+..........
+Características do ajuste:
+Quanto maior “R”, mais rápida será a correção, devido à ação integral
+Quanto menor o “Ti”, mais rápida será a correção, devido à ação integral
+Quando se altera o valor do ganho em um controlador P + I, alteram-
+se simultaneamente as correções do modo  proporcional e integral
+Quando se altera “R” ou “Ti”, altera-se somente a correção do modo
+integral
+Para se eliminar a ação integral, leva-se o “Ti” para o valor máximo
+Controle  proporcional  +  derivativo
+Resulta da associação entre o controlador proporcional e o derivativo. O modo
+derivativo acarreta uma correção proporcional à velocidade do desvio .
+Quando a variável se afasta do set-point, o modo derivativo faz com que
+a saída varie mais do que ocorreria somente com o modo proporcional.
+Como conseqüência, a variável tende a se aproximar mais rapidamente
+do set-point. Quando a variável está retornando ao set-point, o modo de-
+rivativo exerce uma ação contrária, reduzindo as eventuais oscilações e
+diminuindo o tempo de estabilização, diferente do que se houvesse somen-
+te a correção proporcional.
+O efeito estabilizante do modo derivativo permite que se utilize uma
+faixa proporcional menor, ocasionando um off-set menor.
+Note-se, entretanto, que o modo derivativo não é capaz de eliminar o
+off-set, visto que não exerce qualquer ação quando se tem um desvio per-
+manente (Figura 86).
+LEMBRE-SE
+DISSO
+LEMBRE-SE
+DISSO
+O controlador P + I possui dois parâmetros de ajuste:
+o ganho (ou faixa proporcional) e a taxa de reset
+(ou tempo integral). Ambos ajustáveis por botões
+existentes no instrumento
+Da mesma maneira que no caso da ação proporcional,
+existe o perigo de oscilações, quando a ação integral é
+exagerada
+A ação integral aumenta o tempo de estabilização. Por
+isso, ela deve ser corretamente ajustada para que se possa
+obter um controle preciso com o menor tempo de estabilização
+O controlador P + I, em geral, pode ser utilizado para
+controlar a maioria das grandezas físicas (variáveis)
+normalmente encontradas em processos industriais
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+97 ..........
+..........
+Ajuste de um controlador derivativo
+Tempo derivativo
+É definido como o tempo em minutos em que o modo derivativo adianta o
+efeito do modo proporcional. Quanto maior o tempo derivativo (Td), mais
+forte é a ação derivativa. Este tempo é expresso em minutos.
+Características do ajuste:
+Quando o Td tende a zero, vai-se inibindo a ação derivativa
+A ação derivativa pode ser considerada como um amortecimento para
+a resposta da variável controlada
+Quando se altera o valor do ganho em um controlador P + D, alteram-
+se simultaneamente as correções do modo  proporcional e derivativo
+Para se eliminar a ação derivativa, leva-se Td para zero
+FIGURA 86 CONTROLADORES PROPORCIONAL + DERIVATIVO
+LEMBRE-SE
+DISSO
+LEMBRE-SE
+DISSO
+O controlador P + D possui dois parâmetros de ajuste:
+o ganho (ou faixa proporcional) e o tempo derivativo,
+ambos ajustáveis por botões existentes no instrumento
+Tem uso limitado na prática industrial, visto  que, embora
+o modo derivativo tenha efeito estabilizante devido à sua
+característica de se opor às variações, o off-set não é eliminado
+ O controlador P + D é mais utilizado em processos de variações
+lentas. Sua aplicação resulta em respostas mais rápidas
+PONTO DE AJUSTE
+Variável controlada
+Td PEQUENO
+Tempo (minutos)
+Td MÉDIO
+Kc CONSTANTE
+Td GRANDE
+ERRO
+
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+98 ..........
+..........
+Controle proporcional + integral + derivativo
+Resulta da associação dos três tipos de controle. Combinam-se dessa ma-
+neira as vantagens de cada um dos modos de controle. A vantagem de se
+incluir a ação derivativa no controlador P + I  pode ser vista na Figura 87.
+FIGURA 87 COMPARAÇÃO DOS CONTROLADORES
+Proporcional, proporcional + integral, e
+proporcional + integral + derivativo
+Note que, com o P + I + D, o processo se estabiliza mais
+rapidamente e temos um desvio máximo reduzido
+ NOTA
+LEMBRE-SE
+DISSO
+LEMBRE-SE
+DISSO
+O controlador P + I + D tem três parâmetros de ajuste:
+• Ganho ou faixa proporcional
+• Taxa de reset ou tempo integral
+• Tempo derivativo
+Utilizado quando se deseja uma grande rapidez de correção,
+ausência de off-set, aliados a um desvio máximo reduzido
+Em geral, não há necessidade de ação derivativa no
+controle de nível e pressão
+No caso de vazão, utilizam-se os modos proporcional e
+integral. A adição do modo derivativo em vazão se torna
+contraproducente
+O modo derivativo é adicionado normalmente no controle de
+temperatura por ser considerado uma variável de reação lenta
+Variável controlada
+PROPORCIONAL + INTEGRAL
+Tempo (minutos)
+PROPORCIONAL + INTEGRAL + DERIVATIVO
+PONTO DE AJUSTE
+PROPORCIONAL
+
+4
+Monitoramento e controle de processos
+P
+E
+T
+R
+O
+B
+RA
+S
+A
+B
+A
+S
+T
+E
+C
+I
+M
+E
+N
+T
+O
+S
+E
+N
+A
+I
+99 ..........
+..........
+FIGURA 88 CORREÇÃO DOS MODOS DE CONTROLE
+Observe  a Figura 88, de correção dos modos de controle.
+ENTRADAS
+AÇÕES DE
+CONTROLE
+DEGRAU
+PULSO
+RAMPA
+SENOIDAL
+P
+I
+D
+PI
+PD
+PID
+
+MONITORAMENTO E CONTROLE DE PROCESSOS
+Ficha Técnica
+PETROBRAS
+MAURÍCIO LIMA
+Coordenador de Formação, Capacitação e Certificação no Abastecimento
+LUIS CLAUDIO MICHEL
+Coordenador de Certificação para o Segmento Operação
+SENAI-RJ
+Produzido pela Diretoria de Educação
+REGINA MARIA DE FÁTIMA TORRES
+Diretora de Educação
+LUIS ROBERTO ARRUDA
+Gerente de Educação Profissional
+Gerência de Educação Profissional
+ROSILENE FERREIRA MENEZES
+ANA PAULA DE BARROS LEITE
+Analistas de Projetos Educacionais
+ACERVO PETROBRAS
+Fotografias
+GERÊNCIA DE PRODUTO PETRÓLEO E GÁS
+Apoio Técnico
+RITA GODOY
+Revisão gramatical e editorial
+IN-FÓLIO – PRODUÇÃO EDITORIAL, GRÁFICA E PROGRAMAÇÃO VISUAL
+Edição, projeto gráfico e produção editorial
+JOSÉ CARLOS MARTINS
+Produção editorial
+ANA PAULA MOURA
+Arte-final digital
+SILVIO DIAS
+Capa
