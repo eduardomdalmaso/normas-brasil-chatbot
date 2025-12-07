@@ -37,7 +37,7 @@ During tests, this project consumed **~40 GB of RAM** on CPU to load and execute
   - The same model can run in **8–16 GB VRAM**, depending on quantization.  
   - Much faster responses.  
 
-  ## 🧩 Example: qa.py
+  ## 🧩 Example: qa.py modified to use GPU
 
 ```python
 import os
@@ -110,15 +110,17 @@ Resposta:
         f.write(f"Pergunta: {query}\n\nResposta:\n{resposta}\n")
 
     return resposta
----
 ```
-## 🎯 O que esse exemplo mostra
-- **Carregamento de embeddings e FAISS** para busca semântica.  
-- **Uso automático de GPU** (`device_map="auto"`) se disponível.  
-- **Pipeline de geração de texto** com HuggingFace Transformers.  
-- **Log das respostas** em `logs/` para auditoria.  
+---
 
-👉 Summary: **CPU = accessible but heavy**, **GPU = optimized and fast**.
+## 🔎 What this example shows
+
+- Loading embeddings and FAISS for semantic search.  
+- Automatic GPU usage (`device_map="auto"`) when available.  
+- Text generation pipeline with HuggingFace Transformers.  
+- Logging responses into `logs/` for auditing.  
+
+👉 **Summary:** CPU = accessible but heavy, GPU = optimized and fast.
 
 ---
 
