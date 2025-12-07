@@ -48,10 +48,10 @@ Clone the repository and install dependencies:
 git clone https://github.com/eduardomdalmaso/normas-brasil-chatbot.git
 cd normas-brasil-chatbot
 pip install -r env/requirements.txt
-
+```
 ---
 
-## ▶️ Usage
+### ▶️ Usage
 
 **Pipeline scripts**
 
