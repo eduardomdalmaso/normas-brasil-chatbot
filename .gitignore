@@ -19,3 +19,17 @@ __pycache__/
 
 # Ignorar configurações locais
 *.env
+
+# Ignorar dados processados e embeddings (pesados)
+data/processed/
+data/embeddings/
+
+# Ignorar arquivos temporários do Streamlit
+.streamlit/
+
+# Ignorar configurações locais do VS Code
+.vscode/
+
+# Ignorar arquivos de cache do sistema
+.DS_Store
+Thumbs.db
