@@ -49,14 +49,17 @@ git clone https://github.com/eduardomdalmaso/normas-brasil-chatbot.git
 cd normas-brasil-chatbot
 pip install -r env/requirements.txt
 
-▶️ Usage
+---
 
-Pipeline scripts
+## ▶️ Usage
+
+**Pipeline scripts**
 
 The project includes a pipeline to process documents and run the assistant:
-python src/preprocessing.py   # Cleans and prepares the text from PDF/HTML
-python src/embeddings.py      # Generates embeddings and builds FAISS index
-bash src/run.sh               # Launches Streamlit app with the model
+
+1. python src/preprocessing.py   # Cleans and prepares the text from PDF/HTML
+2. python src/embeddings.py      # Generates embeddings and builds FAISS index
+3. bash src/run.sh               # Launches Streamlit app with the model
 
 Running everything at once
 
@@ -71,7 +74,9 @@ This will execute:
 
     Streamlit app launch
 
-📂 Project Structure
+--
+
+## 📂 Project Structure
 normas-brasil-chatbot/
 │
 ├── src/
@@ -86,12 +91,15 @@ normas-brasil-chatbot/
 ├── data/                  # Example PDFs/HTMLs (optional)
 └── README.md
 
-🌟 Future Improvements
-Support for multiple PDFs simultaneously.
+---
+
+## 🌟 Future Improvements
 
 GPU optimization for lower memory usage.
 
 Highlighting the exact text chunks used in answers.
 
-📜 License
+---
+
+## 📜 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute it for educational and professional purposes. See the LICENSE file for details.
