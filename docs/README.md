@@ -78,19 +78,28 @@ This will execute:
 
 ## 📂 Project Structure
 ```
-normas-brasil-chatbot/
+emb_nrs/
+├── data/
+│   ├── embeddings          # embedding for model
+│   ├── processed           # processed data
+│   ├── raw                 # .html + .pdf data to clean+process
+│
+├── logs                    # saved answers
+│
+├── scripts/
+│   ├── create_structure.sh # Handles conda enviroment
+│   ├── run_pipeline.py     # Run model only without web interface
+│   ├── run.sh              # Run full project
 │
 ├── src/
 │   ├── preprocessing.py   # Handles PDF/HTML parsing and cleaning
 │   ├── embeddings.py      # Generates embeddings and FAISS index
 │   ├── qa.py              # Question-answer logic
-│   └── run.sh             # Script to launch Streamlit app
+│   └── search.py          # Embedding + FAISS gen
 │
-├── app.py                 # Streamlit interface
-├── run_pipeline.py        # Pipeline runner
-├── env/requirements.txt   # Dependencies
-├── data/                  # Example PDFs/HTMLs (optional)
-└── README.md
+├── streamlit_app/
+│   ├── app.py             # Streamlit app
+
 ```
 
 ---
