@@ -47,7 +47,6 @@ from datetime import datetime
 from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
-# Diretórios principais
 EMBEDDINGS_DIR = "data/embeddings"
 CHUNKS_DIR = "data/processed/chunks"
 LOGS_DIR = "logs"
@@ -85,20 +84,19 @@ def answer_question(query, top_k=5, max_tokens=512):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        device_map="auto"   # usa GPU se disponível
+        device_map="auto"
     )
     nlp = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
     prompt = f"""
-Use o contexto abaixo para responder à pergunta de forma clara e objetiva.
 
-Contexto:
+Context:
 {context}
 
-Pergunta:
+query:
 {query}
 
-Resposta:
+Answer:
 """
     output = nlp(prompt, max_new_tokens=max_tokens, do_sample=False)
     resposta = output[0]["generated_text"].split("Resposta:")[-1].strip()
