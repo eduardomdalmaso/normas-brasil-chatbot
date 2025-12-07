@@ -74,9 +74,10 @@ This will execute:
 
     Streamlit app launch
 
---
+---
 
 ## 📂 Project Structure
+```
 normas-brasil-chatbot/
 │
 ├── src/
@@ -90,6 +91,7 @@ normas-brasil-chatbot/
 ├── env/requirements.txt   # Dependencies
 ├── data/                  # Example PDFs/HTMLs (optional)
 └── README.md
+```
 
 ---
 
