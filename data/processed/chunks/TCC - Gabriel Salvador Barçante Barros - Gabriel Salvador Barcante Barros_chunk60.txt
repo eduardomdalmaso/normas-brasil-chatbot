@@ -1,1 +1,0 @@
-Cells(uL, 5).NumberFormat = "0.000" Z = ((D ^ 2 * xfic) / 17) * (V / 190) ^ 2 153 Cells(uL, 6) = Z Cells(uL, 6).NumberFormat = "0.00" Next jj End If Cells(10, 5) = ((H1 * V ^ 2) / Wtr) ^ 0.5 Cells(11, 5) = tf Cells(13, 5) = numcontr Set Tabela = Range("B" & uL - numcontr & ":F" & uL) Call FormatarTabela(Tabela) End Sub
