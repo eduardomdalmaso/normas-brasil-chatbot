@@ -37,6 +37,87 @@ During tests, this project consumed **~40 GB of RAM** on CPU to load and execute
   - The same model can run in **8–16 GB VRAM**, depending on quantization.  
   - Much faster responses.  
 
+  ## 🧩 Example: qa.py
+
+```python
+import os
+import numpy as np
+import faiss
+from datetime import datetime
+from sentence_transformers import SentenceTransformer
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+
+# Diretórios principais
+EMBEDDINGS_DIR = "data/embeddings"
+CHUNKS_DIR = "data/processed/chunks"
+LOGS_DIR = "logs"
+os.makedirs(LOGS_DIR, exist_ok=True)
+
+def load_index():
+    """Carrega embeddings, índice FAISS e lista de chunks."""
+    embeddings = np.load(os.path.join(EMBEDDINGS_DIR, "embeddings.npy"))
+    index = faiss.read_index(os.path.join(EMBEDDINGS_DIR, "faiss.index"))
+    with open(os.path.join(EMBEDDINGS_DIR, "chunks.txt"), "r", encoding="utf-8") as f:
+        chunk_files = [line.strip() for line in f.readlines()]
+    return embeddings, index, chunk_files
+
+def semantic_search(query, top_k=5):
+    """Busca semântica usando SentenceTransformer."""
+    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2", device="cuda" if torch.cuda.is_available() else "cpu")
+    embeddings, index, chunk_files = load_index()
+    query_embedding = model.encode([query], convert_to_numpy=True)
+    distances, indices = index.search(query_embedding, top_k)
+
+    results = []
+    for idx in indices[0]:
+        if idx < len(chunk_files):
+            chunk_file = os.path.join(CHUNKS_DIR, chunk_files[idx])
+            with open(chunk_file, "r", encoding="utf-8") as f:
+                results.append(f.read().strip())
+    return results
+
+def answer_question(query, top_k=5, max_tokens=512):
+    """Gera resposta contextualizada usando modelo de linguagem."""
+    context_chunks = semantic_search(query, top_k=top_k)
+    context = "\n\n".join(context_chunks)
+
+    model_name = "mistralai/Mistral-7B-Instruct-v0.2"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        device_map="auto"   # usa GPU se disponível
+    )
+    nlp = pipeline("text-generation", model=model, tokenizer=tokenizer)
+
+    prompt = f"""
+Use o contexto abaixo para responder à pergunta de forma clara e objetiva.
+
+Contexto:
+{context}
+
+Pergunta:
+{query}
+
+Resposta:
+"""
+    output = nlp(prompt, max_new_tokens=max_tokens, do_sample=False)
+    resposta = output[0]["generated_text"].split("Resposta:")[-1].strip()
+
+    # Salva log
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = os.path.join(LOGS_DIR, f"resposta_{timestamp}.txt")
+    with open(log_file, "w", encoding="utf-8") as f:
+        f.write(f"Pergunta: {query}\n\nResposta:\n{resposta}\n")
+
+    return resposta
+---
+```
+## 🎯 O que esse exemplo mostra
+- **Carregamento de embeddings e FAISS** para busca semântica.  
+- **Uso automático de GPU** (`device_map="auto"`) se disponível.  
+- **Pipeline de geração de texto** com HuggingFace Transformers.  
+- **Log das respostas** em `logs/` para auditoria.  
+
 👉 Summary: **CPU = accessible but heavy**, **GPU = optimized and fast**.
 
 ---
